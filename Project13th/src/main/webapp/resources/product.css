@@ -1,0 +1,3571 @@
+.recommend_wrap {
+	padding-top: 48px;
+}
+.recommend_wrap.bg_area_02 {
+	background: rgb(232, 232, 232); padding-top: 0px !important;
+}
+.recommend_wrap.bg_area_03 {
+	background: rgb(232, 232, 232); padding-top: 0px !important;
+}
+.recommend_wrap .top_sort {
+	display: none !important;
+}
+.recommend_wrap .filter_wrap {
+	display: none !important;
+}
+.recommend_wrap .list_wrap {
+	background: rgb(255, 255, 255); margin: 0px auto; float: none;
+}
+.recommend_wrap .sub_top_wrap {
+	width: 100%; display: table; position: relative;
+}
+.recommend_wrap .sub_top_wrap::after {
+	background: rgba(0, 0, 0, 0.56); left: 0px; top: 0px; width: 100%; height: 100%; right: 0px; bottom: 0px; display: block; position: absolute; z-index: 1; content: "";
+}
+.recommend_wrap .sub_top .area {
+	background: rgb(238, 238, 238); border-radius: 4px; left: 16px; top: -48px; right: 16px; position: absolute;
+}
+.recommend_wrap .sub_top .area .btn_area {
+	width: 100%; text-align: left;
+}
+.recommend_wrap .sub_top .area .btn_area::after {
+	background: url("") no-repeat 0px 0px / 18px auto; top: 11px; width: 18px; height: 18px; right: 12px; display: inline-block; position: absolute; content: "";
+}
+.recommend_wrap .sub_top .area::after {
+	display: none;
+}
+.recommend_wrap .sub_top {
+	background: none !important; margin: 0px; border-radius: 0px; width: 100%; height: 160px; text-align: center; vertical-align: middle; display: table-cell; position: relative; z-index: 10;
+}
+.recommend_wrap .sub_top h2 {
+	color: rgb(255, 255, 255); font-size: 24px; font-weight: normal; display: inline-block;
+}
+.recommend_wrap .recommend_txt {
+	color: rgb(255, 255, 255); line-height: 22px; display: block !important;
+}
+.recommend_wrap .recommend_txt span {
+	display: block;
+}
+.recommend_wrap .early_top h2 {
+	margin-bottom: 5px;
+}
+.recommend_wrap .early_top p {
+	margin-top: 13px; display: block;
+}
+.recommend_wrap .early_top p button {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_gt.png") no-repeat 100% 50% / 9px auto; padding: 0px 13px 0px 0px; border: currentColor; border-image: none; color: rgb(255, 255, 255); font-size: 14px; font-weight: bold; display: inline-block;
+}
+.recommend_wrap .list_wrap .title span {
+	top: 6px;
+}
+.recommend_wrap .sub_top .area .align_vertical {
+	height: auto; line-height: 1;
+}
+.room_residue {
+	background: rgb(250, 250, 250); height: 40px; text-align: right; padding-right: 12px; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid; display: block; position: relative;
+}
+.room_residue span {
+	left: 16px; top: 0px; height: 40px; line-height: 40px; display: inline-block; position: absolute;
+}
+.room_residue input {
+	top: 7px; position: relative;
+}
+.bg_area_01 .sub_top_wrap {
+	background: url("") no-repeat 50% 70% / 100% auto;
+}
+.bg_area_02 .sub_top_wrap {
+	background: url("") no-repeat 50% 30% / 100% auto;
+}
+.bg_area_03 .sub_top_wrap {
+	background: url("") no-repeat 50% 90% / 100% auto; margin-bottom: 8px;
+}
+.bg_area_01 .recommend_txt {
+	display: none !important;
+}
+.pop_early img {
+	width: 100%;
+}
+.map_html {
+	display: none;
+}
+.hero-banner .sub_top_wrap {
+	position: relative;
+	height: 400px;
+	background: url("../img/banner/themepark.jpg") left center no-repeat;
+	background-size: cover;
+	z-index: 1
+} 
+@media all and (min-width:1024px)
+{
+.recommend_wrap.bg_area_02 {
+	background: rgb(255, 255, 255);
+}
+.recommend_wrap.bg_area_03 {
+	background: rgb(255, 255, 255);
+}
+.recommend_wrap {
+	padding-top: 0px;
+}
+.recommend_wrap .list_wrap {
+	margin-top: 40px;
+}
+.recommend_wrap .list_wrap .title {
+	padding-top: 0px;
+}
+.recommend_wrap .list_wrap .title span {
+	top: 0px !important;
+}
+.recommend_header {
+	background: none;
+}
+.recommend_wrap .sub_top_wrap {
+	display: block;
+}
+.recommend_wrap .sub_top {
+	margin: 0px auto; width: 1024px; height: 211px; text-align: left; padding-top: 72px; display: block;
+}
+.recommend_wrap .sub_top .area {
+	background: rgb(238, 238, 238); border-radius: 4px; left: auto; top: 21px; width: auto !important; right: auto; display: block; position: relative;
+}
+.recommend_wrap .sub_top .area .btn_area {
+	width: auto !important;
+}
+.recommend_wrap .sub_top h2 {
+	font-size: 38px;
+}
+.recommend_wrap .recommend_txt {
+	margin: 23px 0px 0px 31px; color: rgba(255, 255, 255, 0.7); font-size: 18px; display: block;
+}
+.recommend_wrap .recommend_txt span {
+	display: inline;
+}
+.recommend_wrap .early_top p {
+	margin-top: 0px; display: inline-block;
+}
+.recommend_wrap .early_top p button {
+	background: rgba(0, 0, 0, 0.08); padding: 8px 6px; border-radius: 4px; border: 1px solid rgba(255, 255, 255, 0.3); border-image: none; font-size: 14px; font-weight: normal; margin-left: 8px;
+}
+.recommend_wrap .bg_kong_1::after {
+	display: none;
+}
+.recommend_wrap .bg_kong_2::after {
+	display: none;
+}
+.recommend_wrap .bg_kong_3::after {
+	display: none;
+}
+.room_residue {
+	background: rgb(255, 255, 255); height: 20px; text-align: right; padding-right: 0px; font-size: 18px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; display: block; position: relative;
+}
+.room_residue span {
+	left: 0px; height: 20px; line-height: 1;
+}
+.room_residue input {
+	top: -4px; position: relative;
+}
+.room_residue label {
+	color: rgba(0, 0, 0, 0.56); vertical-align: top;
+}
+}
+.sub_top_wrap .recommend_txt {
+	display: none;
+}
+.lock_on {
+	left: 0px; top: 0px; height: 100%; right: 0px; overflow: hidden; position: fixed;
+}
+.lock_on .filter_wrap {
+	padding: 116px 0px 0px; height: 100%; bottom: auto; -ms-overflow-x: hidden; -ms-overflow-y: scroll;
+}
+.gra_black_vertical {
+	background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.66) 100%);
+}
+.gra_black_oblique {
+	background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.66) 100%);
+}
+.bg_opacity {
+	background: rgb(0, 0, 0); left: 0px; top: 0px; right: 0px; bottom: 0px; position: fixed; z-index: 100; opacity: 0.75;
+}
+.bg_opacity_trans {
+	background: rgb(0, 0, 0); left: 0px; top: 0px; right: 0px; bottom: 0px; position: fixed; z-index: 100; opacity: 0.001;
+}
+.mobile .bg_opacity_trans {
+	display: none !important;
+}
+.bg_visit {
+	background: rgba(122, 130, 142, 0.7); top: -4px; color: white; position: relative;
+}
+.bg_vr {
+	background: rgba(73, 80, 91, 0.8);
+}
+.bg_black {
+	background: rgba(0, 0, 0, 0.7);
+}
+.bg_blue {
+	background: rgba(99, 128, 220, 0.9);
+}
+.bg_green {
+	background: rgba(32, 195, 181, 0.85);
+}
+.bg_red {
+	background: rgba(255, 42, 91, 0.7);
+}
+.bg_red_2 {
+	background: rgb(255, 43, 92);
+}
+.col_red {
+	color: rgb(242, 17, 76) !important;
+}
+.top_head {
+	background: rgb(232, 232, 232); height: 52px;
+}
+.top_head div {
+	background: rgb(255, 255, 255); height: 44px; text-align: center; line-height: 44px; font-size: 18px; position: relative; box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.08); -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.08); -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.08);
+}
+.top_head div button {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_close.png") no-repeat 50% 50% / 24px auto; border: currentColor; border-image: none; left: 0px; top: 0px; width: 44px; height: 44px; text-indent: -9999px; display: inline-block; position: absolute;
+}
+.filter_wrap {
+	background: rgb(255, 255, 255); top: 0px; width: 100%; display: none; position: absolute; z-index: 300;
+}
+.filter_wrap .date_wrap {
+	display: none;
+}
+.filter_wrap h3 {
+	display: none;
+}
+.filter_wrap .btn_wrap {
+	background: rgb(255, 255, 255); padding: 0px 24px; left: 0px; top: 44px; height: 72px; right: 0px; overflow: hidden; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid; position: fixed; z-index: 10;
+}
+.filter_wrap .btn_wrap button {
+	border-radius: 4px; height: 40px; font-size: 16px; margin-top: 16px;
+}
+.filter_wrap .btn_wrap button:nth-child(1) {
+	background: rgb(255, 255, 255); border: 1px solid rgb(242, 7, 76); border-image: none; width: 49%; color: rgb(242, 7, 76); float: left;
+}
+.filter_wrap .btn_wrap button:nth-child(2) {
+	background: rgb(242, 7, 76); border: 1px solid rgb(242, 7, 76); border-image: none; width: 49%; color: rgb(255, 255, 255); font-weight: normal; float: right;
+}
+.filter_wrap section {
+	margin: 0px 24px; padding: 30px 0px 12px; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.filter_wrap section strong {
+	color: rgba(0, 0, 0, 0.87); font-size: 18px; margin-bottom: 21px; display: block; position: relative;
+}
+.filter_wrap section strong button {
+	background: none; border: currentColor; border-image: none; top: -3px; right: 0px; color: rgb(0, 121, 107); font-size: 14px; display: inline-block; position: absolute;
+}
+.filter_wrap section ul li {
+	margin-bottom: 16px;
+}
+.filter_wrap section .half {
+	overflow: hidden;
+}
+.filter_wrap section .half li {
+	width: 50%; float: left;
+}
+.filter_wrap section .half li label {
+	font-size: 14px !important;
+}
+.filter_wrap .hide_type {
+	height: 68px; overflow: hidden;
+}
+.filter_wrap .hide_type_02 {
+	height: 106px; overflow: hidden;
+}
+.filter_wrap .hide_type.show {
+	height: auto;
+}
+.filter_wrap .hide_type_02.show {
+	height: auto;
+}
+.filter_wrap .badge_benefit {
+	background: rgb(255, 255, 255); margin: 0px 8px 8px 0px; padding: 0px 7px; border-radius: 32px; border: 1px solid rgba(0, 0, 0, 0.27); border-image: none; height: 32px; color: rgba(0, 0, 0, 0.56); line-height: 32px; font-size: 14px; display: inline-block; cursor: pointer;
+}
+.filter_wrap .badge_benefit.on {
+	border: 1px solid rgb(242, 17, 76); border-image: none; color: rgb(230, 28, 81);
+}
+.filter_wrap .room_type {
+	text-align: center; overflow: hidden;
+}
+.filter_wrap .room_type p {
+	width: 25%; float: left; display: inline-block;
+}
+.filter_wrap .cnt_people {
+	top: 0px; width: 140px; right: 24px; position: absolute;
+}
+.filter_wrap .cnt_people button {
+	background: none; border: currentColor; border-image: none; font-size: 18px; font-weight: bold; vertical-align: top;
+}
+.filter_wrap .cnt_people button.disable {
+	opacity: 0.5;
+}
+.filter_wrap .cnt_people button:first-child {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_minus.png") no-repeat 50% 50% / 20px auto; left: 0px; top: 25px; width: 24px; height: 24px; text-indent: -9999px; position: absolute;
+}
+.filter_wrap .cnt_people button:last-child {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_plus.png") no-repeat 50% 50% / 20px auto; top: 25px; width: 24px; height: 24px; right: 0px; text-indent: -9999px; position: absolute;
+}
+.filter_wrap .cnt_people span {
+	text-align: center; color: rgb(229, 16, 72); padding-top: 25px; font-size: 18px; font-weight: bold; display: block;
+}
+.filter_wrap .btn_date {
+	display: none; cursor: pointer;
+}
+.slider_wrap {
+	margin: 34px 24px 0px 0px; height: 40px; position: relative;
+}
+.slider_wrap .price_txt {
+	left: 0px; top: 16px; color: rgba(0, 0, 0, 0.56); font-size: 14px; position: absolute;
+}
+.slider_wrap :last-child.price_txt {
+	top: 16px; text-align: right; right: 0px; color: rgba(0, 0, 0, 0.56); font-size: 14px; position: absolute;
+}
+.price_val {
+	border: currentColor; border-image: none; top: -1px; color: rgb(230, 28, 81); font-size: 14px; margin-left: 10px; position: relative;
+}
+.list_wrap .title {
+	background: rgb(232, 232, 232); padding: 6px 16px 5px; font-size: 12px; position: relative;
+}
+.list_wrap .title h3 {
+	color: rgba(0, 0, 0, 0.38); font-size: 12px; font-weight: normal;
+}
+.list_wrap .title span {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_question.png") no-repeat 100% 50% / 12px auto; top: 6px; width: 100%; text-align: right; right: 16px; color: rgba(0, 0, 0, 0.2); padding-right: 18px; display: block; position: absolute;
+}
+.list_wrap .title .pop_add {
+	background: rgb(255, 255, 255); padding: 5px 7px; border-radius: 2px; border: 1px solid rgba(0, 0, 0, 0.02); border-image: none; top: 13px; text-align: center; right: 13px; color: rgba(0, 0, 0, 0.56); line-height: 1.5; font-size: 12px; display: inline-block; position: absolute; z-index: 100;
+}
+.bg_top_sub {
+	display: none;
+}
+.top_sort {
+	background: rgb(255, 255, 255); padding: 8px 16px; overflow: hidden;
+}
+.top_sort .mobile {
+	overflow: hidden; display: block;
+}
+.top_sort .mobile button {
+	background: none; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.04); border-image: none; width: 33%; height: 24px; color: rgba(0, 0, 0, 0.56); font-size: 13px; float: left;
+}
+.top_sort .mobile button.active {
+	color: rgba(242, 17, 76, 0.87);
+}
+.top_sort .mobile button:nth-child(2) {
+	margin: 0px 0.5%;
+}
+.top_sort .pc {
+	display: none;
+}
+.result_top .sub_top .keyword {
+	display: none;
+}
+.result_top .btn_date {
+	left: 0px; width: 100% !important; text-align: left !important;
+}
+.result_top .btn_date span {
+	width: 100%; display: block;
+}
+.result_top .area {
+	margin-left: 8px;
+}
+.result_top .area::after {
+	display: none;
+}
+.result_top .area .btn_date span::after {
+	right: 4px;
+}
+.list_4.adcno6 .pic img {
+	width: 100%; height: 100%;
+}
+.list_4.adcno3 .pic img {
+	width: 100%; height: 100%;
+}
+.list_4.adcno4 .pic img {
+	width: 100%; height: 100%;
+}
+.list_4.adcno5 .pic img {
+	width: 100%; height: 100%;
+}
+.list_4.adcno2 .pic img {
+	left: 50%; top: 0px; height: 100%; position: absolute;
+}
+.list_4.adcno1 .pic img {
+	left: 50%; top: 0px; height: 100%; position: absolute;
+}
+.list_1 {
+	height: 256px; overflow: hidden; position: relative;
+}
+.list_1 a {
+	height: 210px;
+}
+.list_1 a {
+	color: rgb(255, 255, 255); display: block;
+}
+.list_2 a {
+	color: rgb(255, 255, 255); display: block;
+}
+.list_3 a {
+	color: rgb(255, 255, 255); display: block;
+}
+.list_4 a {
+	color: rgb(255, 255, 255); display: block;
+}
+.list_1 img.align {
+	left: 0px; top: 50%; width: 100%; position: absolute; z-index: 1; min-height: 284px;
+}
+.list_1 .stage {
+	padding: 0px 16px; left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute; z-index: 10;
+}
+.list_1 .stage .top {
+	padding: 16px 0px 0px; text-align: right;
+}
+.list_1 .event_info {
+	left: 0px; width: 100%; height: 28px; right: 0px; bottom: 0px; position: absolute;
+}
+.list_1 .event_info p {
+	margin: 0px 16px; height: 28px; color: rgb(128, 170, 166); line-height: 28px; overflow: hidden; font-size: 13px; border-top-color: rgba(255, 255, 255, 0.08); border-top-width: 1px; border-top-style: solid; white-space: nowrap; -ms-word-break: keep-all; -ms-text-overflow: ellipsis;
+}
+.list_2 {
+	height: 170px; overflow: hidden; position: relative;
+}
+.list_3 {
+	height: 170px; overflow: hidden; position: relative;
+}
+.list_2 a {
+	height: 170px;
+}
+.list_3 a {
+	height: 170px;
+}
+.list_2 img.align {
+	left: 0px; top: 50%; width: 100%; position: absolute; z-index: 1; min-height: 170px;
+}
+.list_3 img.align {
+	left: 0px; top: 50%; width: 100%; position: absolute; z-index: 1; min-height: 170px;
+}
+.list_2 .stage {
+	padding: 0px 16px; left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute; z-index: 10;
+}
+.list_3 .stage {
+	padding: 0px 16px; left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute; z-index: 10;
+}
+.list_1 .stage .evt_info {
+	background: rgba(0, 0, 0, 0.4); left: 0px; top: 16px; height: 20px; right: auto; color: rgba(255, 255, 255, 0.9); position: absolute; max-width: 70%;
+}
+.list_2 .stage .evt_info {
+	background: rgba(0, 0, 0, 0.4); left: 0px; top: 16px; height: 20px; right: auto; color: rgba(255, 255, 255, 0.9); position: absolute; max-width: 70%;
+}
+.list_3 .stage .evt_info {
+	background: rgba(0, 0, 0, 0.4); left: 0px; top: 16px; height: 20px; right: auto; color: rgba(255, 255, 255, 0.9); position: absolute; max-width: 70%;
+}
+.list_2 .stage .evt_info span {
+	margin: 0px 8px 0px 16px; height: 20px; line-height: 20px; overflow: hidden; font-size: 13px; display: block; white-space: nowrap; -ms-word-break: keep-all; -ms-text-overflow: ellipsis;
+}
+.list_3 .stage .evt_info span {
+	margin: 0px 8px 0px 16px; height: 20px; line-height: 20px; overflow: hidden; font-size: 13px; display: block; white-space: nowrap; -ms-word-break: keep-all; -ms-text-overflow: ellipsis;
+}
+.list_1 .stage .top span {
+	padding: 4.5px 8px 4px; top: 16px; right: 16px; color: rgba(255, 255, 255, 0.9); overflow: hidden; font-size: 12px; white-space: nowrap; position: absolute; -ms-word-break: keep-all; -ms-text-overflow: ellipsis;
+}
+.list_2 .stage .coupon {
+	padding: 4.5px 8px 4px; top: 16px; right: 16px; color: rgba(255, 255, 255, 0.9); overflow: hidden; font-size: 12px; white-space: nowrap; position: absolute; -ms-word-break: keep-all; -ms-text-overflow: ellipsis;
+}
+.list_3 .stage .coupon {
+	padding: 4.5px 8px 4px; top: 16px; right: 16px; color: rgba(255, 255, 255, 0.9); overflow: hidden; font-size: 12px; white-space: nowrap; position: absolute; -ms-word-break: keep-all; -ms-text-overflow: ellipsis;
+}
+.list_1 .stage .name {
+	left: 16px; bottom: 34px; position: absolute;
+}
+.list_1 .stage .name.no-event {
+	bottom: 11px;
+}
+.list_2 .stage .name {
+	left: 16px; width: 65%; bottom: 11px; position: absolute;
+}
+.list_3 .stage .name {
+	left: 16px; width: 65%; bottom: 11px; position: absolute;
+}
+.list_1 .stage .name .badge {
+	overflow: hidden;
+}
+.list_2 .stage .name .badge {
+	overflow: hidden;
+}
+.list_3 .stage .name .badge {
+	overflow: hidden;
+}
+.list_1 .stage .name .badge span {
+	padding: 0px 4px; height: 18px; text-align: center; line-height: 1.6; font-size: 12px; float: left;
+}
+.list_2 .stage .name .badge span {
+	padding: 0px 4px; height: 15px; text-align: center; line-height: 1.45; font-size: 12px; float: left;
+}
+.list_3 .stage .name .badge span {
+	padding: 0px 4px; height: 15px; text-align: center; line-height: 1.45; font-size: 12px; float: left;
+}
+.list_1 .stage .name strong {
+	height: 27px; line-height: 1; font-size: 22px; margin-top: 8px; display: block;
+}
+.list_2 .stage .name strong {
+	height: 20px; line-height: 1; overflow: hidden; font-size: 17px; margin-top: 8px; display: block; white-space: nowrap; -ms-word-break: keep-all; -ms-text-overflow: ellipsis;
+}
+.list_3 .stage .name strong {
+	height: 20px; line-height: 1; overflow: hidden; font-size: 17px; margin-top: 8px; display: block; white-space: nowrap; -ms-word-break: keep-all; -ms-text-overflow: ellipsis;
+}
+.list_1 .stage .name p {
+	height: 17px; overflow: hidden; font-size: 14px; margin-top: 2px; white-space: nowrap; -ms-word-break: keep-all; -ms-text-overflow: ellipsis;
+}
+.list_2 .stage .name p {
+	height: 17px; overflow: hidden; font-size: 14px; margin-top: 2px; white-space: nowrap; -ms-word-break: keep-all; -ms-text-overflow: ellipsis;
+}
+.list_3 .stage .name p {
+	height: 17px; overflow: hidden; font-size: 14px; margin-top: 2px; white-space: nowrap; -ms-word-break: keep-all; -ms-text-overflow: ellipsis;
+}
+.list_1 .stage .name .score {
+	height: 17px; color: rgb(255, 167, 38); margin-top: 2px;
+}
+.list_2 .stage .name .score {
+	height: 17px; color: rgb(255, 167, 38); margin-top: 2px;
+}
+.list_3 .stage .name .score {
+	height: 17px; color: rgb(255, 167, 38); margin-top: 2px;
+}
+.list_1 .stage .price {
+	text-align: right; right: 16px; bottom: 35px; position: absolute;
+}
+.list_1 .stage .price.no-event {
+	bottom: 11px;
+}
+.list_2 .stage .price {
+	text-align: right; right: 16px; bottom: 11px; position: absolute;
+}
+.list_3 .stage .price {
+	text-align: right; right: 16px; bottom: 11px; position: absolute;
+}
+.list_2 .stage .price .earlybird {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_earlybird_2.png") no-repeat 100% 0px / auto 20px; margin: 0px -5px 4px 0px; width: 109px; height: 20px; text-align: left; text-indent: -9999px; display: inline-block;
+}
+.list_3 .stage .price .earlybird {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_earlybird_2.png") no-repeat 100% 0px / auto 20px; margin: 0px -5px 4px 0px; width: 109px; height: 20px; text-align: left; text-indent: -9999px; display: inline-block;
+}
+.list_2 .stage .price .soldout {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_soldout_2.png") no-repeat 100% 0px / auto 20px; margin: 0px -5px 4px 0px; width: 125px; height: 20px; text-align: left; text-indent: -9999px; display: inline-block;
+}
+.list_3 .stage .price .soldout {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_soldout_2.png") no-repeat 100% 0px / auto 20px; margin: 0px -5px 4px 0px; width: 125px; height: 20px; text-align: left; text-indent: -9999px; display: inline-block;
+}
+.list_1 .stage .price p {
+	color: rgba(255, 255, 255, 0.9); font-size: 14px; margin-top: 3px;
+}
+.list_2 .stage .price p {
+	color: rgba(255, 255, 255, 0.9); font-size: 14px; margin-top: 3px;
+}
+.list_3 .stage .price p {
+	color: rgba(255, 255, 255, 0.9); font-size: 14px; margin-top: 3px;
+}
+.list_1 .stage .price p b {
+	top: -1px; color: rgb(255, 255, 255); font-size: 17px; vertical-align: top; display: inline-block; position: relative;
+}
+.list_2 .stage .price p b {
+	top: -1px; color: rgb(255, 255, 255); font-size: 17px; vertical-align: top; display: inline-block; position: relative;
+}
+.list_3 .stage .price p b {
+	top: -1px; color: rgb(255, 255, 255); font-size: 17px; vertical-align: top; display: inline-block; position: relative;
+}
+.list_1 .stage .price p span {
+	padding: 0px 2px; top: -1px; height: 15px; line-height: 1.45; font-size: 12px; vertical-align: top; display: inline-block; position: relative;
+}
+.list_2 .stage .price p span {
+	padding: 0px 2px; top: -1px; height: 15px; line-height: 1.45; font-size: 12px; vertical-align: top; display: inline-block; position: relative;
+}
+.list_3 .stage .price p span {
+	padding: 0px 2px; top: -1px; height: 15px; line-height: 1.45; font-size: 12px; vertical-align: top; display: inline-block; position: relative;
+}
+.and .list_2 .stage .price p span {
+	top: 0px;
+}
+.and .list_3 .stage .price p span {
+	top: 0px;
+}
+.list_2.adcno2 .price p i {
+	display: none;
+}
+.list_2.adcno5 .price p i {
+	display: none;
+}
+.list_2.adcno4 .price p i {
+	display: none;
+}
+.list_2.adcno2 .price p b {
+	font-size: 17px; margin-top: 0px;
+}
+.list_2.adcno2 .price p span {
+	padding: 0px; height: auto; line-height: normal;
+}
+.list_2.adcno2 .price p .mark span b {
+	height: 19px; color: rgba(255, 255, 255, 0.7); font-size: 14px; font-weight: normal;
+}
+.list_2.adcno4 .price p .mark span b {
+	height: 19px; color: rgba(255, 255, 255, 0.7); font-size: 14px; font-weight: normal;
+}
+.list_2.adcno5 .price p .mark span b {
+	height: 19px; color: rgba(255, 255, 255, 0.7); font-size: 14px; font-weight: normal;
+}
+.list_2.adcno2 .price p em {
+	height: 19px; color: rgba(255, 255, 255, 0.7); font-size: 14px; font-weight: normal;
+}
+.list_2.adcno5 .price p em {
+	height: 19px; color: rgba(255, 255, 255, 0.7); font-size: 14px; font-weight: normal;
+}
+.list_2.adcno4 .price p em {
+	height: 19px; color: rgba(255, 255, 255, 0.7); font-size: 14px; font-weight: normal;
+}
+.list_2.adcno5 .price p .mark span b {
+	color: rgba(255, 255, 255, 1);
+}
+.list_2.adcno2 .price p .mark span b {
+	color: rgba(255, 255, 255, 1);
+}
+@media all and (min-width:1024px)
+{
+.list_2.adcno2 .price p .mark span {
+	padding: 0px;
+}
+.list_2.adcno2 .price p .mark span b {
+	height: 19px; font-size: 20px; margin-bottom: 9px;
+}
+.list_2.adcno4 .price p .mark span b {
+	height: 19px; font-size: 20px; margin-bottom: 9px;
+}
+.list_2.adcno5 .price p .mark span b {
+	height: 19px; font-size: 20px; margin-bottom: 9px;
+}
+.list_2.adcno2 .price p em {
+	height: 19px; font-size: 20px; margin-bottom: 9px;
+}
+.list_2.adcno5 .price p em {
+	height: 19px; font-size: 20px; margin-bottom: 9px;
+}
+.list_2.adcno4 .price p em {
+	height: 19px; font-size: 20px; margin-bottom: 9px;
+}
+.list_2 .stage .price p em.mark b {
+	font-size: 20px;
+}
+.list_3 .stage .price p em.mark b {
+	font-size: 20px;
+}
+}
+.list_2 .price em {
+	text-decoration: line-through; display: block;
+}
+.list_2 .price em.mark {
+	text-align: right; font-size: 15px; text-decoration: none;
+}
+.list_3 .bg_1grade {
+	background: rgba(0, 0, 0, 0.8);
+}
+.list_3 .bg_business {
+	background: rgba(72, 92, 126, 0.86);
+}
+.list_3 .bg_resi {
+	background: rgba(122, 130, 142, 0.8);
+}
+.list_3 .bg_visit {
+	background: rgba(122, 130, 142, 0.7);
+}
+.list_3 .bg_vr {
+	background: rgba(152, 163, 180, 0.8);
+}
+.list_3 .price p {
+	color: rgba(255, 255, 255, 0.7) !important; font-size: 14px;
+}
+.list_3 .price p span {
+	font-size: 13px;
+}
+.list_3 .price p b {
+	font-size: 17px;
+}
+.list_4 {
+	overflow: hidden; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.list_4 .pic {
+	left: 16px; top: 16px; width: 104px; text-align: center; bottom: 16px; overflow: hidden; display: inline-block; position: absolute;
+}
+.list_4 .stage {
+	padding: 16px 16px 16px 134px; color: rgba(0, 0, 0, 0.87); line-height: normal; font-size: 14px;
+}
+.list_4 .stage .name strong {
+	line-height: 1; padding-top: 2px; font-size: 17px; margin-bottom: 3px; display: block;
+}
+.list_4 .stage .name p {
+	line-height: 19px; margin-bottom: 1px;
+}
+.list_4 .stage .name .score {
+	color: rgb(255, 167, 38);
+}
+.list_4 .stage .name .score em {
+	background: rgb(255, 167, 38); padding: 1px 2px; border-radius: 4px; height: 15px; color: rgb(255, 255, 255); line-height: 15px; font-size: 12px; display: inline-block;
+}
+.list_4 .stage .name .txt_opt {
+	color: rgba(0, 0, 0, 0.56); line-height: 19px;
+}
+.list_4 .stage .name .txt_evt {
+	padding: 0px; color: rgb(22, 141, 133); line-height: 19px; overflow: hidden; display: block;
+}
+.list_4 .stage .name .earlybird {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_earlybird.png") no-repeat 0px 0px / 113px auto; width: 113px; height: 17px; text-indent: -9999px; margin-top: 4px; display: inline-block;
+}
+.list_4 .stage .name .soldout {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_soldout.png") no-repeat 0px 0px / 113px auto; width: 113px; height: 17px; text-indent: -9999px; margin-top: 4px; display: inline-block;
+}
+.list_4 .stage .price {
+	text-align: right; color: rgba(0, 0, 0, 0.72); font-size: 14px; margin-top: 24px;
+}
+.list_4 .stage .price p {
+	padding-top: 5px;
+}
+.list_4 .stage .price em {
+	color: rgba(0, 0, 0, 0.56); line-height: 1; font-size: 14px; text-decoration: line-through; vertical-align: bottom; display: block; position: relative;
+}
+.list_4 .stage .price .mark {
+	text-align: right; line-height: 1;
+}
+.list_4 .stage .price .mark span {
+	display: inline-block; position: relative;
+}
+.list_4 .stage .price .mark span b {
+	margin-bottom: 2px; vertical-align: top;
+}
+.list_4 .stage .price .mark b {
+	background: none; font-size: 13px; font-weight: normal; vertical-align: bottom; display: inline-block; position: relative; z-index: 10;
+}
+.list_4 .stage .price .mark i {
+	background: rgb(255, 250, 194); left: 0px; width: 100%; height: 6px; bottom: 3px; display: inline-block; position: absolute;
+}
+.list_4 .stage .price b {
+	top: 1.5px; color: rgba(0, 0, 0, 0.87); line-height: 1; font-size: 17px; display: inline-block; position: relative;
+}
+.list_4 .stage .price span {
+	padding: 2px 2px 1px; top: -1px; color: rgb(255, 255, 255); font-size: 12px; vertical-align: bottom; position: relative;
+}
+.list_4 .stage .badge {
+	vertical-align: top; display: inline-block; position: relative;
+}
+.ios .list_4 .stage .badge {
+	top: -2px;
+}
+.right_badges {
+	left: 16px; top: 19px; width: 104px; height: 20px; overflow: hidden; position: absolute;
+}
+.list_4 .stage .right_badges .badge {
+	left: 0px; top: 0px; width: 100%; padding-right: 3px;
+}
+.list_4 .stage .badge_adcno {
+	left: 89px; right: auto;
+}
+.list_4 .stage .badge span {
+	padding: 2px 2px 1px; color: rgb(255, 255, 255); line-height: normal; font-size: 12px; float: left; display: inline-block;
+}
+.list_4 .stage .right_badges .badge span {
+	float: right;
+}
+.list_4 .stage .coupon {
+	left: 16px; width: 104px; height: 20px; text-align: center; bottom: 16px; color: rgb(255, 255, 255); line-height: 21px; overflow: hidden; font-size: 12px; position: absolute;
+}
+.hot_stay {
+	background: rgb(254, 251, 245);
+}
+.area_pop {
+	background: rgb(255, 255, 255); left: 0px; top: 0px; right: 0px; bottom: 0px; display: none; position: fixed; z-index: 300;
+}
+.area_pop.hide {
+	visibility: hidden; z-index: -9999;
+}
+.area_pop .scroller ul {
+	margin: 0px; padding: 0px; width: 100%;
+}
+.area_pop .scroller .city {
+	text-align: center;
+}
+.area_pop .scroller .city li {
+	overflow: hidden; border-bottom-color: rgb(227, 227, 227); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.area_pop .scroller .city_child {
+	background: rgb(245, 245, 245);
+}
+.area_pop .scroller .city_child li {
+	padding-left: 16px;
+}
+.area_pop .scroller .city_child li a {
+	border-bottom-color: rgb(227, 227, 227); border-bottom-width: 1px; border-bottom-style: solid; box-sizing: border-box;
+}
+.area_pop .scroller .city_child li:last-child a {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.area_pop .scroller .city_child span {
+	background: rgba(242, 16, 76, 0.92); padding: 0px 3px; top: -1px; height: 18px; color: rgb(255, 255, 255); line-height: 20px; font-size: 11px; margin-left: 3px; display: inline-block; position: relative;
+}
+.area_pop .scroller li {
+	padding: 0px; height: 48px; line-height: 47px; font-size: 14px;
+}
+.area_pop .scroller li a {
+	color: rgb(0, 0, 0); display: block;
+}
+.area_pop .scroller li a.on {
+	color: rgb(230, 28, 81);
+}
+.area_pop .city_child {
+	display: none;
+}
+.area_pop .iscroll_01 {
+	left: 0px; top: 44px; width: 30%; bottom: 0px; overflow: hidden; position: absolute; z-index: 1;
+}
+.area_pop .iscroll_02 {
+	background: rgb(245, 245, 245); left: 30%; top: 44px; width: 70%; bottom: 0px; overflow: hidden; position: absolute; z-index: 1;
+}
+.area_pop .area_etc .iscroll_01 {
+	width: 100% !important;
+}
+.area_pop .area_etc .iscroll_02 {
+	display: none;
+}
+.area_pop .area_etc .depth_01 {
+	width: 100%;
+}
+.area_pop .area_etc li {
+	padding: 0px; height: 56px; line-height: 56px; font-size: 14px;
+}
+@media all and (min-width:550px)
+{
+.list_2 {
+	height: 250px;
+}
+.list_3 {
+	height: 250px;
+}
+}
+.fix_srch {
+	left: 0px; top: 0px; width: 100%; height: 44px; right: 0px; display: none; position: fixed; z-index: 300;
+}
+.fix_srch .srch_bar {
+	border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.result_empty {
+	padding: 92px 0px; text-align: center; color: rgba(0, 0, 0, 0.38); line-height: 24px; font-size: 14px;
+}
+.result_empty b {
+	color: rgba(0, 0, 0, 0.87); font-size: 16px; margin-bottom: 9px; display: block;
+}
+.top_menu {
+	margin-top: 7px;
+}
+.swipe_menu {
+	overflow: hidden; border-top-color: rgba(0, 0, 0, 0.04); border-top-width: 1px; border-top-style: solid;
+}
+.swipe_menu .owl-stage-outer {
+	padding: 0px 16px;
+}
+.swipe_menu .item {
+	background: rgb(255, 255, 255); border: currentColor; border-image: none; height: 40px; text-align: center; color: rgba(0, 0, 0, 0.87); line-height: 40px; font-size: 14px; display: inline-block; box-sizing: border-box;
+}
+.swipe_menu .item.enable {
+	color: rgb(230, 28, 81); border-bottom-color: rgb(242, 17, 76); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.swipe_menu .owl-dots {
+	display: none;
+}
+.layer {
+	background: rgb(255, 255, 255); left: 0px; top: 0px; right: 0px; bottom: 0px; position: fixed; z-index: 430;
+}
+.layer .title {
+	background: rgb(255, 255, 255); left: 0px; top: 0px; height: 44px; text-align: center; right: 0px; line-height: 44px; font-size: 18px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; position: fixed; z-index: 200;
+}
+.layer .title button {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_close.png") no-repeat 50% 50% / 24px auto; border: currentColor; border-image: none; top: 0px; width: 40px; height: 44px; right: 16px; text-indent: -9999px; position: absolute;
+}
+.layer .vertical_align {
+	width: 100%; height: 100%; display: table;
+}
+.layer .vertical_align div {
+	width: 100%; text-align: center; vertical-align: middle; display: table-cell;
+}
+.pop_relocation {
+	background: rgb(255, 255, 255); display: none;
+}
+.pop_relocation div {
+	color: rgba(0, 0, 0, 0.87); line-height: 24px; font-size: 16px;
+}
+.pop_relocation div b {
+	font-weight: normal; margin-bottom: 54px; display: block;
+}
+.pop_relocation div b span {
+	display: block;
+}
+.pop_relocation div p {
+	background: rgb(250, 250, 250); border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.08); border-image: none; width: 288px; height: 56px; text-align: center; color: rgba(0, 0, 0, 0.87); line-height: 56px; font-size: 16px; margin-bottom: 8px; display: inline-block;
+}
+.pop_relocation div p span {
+	padding-left: 28px; display: inline-block;
+}
+.pop_relocation div p .bg_01 {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_loc.png") no-repeat 0px 50% / 24px auto;
+}
+.pop_relocation div p .bg_02 {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_loc_2.png") no-repeat 0px 50% / 24px auto;
+}
+@media all and (min-width:1024px)
+{
+.pop_relocation .title button {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_close_3.png") no-repeat 0px 0px / 40px auto; top: -86px; width: 40px; height: 40px; right: -96px; display: block !important;
+}
+}
+.location_reset .srp_srch_bar {
+	background: rgb(255, 255, 255); top: 44px; display: block !important; box-shadow: 0px -1px 0px 0px rgba(0,0,0,0.08);
+}
+.location_reset .srp_srch_bar .wrap_inp {
+	margin: 7px 45px 0px 0px; padding: 0px 0px 0px 44px; border: currentColor !important; border-image: none !important;
+}
+.location_reset .srp_srch_bar .wrap_inp input {
+	height: 32px; line-height: 32px; font-size: 16px; margin-top: -1px;
+}
+.location_reset .srp_srch_bar .btn_cancel {
+	font-weight: bold; display: none;
+}
+.mobile .location_reset .srp_srch_bar.focused {
+	top: 0px;
+}
+.location_reset .srp_srch_bar.focused .btn_cancel {
+	display: block;
+}
+.location_reset .srch_bar .wrap_inp .btn_srch {
+	left: 16px; top: 4px;
+}
+.location_reset .srp_recommend_srch {
+	z-index: 400;
+}
+.location_reset .srp_recommend_srch strong {
+	margin: 92px 0px 9px; color: rgb(230, 28, 81); line-height: 24px; font-size: 16px; font-weight: normal;
+}
+.location_reset .srp_recommend_srch .default {
+	color: rgba(0, 0, 0, 0.38); font-size: 14px;
+}
+.location_reset .srp_recommend_srch .chain {
+	margin-top: 0px;
+}
+.location_reset .srp_recommend_srch .chain ul li a {
+	height: 48px; color: rgba(0, 0, 0, 0.72); line-height: 48px; font-size: 16px;
+}
+.location_reset .srp_recommend_srch .chain ul li a:hover {
+	background: rgb(245, 245, 245);
+}
+.location_reset .srp_recommend_srch .srp_chain {
+	display: none;
+}
+@media all and (min-width:1024px)
+{
+.location_reset .srp_srch_bar {
+	margin: 0px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.08); border-image: none; left: 241px; top: 40px; width: 480px; height: 56px; overflow: hidden; z-index: 310; box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.04);
+}
+.location_reset .srp_srch_bar::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_srch.png") no-repeat 0px 0px / 24px auto; left: 24px; top: 16px; width: 24px; height: 24px; display: inline-block; position: absolute; content: ""; opacity: 0.6;
+}
+.location_reset .srp_srch_bar .btn_cancel {
+	display: none !important;
+}
+.location_reset .srp_srch_bar .wrap_inp {
+	background: rgb(255, 255, 255); margin: 0px 20px 0px 56px; padding: 0px; height: 56px;
+}
+.location_reset .srp_srch_bar .wrap_inp input {
+	height: 56px; color: rgba(0, 0, 0, 0.72); line-height: 56px; font-size: 18px;
+}
+.location_reset .srp_srch_bar .wrap_inp input:-ms-input-placeholder {
+	color: rgba(0, 0, 0, 0.72); font-size: 18px;
+}
+.location_reset .srp_recommend_srch {
+	border-radius: 4px; left: 0px; top: 95px; height: 310px; position: absolute; box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.04);
+}
+.location_reset .srp_recommend_srch .scroll_srch {
+	margin: 0px; padding: 0px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.08); border-image: none; left: 241px; width: 480px;
+}
+.location_reset .srp_recommend_srch .default {
+	text-align: center; font-size: 18px;
+}
+.location_reset .srp_recommend_srch .default strong {
+	padding-top: 116px; font-size: 20px; margin-bottom: 18px;
+}
+.location_reset .srp_recommend_srch .scroll_srch li {
+	margin-bottom: 0px;
+}
+.location_reset .srp_recommend_srch .scroll_srch li:first-child {
+	margin-top: 16px;
+}
+.location_reset .srp_recommend_srch .scroll_srch li:last-child {
+	margin-bottom: 16px;
+}
+.location_reset .srp_recommend_srch .chain ul li a {
+	padding: 0px 0px 0px 19px; height: 28px; line-height: 28px; font-size: 14px;
+}
+}
+.pop_map {
+	display: none;
+}
+.pop_map .address {
+	background: rgba(249, 249, 249, 0.9); left: 0px; top: 44px; width: 100%; height: 24px; text-align: center; right: 0px; color: rgba(0, 0, 0, 0.56); line-height: 24px; font-size: 13px; position: fixed; z-index: 100;
+}
+.pop_map .pc_btn_close {
+	display: none;
+}
+.pop_map .inner_map {
+	left: 0px; top: 44px; width: 100%; height: 100%; right: 0px; bottom: 0px; position: fixed; z-index: 10;
+}
+.pop_map .btn_set {
+	left: 16px; right: 16px; bottom: 24px; position: fixed; z-index: 300;
+}
+.pop_map .btn_set button {
+	border-radius: 4px; border: currentColor; border-image: none; width: 100%; height: 56px; color: rgb(255, 255, 255); line-height: 56px; font-size: 14px; font-weight: normal;
+}
+.map_info {
+	width: 288px; height: 110px; overflow: hidden;
+}
+.map_info a {
+	color: rgba(0, 0, 0, 0.87); display: block;
+}
+.map_info .name p {
+	color: rgba(0, 0, 0, 0.56);
+}
+.map_pic {
+	background-position: 50% 50%; border-radius: 4px 0px 0px 4px; left: 1px; top: 1px; width: 88px; height: 111px; display: inline-block; position: absolute; background-size: cover;
+}
+.map_stage {
+	padding: 11px 9px 0px 87px; box-sizing: border-box;
+}
+.map_stage .price {
+	text-align: right; margin-top: 14px;
+}
+.custom_info {
+	margin: 30px 0px 0px 20px; width: 288px !important; height: 110px !important; padding-left: 96px; box-sizing: border-box;
+}
+.custom_info p {
+	font-family: "Apple SD Gothic Neo","���� ���","�������","Malgun Gothic",sans-serif;
+}
+.custom_info strong {
+	font-family: "Apple SD Gothic Neo","���� ���","�������","Malgun Gothic",sans-serif;
+}
+.custom_info p {
+	font-size: 12px; margin-bottom: 2px;
+}
+.custom_info strong {
+	overflow: hidden; font-size: 15px; display: block; white-space: nowrap; -ms-word-break: keep-all; -ms-text-overflow: ellipsis;
+}
+.custom_info .name p {
+	font-size: 15px;
+}
+.custom_1 {
+	display: none;
+}
+.custom_3 {
+	display: none;
+}
+.custom_9 {
+	left: 0px !important; top: 0px !important;
+}
+.custom_15 {
+	padding-left: 8px;
+}
+.custom_17 p {
+	color: rgba(0, 0, 0, 0.56); font-size: 13px;
+}
+.custom_17 p b {
+	color: rgba(0, 0, 0, 0.87); font-size: 15px;
+}
+.custom_2 {
+	left: 1px !important; top: 1px !important;
+}
+.custom_2 {
+	width: 288px !important; height: 110px !important;
+}
+.custom_8 {
+	width: 288px !important; height: 110px !important;
+}
+.custom_9 {
+	width: 288px !important; height: 111px !important;
+}
+.custom_18 {
+	display: none;
+}
+.custom_19 {
+	display: none;
+}
+.marker_fix {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_map_3.png") no-repeat 0px 0px / 38px auto; margin: -47px 0px 0px -19px; left: 50%; top: 50%; width: 38px; height: 47px; position: absolute; z-index: 200;
+}
+.pop_m_room {
+	background: none; left: 0px; top: auto; width: 100%; height: 110px; right: 0px; bottom: 24px; position: fixed; z-index: 500;
+}
+.pop_m_room li {
+	background: rgb(255, 255, 255); border-radius: 4px; box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.16); -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.16); -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.16);
+}
+.pop_m_room a {
+	padding: 0px 12px 0px 96px; height: 110px; line-height: normal; display: block;
+}
+.pop_m_room .pic {
+	background-position: 50% 50%; left: 0px; top: 0px; width: 88px; height: 110px; position: absolute; background-size: cover;
+}
+.pop_m_room .cate {
+	padding: 11px 0px 1px; color: rgba(0, 0, 0, 0.56); font-size: 13px; display: block;
+}
+.pop_m_room strong {
+	height: 26px; color: rgba(0, 0, 0, 0.87); font-size: 16px; display: block;
+}
+.pop_m_room a div {
+	padding: 12px 0px 0px; text-align: right; color: rgba(0, 0, 0, 0.56); font-size: 13px;
+}
+.pop_m_room a div p {
+	height: 19px;
+}
+.pop_m_room a div p span {
+	background: rgb(255, 43, 92); margin: 0px; padding: 1px; top: -1px; color: rgb(255, 255, 255); font-size: 11px; display: inline-block; position: relative;
+}
+.pop_m_room a div b {
+	color: rgba(0, 0, 0, 0.87); font-size: 13px;
+}
+.pop_m_room .through {
+	color: rgba(0, 0, 0, 0.56); font-size: 13px; text-decoration: line-through;
+}
+.pop_m_room .owl-dots {
+	display: none;
+}
+@media all and (min-width:1024px)
+{
+.pop_m_room {
+	display: none !important;
+}
+}
+.pop_sort {
+	background: rgb(255, 255, 255); border-radius: 4px; left: 50%; top: 50%; width: 280px !important; height: auto; right: auto; bottom: auto; margin-left: -140px !important;
+}
+.pop_sort ul li {
+	margin: 0px 15px;
+}
+.pop_sort ul li button {
+	height: 64px; text-align: left; color: rgba(0, 0, 0, 0.87); line-height: 64px; font-size: 16px; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.pop_sort ul li .active {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_chk_2.png") no-repeat 100% 50% / 24px auto; color: rgb(230, 28, 81);
+}
+.pop_sort button {
+	background: none; border: currentColor; border-image: none; width: 100%; height: 48px; color: rgb(0, 121, 107); font-size: 14px; font-weight: normal;
+}
+article {
+	display: none;
+}
+article.on {
+	display: block;
+}
+.gallery_pc {
+	display: none;
+}
+.gallery_m {
+	position: relative;
+}
+.gallery_m .owl-dots {
+	display: none;
+}
+.gallery_m .index {
+	left: 0px; width: 100%; text-align: center; bottom: 16px; display: inline-block; position: absolute; z-index: 200;
+}
+.gallery_m .index p {
+	background: rgba(0, 0, 0, 0.26); padding: 5px 5px 4px; border-radius: 4px; text-align: center; color: rgb(255, 255, 255); font-size: 13px; display: inline-block;
+}
+.swiper-container {
+	width: 100%; height: auto; position: relative;
+}
+.swiper-slide {
+	background: rgb(255, 255, 255); text-align: center; font-size: 18px; display: -ms-flexbox; position: relative; justify-content: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -webkit-box-align: center; -webkit-align-items: center;
+}
+.swiper-slide img {
+	width: 100%; color: rgb(255, 255, 255); position: relative; z-index: 20;
+}
+.spinner_slide {
+	margin: -15px 0px 0px -15px; border-radius: 100%; border: 3px solid rgb(238, 238, 238); animation:spinner 0.7s linear infinite; border-image: none; left: 50%; top: 50%; width: 30px; height: 30px; position: absolute; z-index: 10;
+}
+.spinner_slide span {
+	border-width: 3px; border-style: solid; border-color: rgb(255, 255, 255) rgb(190, 190, 190) rgb(190, 190, 190); border-radius: 100%; border-image: none; left: -3px; top: -3px; width: 30px; height: 30px; position: absolute;
+}
+.right .info {
+	padding: 18px 20px;
+}
+.right .info .badge {
+	top: 2px; overflow: hidden; display: inline-block; position: relative;
+}
+.right .info .badge span {
+	padding: 2px 2px 1px; color: rgb(255, 255, 255); line-height: normal; font-size: 12px; float: left; display: inline-block;
+}
+.right .info h2 {
+	font-size: 18px; margin-bottom: 3px; display: inline-block;
+}
+.right .info .score_cnt {
+	margin: 7px 0px 0px; color: rgb(255, 167, 38); clear: both; font-size: 15px; position: relative;
+}
+.right .info .score_cnt span {
+	background: rgb(255, 167, 38); padding: 1px 2px; border-radius: 4px; top: -1px; height: 15px; color: rgb(255, 255, 255); line-height: 15px; font-size: 12px; margin-right: 3px; display: inline-block; position: relative;
+}
+.right .info .score_cnt b {
+	color: rgba(0, 0, 0, 0.38); font-weight: normal;
+}
+.right .info .score_cnt .call {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_call.png") no-repeat right 50% / 24px auto; top: -10px; width: 48px; height: 34px; right: 0px; text-indent: -9999px; border-left-color: rgba(0, 0, 0, 0.08); border-left-width: 1px; border-left-style: solid; display: inline-block; position: absolute;
+}
+.right .info .address {
+	color: rgba(0, 0, 0, 0.56); padding-top: 6px; font-size: 15px;
+}
+.right .info .benefit_wrap {
+	overflow: hidden; margin-right: 50px;
+}
+.right .info .benefit_wrap span {
+	background: rgb(244, 244, 244); padding: 3px 2px 2px; color: rgba(0, 0, 0, 0.56); line-height: normal; margin-top: 7px; float: left; display: inline-block;
+}
+.right .info .benefit_wrap span:last-child em {
+	display: none;
+}
+.event_link {
+	background: rgb(235, 235, 235); padding: 8px;
+}
+.event_link .bg_pink ul li {
+	background: none; padding-left: 0px;
+}
+.event_link section {
+	padding: 13px 47px 13px 12px; border-radius: 4px; display: block; position: relative; cursor: pointer;
+}
+.event_link section::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_gt.png") no-repeat right 50% / 12px auto; top: 50%; width: 12px; height: 24px; right: 16px; margin-top: -12px; display: inline-block; position: absolute; content: "";
+}
+.event_link .bg_pink::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_4.png") no-repeat 0px 0px / 12px auto; top: 50%; width: 12px; height: 8px; right: 16px; margin-top: -4px; display: inline-block; position: absolute; content: "";
+}
+.event_link .bg_pink.on::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_4.png") no-repeat 0px -8px / 12px auto; top: 50%; width: 12px; height: 8px; right: 16px; margin-top: -4px; display: inline-block; position: absolute; content: "";
+}
+.event_link section ul li {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_bul_2.png") no-repeat 0px 50% / 12px auto; color: rgb(255, 255, 255); line-height: 24px; overflow: hidden; padding-left: 16px; font-size: 15px; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.reserve_none {
+	padding: 30px 0px; text-align: center; color: rgba(0, 0, 0, 0.57); font-size: 14px; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.reserve_none i {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_info.png") no-repeat 0px 0px / 30px auto; width: 30px; height: 30px; margin-bottom: 15px; display: inline-block; opacity: 0.3;
+}
+.reserve_none b {
+	color: rgba(0, 0, 0, 0.87); letter-spacing: -1px; font-size: 18px; margin-bottom: 10px; display: block;
+}
+.bg_pink.on {
+	border-radius: 4px 4px 0px 0px;
+}
+.event_link div {
+	background: rgb(255, 255, 255); border-width: medium 2px 2px; border-style: none solid solid; border-color: currentColor rgb(237, 120, 141) rgb(237, 120, 141); padding: 21px 14px 19px; border-image: none; color: rgba(0, 0, 0, 0.56); line-height: 22px; font-size: 14px; display: none;
+}
+.event_link div ul {
+	margin-bottom: 32px;
+}
+.event_link div ul li span {
+	font-weight: bold; display: block;
+}
+.right .comment {
+	display: none;
+}
+.tab {
+	overflow: hidden; clear: both; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.tab button {
+	background: none; border-width: medium medium 2px; border-style: none none solid; border-color: currentColor currentColor rgb(255, 255, 255); border-image: none; width: 33.3%; height: 48px; font-size: 14px; float: left;
+}
+.tab button:nth-child(2) {
+	width: 33.4%;
+}
+.tab .on {
+	color: rgb(230, 28, 81); font-weight: bold; border-bottom-color: rgb(242, 17, 76); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.room_info {
+	background: rgb(232, 232, 232); display: none;
+}
+.room_info .btn_date {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_cal_2.png") no-repeat 16px 50% / 32px auto rgb(255, 255, 255); padding: 0px 0px 0px 48px; height: 64px; color: rgba(0, 0, 0, 0.87); line-height: 64px; font-size: 16px; display: block; position: relative; cursor: pointer;
+}
+.room_info .date_view span {
+	font-weight: normal;
+}
+.room_info .date_view b {
+	font-weight: normal;
+}
+.room_info .btn_date strong {
+	top: 0px; height: 64px; right: 16px; color: rgb(22, 141, 133); line-height: 64px; font-size: 16px; font-weight: bold; display: inline-block; position: absolute;
+}
+.room_info .room {
+	background: rgb(255, 255, 255); overflow: hidden; margin-top: 8px;
+}
+.room_info .room .title {
+	padding: 0px 12px; height: 56px; line-height: 56px; font-size: 16px; font-weight: normal; display: block;
+}
+.room_info .room .pic_wrap {
+	margin: 0px 8px;
+}
+.room_info .room .info {
+	margin: 4px 8px 8px; overflow: hidden;
+}
+.room_info .info .half {
+	width: 49.5%; float: left;
+}
+.room_info .info :last-child.half {
+	width: 49.5%; float: right;
+}
+.room_info .info .half .price {
+	border-width: 1px 1px medium; border-style: solid solid none; border-color: rgba(0, 0, 0, 0.08) rgba(0, 0, 0, 0.08) currentColor; padding: 16px 8px 0px; border-radius: 4px 4px 0px 0px; border-image: none; box-sizing: border-box;
+}
+.room_info .info .half .price strong {
+	height: 20px; font-size: 14px; font-weight: normal; display: block;
+}
+.room_info .info .half .price strong span {
+	padding: 2px; border: 1px solid rgb(255, 43, 92); border-image: none; top: -3px; color: rgb(255, 43, 92); line-height: normal; letter-spacing: -1px; font-size: 11px; font-weight: normal; margin-left: 1px; vertical-align: top; display: inline-block; position: relative;
+}
+.room_info .info .half .price div {
+	padding: 0px; height: 64px; text-align: right; color: rgb(230, 28, 81); font-size: 17px; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.room_info .info .price div .through {
+	color: rgba(0, 0, 0, 0.56); padding-top: 22px; font-size: 14px; text-decoration: line-through;
+}
+.room_info .info .price div .through_none {
+	color: rgba(0, 0, 0, 0.56); padding-top: 22px; font-size: 14px;
+}
+.room_info .info .price div p span {
+	background: rgb(255, 43, 92); padding: 2px 2px 1px; top: -2px; color: rgb(255, 255, 255); line-height: normal; font-size: 12px; margin-right: 2px; display: inline-block; position: relative;
+}
+.room_info .info .half .price ul {
+	padding: 15px 0px 14px;
+}
+.room_info .info .half .price ul li {
+	text-align: right; font-size: 14px; margin-bottom: 5px; position: relative;
+}
+.room_info .info .half .price ul li span {
+	left: 0px; top: 0px; color: rgba(0, 0, 0, 0.56); position: absolute;
+}
+.room_info .info button {
+	border-radius: 0px 0px 4px 4px; border: currentColor; border-image: none; width: 100%; height: 40px; text-align: center; color: rgb(255, 255, 255); font-size: 14px; display: block;
+}
+.room_info .info .none button {
+	background: rgb(235, 235, 235) !important; color: rgba(0, 0, 0, 0.56); font-weight: bold;
+}
+.room_info .info .ended button {
+	background: rgb(235, 235, 235) !important; color: rgba(0, 0, 0, 0.56); font-weight: bold;
+}
+.room_info .info .none ul {
+	visibility: hidden;
+}
+.room_info .info .none div .through {
+	visibility: hidden;
+}
+.room_info .info .none div p {
+	color: rgba(0, 0, 0, 0.87); font-weight: bold;
+}
+.room_info .info .none button {
+	background: rgb(235, 235, 235) !important; color: rgba(0, 0, 0, 0.56);
+}
+.room_info .info .fast .price {
+	border-width: 1px 1px medium; border-style: solid solid none; border-color: rgba(0, 0, 0, 0.08) rgba(0, 0, 0, 0.08) currentColor; padding: 0px 16px; border-radius: 4px 4px 0px 0px; border-image: none; position: relative; box-sizing: border-box;
+}
+.room_info .info .fast .price strong {
+	height: 64px; line-height: 64px; font-size: 16px; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.room_info .info .fast .price div {
+	top: 0px; text-align: right; right: 16px; position: absolute;
+}
+.room_info .info .fast .price div p b {
+	color: rgb(255, 43, 92); font-size: 17px;
+}
+.room_info .info .fast .through {
+	padding-top: 14px !important;
+}
+.room_info .info .fast ul {
+	overflow: hidden; position: relative;
+}
+.room_info .info .fast ul::after {
+	background: rgba(0, 0, 0, 0.08); left: 50%; top: 50%; width: 1px; height: 12px; margin-top: -6px; display: inline-block; position: absolute; content: "";
+}
+.room_info .info .fast ul li {
+	padding: 15px 0px 13px; width: 50%; text-align: center; float: left;
+}
+.room_info .info .fast ul li span {
+	color: rgba(0, 0, 0, 0.56); padding-right: 17px; display: inline-block;
+}
+.room_info .info .room_info_null .price {
+	border-width: 1px 1px medium; border-style: solid solid none; border-color: rgba(0, 0, 0, 0.08) rgba(0, 0, 0, 0.08) currentColor; padding: 0px 16px; border-radius: 4px 4px 0px 0px; border-image: none; position: relative; box-sizing: border-box;
+}
+.room_info .info .room_info_null .price strong {
+	height: 64px; line-height: 64px; font-size: 16px; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.room_info .info .room_info_null .price div {
+	top: 0px; text-align: right; right: 16px; position: absolute;
+}
+.room_info .info .room_info_null .price div p b {
+	color: rgb(255, 43, 92); font-size: 17px;
+}
+.room_info .info .room_info_null .through {
+	padding-top: 14px !important;
+}
+.room_info .info .room_info_null ul {
+	overflow: hidden; position: relative;
+}
+.room_info .info .room_info_null ul::after {
+	background: rgba(0, 0, 0, 0.08); left: 50%; top: 50%; width: 1px; height: 12px; margin-top: -6px; display: inline-block; position: absolute; content: "";
+}
+.room_info .info .room_info_null ul li {
+	padding: 15px 0px 13px; width: 50%; text-align: center; float: left;
+}
+.room_info .info .room_info_null ul li span {
+	color: rgba(0, 0, 0, 0.56); padding-right: 17px; display: inline-block;
+}
+.room_info .info .hotel .price {
+	border-width: 1px 1px medium; border-style: solid solid none; border-color: rgba(0, 0, 0, 0.08) rgba(0, 0, 0, 0.08) currentColor; padding: 0px 16px; border-radius: 4px 4px 0px 0px; border-image: none; position: relative; box-sizing: border-box;
+}
+.room_info .info .hotel .price strong {
+	height: 64px; line-height: 64px; font-size: 16px; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.room_info .info .hotel .price div {
+	top: 0px; text-align: right; right: 16px; position: absolute;
+}
+.room_info .info .hotel .price div p b {
+	font-size: 17px;
+}
+.room_info .info .hotel .through {
+	padding-top: 14px !important;
+}
+.room_info .info .hotel .price button {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_gt_2.png") no-repeat 100% 50% / 12px auto rgb(255, 255, 255); padding: 0px; height: 56px; text-align: left; color: rgba(0, 0, 0, 0.87); font-size: 16px;
+}
+.room_info .pic_view {
+	display: none;
+}
+.room_info .cal_bg {
+	display: none;
+}
+.room_info .gallery_m {
+	display: none;
+}
+.detail_info .btn_align {
+	margin: 0px 16px;
+}
+.detail_info button {
+	background: rgb(255, 255, 255); border-width: 1px medium medium; border-style: solid none none; border-color: rgba(0, 0, 0, 0.08) currentColor currentColor; padding: 0px 16px; border-image: none; width: 100%; height: 56px; text-align: left; color: rgba(0, 0, 0, 0.87); line-height: 56px; font-size: 16px; display: block; position: relative; cursor: pointer;
+}
+.detail_info button:first-child {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+.detail_info button::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_3.png") no-repeat 0px 0px / 12px auto rgb(255, 255, 255); top: 50%; width: 12px; height: 8px; right: 21px; margin-top: -4px; display: inline-block; position: absolute; content: "";
+}
+.detail_info .on {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.detail_info .on::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_3.png") no-repeat 0px -8px / 12px auto rgb(255, 255, 255);
+}
+.detail_info section {
+	background: rgb(245, 245, 245); margin: 0px 16px 11px; padding: 0px 16px; border-radius: 4px; overflow: hidden; display: none;
+}
+.detail_info .default_info {
+	padding-bottom: 32px;
+}
+.detail_info .default_info strong {
+	margin: 30px 0px 10px; color: rgba(0, 0, 0, 0.56); font-size: 15px; display: block;
+}
+.detail_info .default_info h3 {
+	margin: 30px 0px 10px; color: rgba(0, 0, 0, 0.56); font-size: 15px; display: block;
+}
+.detail_info .default_info p {
+	color: rgba(0, 0, 0, 0.56); line-height: 24px; font-size: 15px;
+}
+.detail_info .default_info .map {
+	background: rgb(232, 232, 232); width: 100%; height: 160px; margin-top: 30px;
+}
+.detail_info .default_info ul {
+	color: rgba(0, 0, 0, 0.56); line-height: 24px; font-size: 15px;
+}
+.detail_info .default_info ul li {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_bul_3.png") no-repeat -1px 0px / 12px auto; padding-left: 14px;
+}
+.detail_info .default_info ul li img {
+	width: 100%;
+}
+.col_pink {
+	color: rgb(242, 17, 76);
+}
+.swiper_detail {
+	display: block !important;
+}
+@media all and (max-width:360px)
+{
+.room_info .info .half .price strong {
+	height: 20px; font-size: 13px; font-weight: normal; display: block;
+}
+.room_info .info .half .price strong span {
+	padding: 1px; border: 1px solid rgb(255, 43, 92); border-image: none; top: -1px; color: rgb(255, 43, 92); line-height: normal; letter-spacing: -1px; font-size: 10px; font-weight: normal; margin-left: 1px; vertical-align: top; display: inline-block; position: relative;
+}
+}
+.inert_pic {
+	display: none;
+}
+.inert_room .inert_pic {
+	display: block;
+}
+.inert_room .inert_pic img {
+	width: 100%;
+}
+.inert_room .gallery_m {
+	display: none;
+}
+.inert_room .gallery_pc {
+	display: none;
+}
+.inert_room .score_cnt {
+	text-indent: -9999px;
+}
+.inert_room .info .badge {
+	display: none !important;
+}
+.inert_room .score_cnt span {
+	display: none !important;
+}
+.inert_room .score_cnt b {
+	display: none !important;
+}
+.inert_room .right .info .score_cnt {
+	height: 0px;
+}
+.inert_room .info .score_cnt .call {
+	top: -20px;
+}
+.inert_room .room_info {
+	display: none;
+}
+.inert_room .reserve_none {
+	display: none;
+}
+.inert_room .right {
+	background: rgb(235, 235, 235); padding-bottom: 8px;
+}
+.inert_room .right .info {
+	background: rgb(255, 255, 255);
+}
+.inert_room .tab button:nth-of-type(1) {
+	display: none;
+}
+.inert_room .tab button:nth-of-type(3) {
+	display: none;
+}
+.comment_mobile {
+	color: rgba(0, 0, 0, 0.56); line-height: 1.5; font-size: 14px;
+}
+@media all and (min-width:1024px)
+{
+.comment_mobile {
+	display: none;
+}
+.inert_room .right {
+	background: rgb(255, 255, 255); padding-bottom: 0px;
+}
+.inert_room .score_cnt {
+	display: none;
+}
+}
+.table_wrap {
+	padding-bottom: 30px !important;
+}
+.font_red {
+	color: rgb(230, 28, 81) !important;
+}
+.font_gr {
+	color: rgb(0, 121, 107) !important;
+}
+.font_green {
+	color: rgb(0, 121, 107) !important;
+}
+.normal_day h2 {
+	margin-bottom: 15px;
+}
+.normal_day h3 {
+	margin: 20px 0px 14px;
+}
+.normal_day table ~ p {
+	margin-top: 13px;
+}
+.guest_chk {
+	height: 15px;
+}
+.guest_chk span {
+	margin: 0px 24px 0px 0px; color: rgb(51, 51, 51); line-height: 1; font-size: 14px; vertical-align: top; display: inline-block;
+}
+.guest_chk span::before {
+	background: rgba(0, 0, 0, 0.87); border-radius: 2pt; top: -2px; width: 8px; height: 8px; margin-right: 8px; display: inline-block; position: relative; content: "";
+}
+.guest_chk span.guest_02::before {
+	background: rgb(228, 0, 8);
+}
+.guest_chk span.guest_03::before {
+	background: rgb(0, 121, 108);
+}
+.special_day h2 {
+	margin-bottom: 15px;
+}
+.special_day h3 {
+	margin: 45px 0px 15px;
+}
+.special_day table ~ p {
+	margin-top: 15px;
+}
+.special_day table ~ h3 {
+	margin-top: 45px;
+}
+.special_day {
+	background: rgba(0, 0, 0, 0.08); padding: 8px;
+}
+.special_day section {
+	background: rgb(255, 255, 255); padding: 30px 15px; border-radius: 3px; border-left-color: rgb(77, 182, 172); border-left-width: 2px; border-left-style: solid; position: relative;
+}
+.special_day section::before {
+	background: rgb(255, 255, 255); left: 0px; top: 0px; width: 5px; height: 5px; display: inline-block; position: absolute; z-index: 10; content: "";
+}
+.special_day section::after {
+	background: rgb(255, 255, 255); left: 0px; width: 5px; height: 5px; bottom: 0px; display: inline-block; position: absolute; z-index: 10; content: "";
+}
+.special_day .none_price_txt {
+	color: rgba(0, 0, 0, 0.56); font-size: 14px;
+}
+.day_wrap {
+	background: rgb(235, 235, 235); padding: 0px; margin-top: 56px;
+}
+.day_wrap section {
+	background: rgb(255, 255, 255); padding: 16px; margin-bottom: 6px;
+}
+.day_wrap section h3 {
+	margin: 17px 0px 15px;
+}
+.day_wrap section h3:first-child {
+	margin-top: 0px;
+}
+.price_top {
+	width: 100%; height: 30px; position: relative;
+}
+.price_top button {
+	padding: 5px 16px 0px; height: 30px; color: rgb(0, 0, 0); font-size: 14px; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 2px; border-bottom-style: solid; display: inline-block; box-sizing: border-box;
+}
+.price_top .on {
+	color: rgb(235, 38, 90); font-weight: bold; border-bottom-color: rgb(235, 38, 90); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.price_top div {
+	top: 0px; height: 30px; right: 15px; position: absolute;
+}
+.price_top div span {
+	height: 50px; line-height: 52px; padding-left: 16px; font-size: 12px; margin-left: 9px; display: inline-block; position: relative;
+}
+.price_top .guest_01::after {
+	background: rgb(0, 0, 0); border-radius: 100%; left: 0px; top: 50%; width: 9px; height: 9px; margin-top: -5px; display: inline-block; position: absolute; content: "";
+}
+.price_top .guest_02::after {
+	background: rgb(230, 28, 81); border-radius: 100%; left: 0px; top: 50%; width: 9px; height: 9px; margin-top: -5px; display: inline-block; position: absolute; content: "";
+}
+.price_top .guest_03::after {
+	background: rgb(0, 121, 107); border-radius: 100%; left: 0px; top: 50%; width: 9px; height: 9px; margin-top: -5px; display: inline-block; position: absolute; content: "";
+}
+.special_day_02 {
+	display: none;
+}
+.special_day_02 h2 {
+	font-weight: bold; margin-bottom: 11px;
+}
+.special_day_02 section {
+	background: rgb(255, 255, 255); position: relative;
+}
+.special_day_02 .none_price_txt {
+	color: rgba(0, 0, 0, 0.56); font-size: 14px;
+}
+.price_info b {
+	color: rgb(0, 0, 0); font-size: 16px; display: block;
+}
+.price_info strong {
+	font-size: 16px; font-weight: normal;
+}
+.price_info p {
+	color: rgb(136, 136, 136); padding-top: 11px;
+}
+.price_info_02 {
+	font-size: 16px;
+}
+.price_info_02 b {
+	display: block;
+}
+.price_info_02 strong {
+	font-weight: normal;
+}
+.btn_call {
+	background: linear-gradient(to right, rgb(235, 38, 91) 0%, rgb(242, 59, 63) 100%); width: 100%; height: 50px; text-align: center; color: rgb(255, 255, 255); line-height: 50px; font-size: 14px; font-weight: bold; display: block;
+}
+@media all and (max-width:320px)
+{
+.price_top button {
+	padding: 5px 12px 0px;
+}
+}
+.hotel_detail h3:first-child {
+	margin-top: 0px;
+}
+.hotel_detail h3 {
+	margin-top: 15px;
+}
+.hotel_detail h3 ~ p {
+	margin-top: 15px;
+}
+.hotel_detail h3 ~ table {
+	margin: 25px 0px 30px;
+}
+.hotel_detail p + p {
+	margin-top: 2px;
+}
+.hotel_detail table {
+	width: 100%;
+}
+.hotel_detail table th {
+	background: rgba(0, 0, 0, 0.08); padding: 10px 9px 10px 0px; text-align: right; color: rgba(0, 0, 0, 0.56); font-size: 14px;
+}
+.hotel_detail table th:first-child {
+	padding: 0px 0px 0px 9px; text-align: left;
+}
+.hotel_detail table td:first-child {
+	padding: 0px 0px 0px 9px; text-align: left;
+}
+.hotel_detail table td {
+	padding: 15px 9px 15px 0px; height: 62px; text-align: right; color: rgb(136, 136, 136); font-size: 14px; border-bottom-color: rgb(230, 230, 230); border-bottom-width: 1px; border-bottom-style: solid; min-height: 62px; box-sizing: border-box;
+}
+.hotel_detail_bot {
+	padding: 30px 15px; border-top-color: rgb(230, 230, 230); border-top-width: 1px; border-top-style: solid;
+}
+.hotel_detail_bot h3 {
+	margin-bottom: 13px;
+}
+.hotel_detail_bot ul {
+	margin-bottom: 30px;
+}
+.hotel_detail_bot .facilities {
+	color: rgb(112, 112, 112); line-height: 1.8; font-size: 14px; margin-top: -3px;
+}
+.table_type_02 {
+	border-radius: 4px; width: 100%; border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-bottom-style: solid; border-left-style: solid; border-collapse: separate;
+}
+.table_type_02 th {
+	background: rgb(143, 143, 143); padding: 8px 4px 7px; color: rgb(255, 255, 255); letter-spacing: -1px; font-size: 13px; font-weight: normal; border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.table_type_02 th:first-child {
+	border-radius: 3px 0px 0px;
+}
+.table_type_02 th:last-child {
+	border-radius: 0px 4px 0px 0px;
+}
+.table_type_02 tr:last-child td:first-child {
+	border-radius: 0px 0px 0px 4px;
+}
+.table_type_02 tr:last-child td:last-child {
+	border-radius: 0px 0px 4px 4px;
+}
+.table_type_02 td {
+	background: rgb(255, 255, 255); border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentColor rgb(204, 204, 204) rgb(204, 204, 204) currentColor; padding: 13px 10px; border-image: none; height: 62px; text-align: center; color: rgb(0, 0, 0); letter-spacing: -1px; font-size: 13px; min-height: 62px; box-sizing: border-box;
+}
+.table_type_02 td:first-child {
+	text-align: center;
+}
+.table_type_02 td span {
+	color: rgba(0, 0, 0, 0.87); line-height: 1; margin-bottom: 3px; display: block;
+}
+.table_type_02 td span:last-child {
+	margin-bottom: 0px;
+}
+.table_type_02 tr:last-child td {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.table_type_02 ul {
+	padding: 0px 16px;
+}
+.table_type_02 ul li {
+	color: rgb(117, 117, 117); line-height: 22px; font-size: 14px; margin-bottom: 3px;
+}
+.table_type_02 ul li::before {
+	color: rgb(117, 117, 117);
+}
+.table_type_02 ul li:last-child {
+	margin-bottom: 0px;
+}
+.table_type_02 .dot_txt {
+	text-align: left;
+}
+.table_time td {
+	text-align: center;
+}
+.review .score_top {
+	padding: 31px 0px; text-align: center;
+}
+.review .score_top strong {
+	padding: 0px 0px 5px; text-align: center; font-size: 20px; display: block;
+}
+.review .score_top p {
+	font-size: 14px; margin-top: 10px;
+}
+.review .score_top p b {
+	font-size: 16px;
+}
+.review .score_top p span {
+	width: 32px; color: rgba(0, 0, 0, 0.08); display: inline-block;
+}
+.review .score_wrap {
+	text-align: center; overflow: hidden; display: inline-block;
+}
+.score_star {
+	background: url("//image.goodchoice.kr/images/web_v3/bg_score.png") no-repeat 0px 0px / 120px auto; width: 120px; height: 24px; display: inline-block;
+}
+.score_star.star_50 {
+	background-position: 0px 0px;
+}
+.score_star.star_45 {
+	background-position: 0px -24.5px;
+}
+.score_star.star_40 {
+	background-position: 0px -49px;
+}
+.score_star.star_35 {
+	background-position: 0px -73.5px;
+}
+.score_star.star_30 {
+	background-position: 0px -98px;
+}
+.score_star.star_25 {
+	background-position: 0px -122.5px;
+}
+.score_star.star_20 {
+	background-position: 0px -147px;
+}
+.score_star.star_15 {
+	background-position: 0px -171.5px;
+}
+.score_star.star_10 {
+	background-position: 0px -196px;
+}
+.score_star.star_05 {
+	background-position: 0px -220.5px;
+}
+.score_star.star_00 {
+	background-position: 0px -245px;
+}
+.review .score_wrap .num {
+	top: -5px; padding-left: 4px; font-size: 24px; display: inline-block; position: relative;
+}
+.score_wrap_sm .score_star {
+	background: url("//image.goodchoice.kr/images/web_v3/bg_score.png") no-repeat 0px 0px / 80px auto; width: 80px; height: 16px; display: inline-block;
+}
+.score_wrap_sm .score_star.star_50 {
+	background-position: 0px 0px;
+}
+.score_wrap_sm .score_star.star_45 {
+	background-position: 0px -16px;
+}
+.score_wrap_sm .score_star.star_40 {
+	background-position: 0px -32px;
+}
+.score_wrap_sm .score_star.star_35 {
+	background-position: 0px -48px;
+}
+.score_wrap_sm .score_star.star_30 {
+	background-position: 0px -64px;
+}
+.score_wrap_sm .score_star.star_25 {
+	background-position: 0px -80px;
+}
+.score_wrap_sm .score_star.star_20 {
+	background-position: 0px -96px;
+}
+.score_wrap_sm .score_star.star_15 {
+	background-position: 0px -113px;
+}
+.score_wrap_sm .score_star.star_10 {
+	background-position: 0px -129px;
+}
+.score_wrap_sm .score_star.star_05 {
+	background-position: 0px -145px;
+}
+.score_wrap_sm .score_star.star_00 {
+	background-position: 0px -162px;
+}
+.review ul li {
+	padding: 27px 16px 16px 0px; border-top-color: rgba(0, 0, 0, 0.08); border-top-width: 1px; border-top-style: solid; position: relative;
+}
+.review .guest .pic {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_none.png") no-repeat 0px 0px / 40px auto; border-radius: 100%; left: 16px; top: 24px; width: 40px; height: 40px; overflow: hidden; display: inline-block; position: absolute;
+}
+.review .guest .pic img {
+	border-radius: 100%; width: 40px; height: 40px;
+}
+.review .guest strong {
+	padding: 0px 16px 2px 64px; line-height: normal; font-size: 16px; display: block;
+}
+.score_wrap_sm {
+	margin-left: 64px; display: block;
+}
+.score_wrap_sm div {
+	display: inline-block;
+}
+.score_wrap_sm .num {
+	top: -3px; font-size: 14px; display: inline-block; position: relative;
+}
+.review .guest .name {
+	color: rgba(0, 0, 0, 0.56); padding-top: 18px; margin-left: 64px;
+}
+.review .guest .name span {
+	background: rgba(242, 16, 76, 0.92); padding: 2px 1px 1px; color: rgb(255, 255, 255); font-size: 11px; margin-right: 7px; vertical-align: top; display: inline-block;
+}
+.review .guest .name b {
+	font-weight: normal;
+}
+.review .guest .txt {
+	margin: 5px 0px 0px 64px; line-height: 24px; font-size: 15px;
+}
+.review .guest .date {
+	padding: 9px 0px 5px; margin-left: 64px; display: inline-block;
+}
+.review .boss {
+	background: rgb(245, 245, 245); margin: 12px 0px 0px 64px; padding: 19px 16px 15px 50px; border-radius: 4px; position: relative;
+}
+.review .boss .txt {
+	margin: 7px 0px 8px; color: rgba(0, 0, 0, 0.72); line-height: 24px; font-size: 15px;
+}
+.review .boss .date {
+	color: rgba(0, 0, 0, 0.56); font-size: 13px;
+}
+.review .boss .pic {
+	border-radius: 100%; left: 12px; top: 12px; width: 30px; height: 30px; overflow: hidden; display: inline-block; position: absolute;
+}
+.review .boss .pic img {
+	border-radius: 100%; width: 30px; height: 30px;
+}
+.gallery_re {
+	margin: 10px 0px 6px 64px; position: relative;
+}
+.gallery_re ul li {
+	padding: 0px; border: currentColor; border-image: none;
+}
+.gallery_re .owl-dots {
+	display: none;
+}
+.membership {
+	color: rgba(0, 0, 0, 0.56); font-size: 15px;
+}
+.membership h5 {
+	height: 25px; line-height: 25px; padding-left: 29px; margin-bottom: 15px; display: block;
+}
+.membership .stamp h5 {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_stamp.png") no-repeat 0px 0px / 25px auto;
+}
+.membership .mileage h5 {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_mileage.png") no-repeat 0px 0px / 25px auto;
+}
+.theme {
+	padding: 8px 0px !important; position: relative;
+}
+.theme.ie_fix img {
+	height: 200px;
+}
+.theme ul li .title {
+	background-position: 0px 50% !important; height: 48px; line-height: 48px; padding-left: 31px; font-size: 16px; margin-left: 16px; background-size: 25px auto !important;
+}
+.theme .swiper-container {
+	padding: 0px 16px;
+}
+.gallery_theme {
+	margin-bottom: 8px; position: relative;
+}
+.gallery_re .swiper-button-next {
+	display: none;
+}
+.gallery_re .swiper-button-prev {
+	display: none;
+}
+.gallery_theme .swiper-button-next {
+	display: none;
+}
+.gallery_theme .swiper-button-prev {
+	display: none;
+}
+.service {
+	padding: 32px 0px 0px !important;
+}
+.service .theme_wrap {
+	overflow: hidden; padding-right: 16px;
+}
+.service .theme_wrap li {
+	background-position: 50% 0px !important; margin: 0px 0px 16px 12px; width: 91px; height: 60px; text-align: center; color: rgba(0, 0, 0, 0.56); padding-top: 43px; font-size: 13px; float: left; background-size: 35px auto !important;
+}
+.service div {
+	margin: 0px 16px; padding: 17px 0px 26px; color: rgba(0, 0, 0, 0.56); line-height: 24px; font-size: 15px; border-top-color: rgba(0, 0, 0, 0.08); border-top-width: 1px; border-top-style: solid;
+}
+.service div li {
+	margin-bottom: 30px;
+}
+.service div li:last-child {
+	margin-bottom: 0px;
+}
+.membership {
+	padding: 0px 16px;
+}
+.membership div {
+	padding: 0px 0px 26px !important;
+}
+.membership h5 {
+	margin: 30px 0px 15px; font-size: 15px;
+}
+.membership h5 + p {
+	line-height: normal; font-size: 15px; font-weight: bold; margin-bottom: 10px;
+}
+.membership .date {
+	font-size: 15px; font-weight: bold; margin-bottom: 6px;
+}
+.membership ul + p {
+	padding-top: 9px;
+}
+.membership .dot_txt {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_bul_3.png") no-repeat -1px 0px / 12px auto; color: rgba(0, 0, 0, 0.56); line-height: 24px; padding-left: 14px; font-size: 15px;
+}
+.membership mark {
+	background: none; color: rgb(230, 28, 81);
+}
+.right .info > .build_badge {
+	padding: 1px; vertical-align: top;
+}
+@media all and (min-width:1024px)
+{
+.bg_opacity {
+	display: none !important;
+}
+.filter_wrap {
+	background: rgb(255, 255, 255); margin: 0px 32px 0px 31px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.08); border-image: none; top: 40px; width: 296px; padding-bottom: 10px; float: left; display: inline-block !important; position: relative !important; z-index: 1;
+}
+.filter_wrap .top_head {
+	display: none;
+}
+.filter_wrap h3 {
+	color: rgba(0, 0, 0, 0.87); font-size: 18px; display: block;
+}
+.filter_wrap .btn_wrap {
+	padding: 0px 24px; top: auto; height: 64px; overflow: hidden; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; position: relative;
+}
+.filter_wrap .btn_wrap button {
+	border-radius: 4px; height: 40px; font-size: 16px; margin-top: 13px;
+}
+.filter_wrap .btn_wrap button:nth-child(1) {
+	background: rgb(255, 255, 255); border: 1px solid rgb(242, 7, 76); border-image: none; width: 120px; color: rgb(242, 7, 76); float: left;
+}
+.filter_wrap .btn_wrap button:nth-child(2) {
+	background: rgb(242, 7, 76); border: 1px solid rgb(242, 7, 76); border-image: none; width: 120px; color: rgb(255, 255, 255); float: right;
+}
+.filter_wrap .date_view b {
+	font-weight: normal;
+}
+.filter_wrap section {
+	margin: 0px 0px 0px 24px; padding: 27px 0px 0px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.filter_wrap section:first-child {
+	height: 134px;
+}
+.filter_wrap section:last-child {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.filter_wrap section strong {
+	color: rgba(0, 0, 0, 0.56); font-size: 16px; font-weight: bold; margin-bottom: 21px; display: block; position: relative;
+}
+.filter_wrap .date_wrap {
+	display: block;
+}
+.filter_wrap .date_wrap + h3 {
+	margin: 0px 24px; padding-top: 31px; border-top-color: rgba(0, 0, 0, 0.08); border-top-width: 1px; border-top-style: solid;
+}
+.filter_wrap section strong button {
+	display: none;
+}
+.filter_wrap section ul li {
+	margin-bottom: 16px;
+}
+.filter_wrap section .half {
+	overflow: hidden;
+}
+.filter_wrap section .half li {
+	width: 50%; float: left;
+}
+.filter_wrap .hide_type {
+	height: auto; overflow: hidden;
+}
+.filter_wrap .hide_type_02 {
+	height: auto; overflow: hidden;
+}
+.filter_wrap .hide_type.show {
+	height: auto;
+}
+.filter_wrap .hide_type_02.show {
+	height: auto;
+}
+.filter_wrap .room_type {
+	width: 304px; overflow: hidden; margin-left: -20px;
+}
+.filter_wrap .room_type p {
+	width: 67px; float: left; display: inline-block;
+}
+.date_wrap {
+	display: block;
+}
+.filter_wrap .btn_date {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_down.png") no-repeat right 8px bottom 50% / 24px auto rgba(250, 250, 250, 0.7); margin: 13px 0px 32px; padding: 0px 0px 0px 39px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.08); border-image: none; width: 246px; height: 40px; text-align: left; color: rgba(0, 0, 0, 0.56); line-height: 40px; font-size: 18px; display: inline-block; position: relative; box-sizing: border-box;
+}
+.filter_wrap .btn_date::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_cal_2.png") no-repeat 0px 0px / 32px auto; left: 3px; top: 4px; width: 32px; height: 32px; display: inline-block; position: absolute; content: "";
+}
+.list_wrap {
+	width: 635px; margin-top: 40px; float: left;
+}
+.list_wrap .title {
+	background: none; padding: 23px 0px 12px; font-size: 14px; position: relative;
+}
+.list_wrap .title h3 {
+	color: rgba(0, 0, 0, 0.56); font-size: 18px; font-weight: bold;
+}
+.list_wrap .title span {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_question.png") no-repeat 100% 0px / 20px auto; padding: 2px 22px 0px 0px; top: 21px; height: 19px; right: 0px; color: rgba(0, 0, 0, 0.56); font-size: 14px; display: inline-block; position: absolute; cursor: pointer;
+}
+.list_wrap .title .pop_add {
+	top: 20px; right: 21px; font-size: 14px;
+}
+.top_sort {
+	background: rgb(255, 255, 255); padding: 0px; text-align: center; overflow: hidden; box-shadow: none;
+}
+.top_sort .btn_wrap {
+	border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.08); border-image: none; width: 546px; height: 40px; overflow: hidden; float: left; box-sizing: border-box;
+}
+.top_sort .btn_wrap button {
+	border-right-color: rgba(0, 0, 0, 0.08); border-right-width: 1px; border-right-style: solid;
+}
+.top_sort .btn_wrap button:last-child {
+	border-right-color: currentColor; border-right-width: medium; border-right-style: none;
+}
+.top_sort button {
+	background: rgba(250, 250, 250, 0.6); border-radius: 0px; border: currentColor; border-image: none; height: 40px; color: rgba(0, 0, 0, 0.38); line-height: 40px; font-size: 16px; float: left;
+}
+.top_sort button span {
+	top: -2px; display: inline-block; position: relative;
+}
+.top_sort button i {
+	margin: 0px 1px 0px -24px; width: 24px; height: 24px; display: none;
+}
+.top_sort button.on {
+	color: rgba(0, 0, 0, 0.87);
+}
+.top_sort button.on span {
+	padding: 0px 0px 0px 24px;
+}
+.top_sort button.on span {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_chk_2.png") no-repeat 0px 50% / 22px auto; color: rgb(242, 7, 76); display: inline-block;
+}
+.top_sort .mobile {
+	display: none;
+}
+.top_sort .pc {
+	display: block;
+}
+.top_sort .btn_map {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_map.png") no-repeat 8px 50% / 22px auto rgba(250, 250, 250, 0.6); padding: 0px 12px 0px 0px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.08); border-image: none; width: 80px; text-align: right; margin-left: 8px; float: right; display: inline-block;
+}
+.top_sort .width_2 button {
+	width: 50%;
+}
+.top_sort .width_3 button {
+	width: 33%;
+}
+.top_sort .width_3 button:nth-child(1) {
+	width: 34%;
+}
+.top_sort .width_4 button {
+	width: 25%;
+}
+.list_1 {
+	padding: 0px; height: 352px; overflow: hidden; position: relative;
+}
+.list_1 a {
+	height: 352px; color: rgb(255, 255, 255); display: block;
+}
+.list_1 img.align {
+	left: 0px; top: 50%; width: 100%; position: absolute; z-index: 1; min-height: 352px;
+}
+.list_1 .stage {
+	padding: 0px 20px 0px 27px; left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute; z-index: 10;
+}
+.list_1 .stage .top {
+	padding: 22px 0px 0px; text-align: right;
+}
+.list_1 .event_info {
+	height: 44px;
+}
+.list_1 .event_info p {
+	margin: 0px 24px; height: 44px; line-height: 44px; font-size: 18px;
+}
+.list_2 {
+	height: 280px; overflow: hidden; position: relative;
+}
+.list_3 {
+	height: 280px; overflow: hidden; position: relative;
+}
+.list_2 a {
+	height: 280px; color: rgb(255, 255, 255); display: block;
+}
+.list_3 a {
+	height: 280px; color: rgb(255, 255, 255); display: block;
+}
+.list_2 img.align {
+	left: 0px; top: 50%; width: 100%; position: absolute; z-index: 1; min-height: 280px;
+}
+.list_3 img.align {
+	left: 0px; top: 50%; width: 100%; position: absolute; z-index: 1; min-height: 280px;
+}
+.list_2 .stage {
+	padding: 0px 24px; left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute; z-index: 10;
+}
+.list_3 .stage {
+	padding: 0px 24px; left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute; z-index: 10;
+}
+.list_1 .stage .evt_info {
+	left: 0px; top: 24px; height: 24px; right: auto; position: absolute;
+}
+.list_2 .stage .evt_info {
+	left: 0px; top: 24px; height: 24px; right: auto; position: absolute;
+}
+.list_3 .stage .evt_info {
+	left: 0px; top: 24px; height: 24px; right: auto; position: absolute;
+}
+.list_2 .stage .evt_info span {
+	margin: 0px 10px 0px 24px; height: 24px; line-height: 1; padding-top: 3px; font-size: 18px;
+}
+.list_3 .stage .evt_info span {
+	margin: 0px 10px 0px 24px; height: 24px; line-height: 1; padding-top: 3px; font-size: 18px;
+}
+.list_1 .stage .top span {
+	padding: 0px 8px; top: 24px; height: 24px; right: 24px; color: rgba(255, 255, 255, 0.9); line-height: 24px; overflow: hidden; font-size: 14px; position: absolute;
+}
+.list_2 .stage .coupon {
+	padding: 0px 8px; top: 24px; height: 24px; right: 24px; color: rgba(255, 255, 255, 0.9); line-height: 24px; overflow: hidden; font-size: 14px; position: absolute;
+}
+.list_3 .stage .coupon {
+	padding: 0px 8px; top: 24px; height: 24px; right: 24px; color: rgba(255, 255, 255, 0.9); line-height: 24px; overflow: hidden; font-size: 14px; position: absolute;
+}
+.list_1 .stage .name {
+	left: 24px; bottom: 59px; position: absolute;
+}
+.list_1 .stage .name.no-event {
+	bottom: 15px;
+}
+.list_2 .stage .name {
+	left: 24px; bottom: 20px; position: absolute;
+}
+.list_3 .stage .name {
+	left: 24px; bottom: 20px; position: absolute;
+}
+.list_1 .stage .name .badge span {
+	padding: 0px 3px; height: 20px; line-height: 20px; font-size: 14px;
+}
+.list_2 .stage .name .badge span {
+	padding: 0px 3px; height: 18px; line-height: 18px; font-size: 14px;
+}
+.list_3 .stage .name .badge span {
+	padding: 0px 3px; height: 18px; line-height: 18px; font-size: 14px;
+}
+.list_1 .stage .name strong {
+	height: auto; font-size: 36px; display: block;
+}
+.list_2 .stage .name strong {
+	height: auto; line-height: normal; font-size: 26px; display: block;
+}
+.list_3 .stage .name strong {
+	height: auto; line-height: normal; font-size: 26px; display: block;
+}
+.list_1 .stage .name p {
+	height: auto; padding-bottom: 2px; font-size: 20px; margin-top: 9px;
+}
+.list_2 .stage .name p {
+	height: auto; padding-bottom: 2px; font-size: 20px; margin-top: 9px;
+}
+.list_3 .stage .name p {
+	height: auto; padding-bottom: 2px; font-size: 20px; margin-top: 9px;
+}
+.list_1 .stage .name .score {
+	height: auto; line-height: normal; margin-top: 7px;
+}
+.list_2 .stage .name .score {
+	height: auto; line-height: normal; margin-top: 7px;
+}
+.list_3 .stage .name .score {
+	height: auto; line-height: normal; margin-top: 7px;
+}
+.list_1 .stage .price {
+	text-align: right; right: 24px; bottom: 60px; position: absolute;
+}
+.list_1 .stage .price.no-event {
+	bottom: 16px;
+}
+.list_2 .stage .price {
+	text-align: right; right: 24px; bottom: 20px; position: absolute;
+}
+.list_3 .stage .price {
+	text-align: right; right: 24px; bottom: 20px; position: absolute;
+}
+.list_2 .stage .price .earlybird {
+	background: url("//image.goodchoice.kr/images/web_v3/ic_badge_payback_panorama_23px.png") no-repeat 100% 0px / auto 23px; margin: 0px -5px 5px 0px; width: 124px; height: 23px; text-align: left; text-indent: -9999px; display: inline-block;
+}
+.list_3 .stage .price .earlybird {
+	background: url("//image.goodchoice.kr/images/web_v3/ic_badge_payback_panorama_23px.png") no-repeat 100% 0px / auto 23px; margin: 0px -5px 5px 0px; width: 124px; height: 23px; text-align: left; text-indent: -9999px; display: inline-block;
+}
+.list_2 .stage .price .soldout {
+	background: url("//image.goodchoice.kr/images/web_v3/ic_badge_payback_soldout_panorama_23px.png") no-repeat 100% 0px / auto 23px; margin: 0px -5px 9px 0px; width: 135px; height: 23px; text-align: left; text-indent: -9999px; display: inline-block;
+}
+.list_3 .stage .price .soldout {
+	background: url("//image.goodchoice.kr/images/web_v3/ic_badge_payback_soldout_panorama_23px.png") no-repeat 100% 0px / auto 23px; margin: 0px -5px 9px 0px; width: 135px; height: 23px; text-align: left; text-indent: -9999px; display: inline-block;
+}
+.list_1 .stage .price p {
+	height: auto; color: rgba(255, 255, 255, 0.9); font-size: 20px; margin-top: 11px;
+}
+.list_2 .stage .price p {
+	height: auto; color: rgba(255, 255, 255, 0.9); font-size: 20px; margin-top: 11px;
+}
+.list_3 .stage .price p {
+	height: auto; color: rgba(255, 255, 255, 0.9); font-size: 20px; margin-top: 11px;
+}
+.list_1 .stage .price p b {
+	top: 0px; color: rgb(255, 255, 255); font-size: 22px;
+}
+.list_2 .stage .price p b {
+	top: 0px; color: rgb(255, 255, 255); font-size: 22px;
+}
+.list_3 .stage .price p b {
+	top: 0px; color: rgb(255, 255, 255); font-size: 22px;
+}
+.list_1 .stage .price p span {
+	padding: 0px 3px; top: 1px; height: 20px; line-height: 20px; font-size: 14px; position: relative;
+}
+.list_2 .stage .price p span {
+	padding: 0px 3px; top: 1px; height: 20px; line-height: 20px; font-size: 14px; position: relative;
+}
+.list_3 .stage .price p span {
+	padding: 0px 3px; top: 1px; height: 20px; line-height: 20px; font-size: 14px; position: relative;
+}
+.list_4 .stage .price p span {
+	padding: 0px 3px; top: 1px; height: 20px; line-height: 20px; font-size: 14px; position: relative;
+}
+.list_3 .price p {
+	color: rgba(255, 255, 255, 0.7); font-size: 20px;
+}
+.list_3 .price p span {
+	font-size: 20px !important;
+}
+.list_3 .price p b {
+	font-size: 22px;
+}
+.list_3 .price .line_through {
+	text-decoration: line-through;
+}
+.list_4 .pic {
+	left: 0px; top: 16px; width: 152px; text-align: center; bottom: 16px; overflow: hidden; display: inline-block; position: absolute;
+}
+.list_4 .pic img.align_2 {
+	height: 130%;
+}
+.list_4 .stage {
+	padding: 16px 0px 16px 168px; color: rgba(0, 0, 0, 0.87); line-height: 21px; font-size: 18px;
+}
+.list_4 .stage .name strong {
+	line-height: 1; padding-top: 8px; font-size: 22px; margin-bottom: 7px;
+}
+.list_4 .stage .name p {
+	margin-bottom: 7px;
+}
+.list_4 .stage .name .score em {
+	padding: 0px 3px; border-radius: 4px; top: 1px; height: 17px; line-height: 17px; font-size: 14px; vertical-align: top; display: inline-block; position: relative;
+}
+.list_4 .stage .name .txt_evt {
+	line-height: 1.4;
+}
+.list_4 .stage .name .earlybird {
+	background: url("//image.goodchoice.kr/images/web_v3/ic_badge_payback_thumbnail_23px.png") no-repeat 0px 0px / 130px auto; width: 130px; height: 23px; text-indent: -9999px; margin-top: 6px; display: inline-block;
+}
+.list_4 .stage .name .soldout {
+	background: url("//image.goodchoice.kr/images/web_v3/ic_badge_payback_soldout_thumbnail_23px.png") no-repeat 0px 0px / 138px auto; width: 138px; height: 23px; text-indent: -9999px; margin-top: 6px; display: inline-block;
+}
+.list_4 .stage .price {
+	text-align: right; color: rgba(0, 0, 0, 0.72); font-size: 20px; margin-top: 56px;
+}
+.list_4 .stage .price p {
+	padding-top: 9px;
+}
+.list_4 .stage .price em {
+	color: rgba(0, 0, 0, 0.56); font-size: 16px; text-decoration: line-through; display: block; position: relative;
+}
+.list_4 .stage .price .mark {
+	text-align: right;
+}
+.list_4 .stage .price .mark span {
+	display: inline-block; position: relative;
+}
+.list_4 .stage .price .mark b {
+	background: none; font-size: 16px; font-weight: normal; display: inline-block; position: relative; z-index: 10;
+}
+.list_4 .stage .price .mark i {
+	background: rgb(255, 250, 194); left: 0px; width: 100%; height: 7px; bottom: 3px; display: inline-block; position: absolute;
+}
+.list_4 .stage .price b {
+	top: 0px; color: rgba(0, 0, 0, 0.87); font-size: 22px;
+}
+.list_4 .stage .badge {
+	top: 2px; position: relative;
+}
+.list_4 .stage .right_badges .badge {
+	padding-right: 4px;
+}
+.right_badges {
+	left: 0px; top: 16px; width: 152px; height: 24px; text-align: center; line-height: 24px; overflow: hidden; font-size: 14px; position: absolute;
+}
+.right_badges .badge {
+	padding: 4px; left: 0px !important; top: 0px !important; width: 100%; text-align: right;
+}
+.list_4 .stage .badge_adcno {
+	left: inherit; right: 488px;
+}
+.list_4 .stage .badge span {
+	padding: 0px 3px; height: 18px; color: rgb(255, 255, 255); line-height: 18px; font-size: 14px; float: left; display: inline-block;
+}
+.list_4 .stage .right_badges .badge span {
+	float: right !important;
+}
+.list_4 .stage .coupon {
+	left: 0px; width: 152px; height: 24px; text-align: center; bottom: 16px; color: rgb(255, 255, 255); line-height: 24px; overflow: hidden; font-size: 14px; position: absolute;
+}
+.hot_stay {
+	padding: 0px 16px;
+}
+.hot_stay .pic {
+	left: 16px;
+}
+.area_pop {
+	background: rgb(255, 255, 255); border-radius: 4px; left: 50%; top: 202px; width: 466px; height: 555px; right: auto; bottom: auto; overflow: hidden; margin-left: -513px; display: none; position: absolute; z-index: 200; box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2); -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.area_pop .iscroll_01 {
+	background: rgb(255, 255, 255); left: 0px; top: 0px; width: 168px; bottom: 0px; border-right-color: rgba(0, 0, 0, 0.06); border-right-width: 1px; border-right-style: solid; position: absolute; z-index: 1; box-sizing: border-box;
+}
+.area_pop .iscroll_02 {
+	background: rgb(255, 255, 255); left: 168px; top: 0px; width: 300px; bottom: 0px; position: absolute; z-index: 1;
+}
+.area_pop .scroller .city {
+	text-align: left;
+}
+.area_pop .scroller .city li {
+	border: currentColor; border-image: none; overflow: hidden;
+}
+.area_pop .scroller .city_child {
+	background: none;
+}
+.area_pop .scroller .city_child li {
+	padding-left: 0px;
+}
+.area_pop .scroller .city_child li a {
+	border: currentColor; border-image: none;
+}
+.area_pop .scroller .city_child li {
+	padding-left: 0px;
+}
+.area_pop .scroller .city_child span {
+	background: rgba(242, 16, 76, 0.92); padding: 1px 3px 2px; border-radius: 0px; top: -2px; color: rgb(255, 255, 255); line-height: normal; font-size: 10px; margin-left: 3px; display: inline-block; position: relative;
+}
+.area_pop .scroller ul {
+	margin: 0px; padding: 18px 0px 0px; width: 100%;
+}
+.area_pop .scroller li {
+	padding: 0px; height: 27px; line-height: 27px; font-size: 15px;
+}
+.area_pop .scroller li a {
+	padding: 0px 0px 0px 32px; color: rgba(0, 0, 0, 0.78); display: block;
+}
+.area_pop .scroller li a:hover {
+	color: rgb(230, 28, 81);
+}
+.area_pop .scroller li a.on {
+	color: rgb(230, 28, 81);
+}
+.area_pop .depth_01 a.on {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_gt_2.png") no-repeat right 10px bottom 50% / 10px auto !important;
+}
+.area_pop .area_etc .iscroll_02 {
+	display: none;
+}
+.area_pop .area_etc li {
+	padding: 0px; height: 27px; line-height: 27px; font-size: 15px;
+}
+.swiper_detail {
+	display: none !important;
+}
+.membership {
+	padding: 0px 16px;
+}
+.membership div {
+	padding: 0px 0px 54px !important;
+}
+.membership h5 {
+	margin: 40px 0px 21px; font-size: 18px;
+}
+.membership h5 + p {
+	font-size: 16px; font-weight: bold; margin-bottom: 20px;
+}
+.membership .date {
+	font-size: 14px; font-weight: bold; margin-bottom: 11px;
+}
+.membership ul + p {
+	padding-top: 9px;
+}
+.membership .dot_txt {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_bul_3.png") no-repeat -1px 0px / 12px auto; color: rgba(0, 0, 0, 0.56); line-height: 24px; padding-left: 14px; font-size: 15px;
+}
+.membership mark {
+	background: none; color: rgb(230, 28, 81);
+}
+.fix_srch {
+	display: none;
+}
+.result_wrap .top_sort {
+	display: none;
+}
+.result_top {
+	background: rgb(250, 250, 250);
+}
+.result_top .sub_top {
+	background: rgb(250, 250, 250); text-align: center;
+}
+.result_top .sub_top .keyword {
+	line-height: normal; letter-spacing: -2px; overflow: hidden; font-size: 38px; margin-top: 45px; display: inline-block; white-space: nowrap; -ms-word-break: keep-all; -ms-text-overflow: ellipsis; max-width: 900px;
+}
+.result_empty {
+	text-align: center; color: rgba(0, 0, 0, 0.38); padding-top: 149px; font-size: 18px;
+}
+.result_empty b {
+	color: rgba(0, 0, 0, 0.56); font-size: 20px; margin-bottom: 18px; display: block;
+}
+.list_wrap .swipe_menu {
+	display: none;
+}
+.top_menu {
+	margin: 0px 31px; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.top_menu .owl-stage {
+	transform: translate3d(0px, 0px, 0px) !important;
+}
+.swipe_menu .owl-stage-outer {
+	padding: 0px;
+}
+.swipe_menu .item {
+	background: rgb(255, 255, 255); padding: 0px 24px; border: currentColor; border-image: none; width: auto !important; height: 72px; text-align: center; color: rgba(0, 0, 0, 0.38); line-height: 72px; font-size: 18px; display: inline-block; box-sizing: border-box;
+}
+.swipe_menu .item.enable {
+	font-weight: bold; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.swipe_menu :first-child.item {
+	padding-left: 0px;
+}
+.swipe_menu .owl-item {
+	margin-right: 0px !important;
+}
+.layer {
+	background: rgb(255, 255, 255); margin: -159px 0px 0px -248px; border-radius: 4px; left: 50%; top: 50%; width: auto; right: auto; bottom: auto; position: fixed; z-index: 430; box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.48); -webkit-box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.48); -moz-box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.48);
+}
+.layer .title {
+	background: none; height: auto; text-align: left; line-height: normal; font-size: 20px; font-weight: bold; margin-bottom: 7px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; position: relative;
+}
+.layer .title button {
+	display: none;
+}
+.layer .vertical_align {
+	width: 100%; height: 100%; display: table;
+}
+.layer .vertical_align div {
+	width: 100%; text-align: center; vertical-align: middle; display: table-cell;
+}
+.pop_relocation {
+	padding: 46px 56px;
+}
+.pop_relocation div {
+	color: rgba(0, 0, 0, 0.87); line-height: 24px; font-size: 16px;
+}
+.pop_relocation div b {
+	margin-bottom: 45px;
+}
+.pop_relocation div b span {
+	display: inline-block;
+}
+.pop_relocation div p {
+	background: rgb(255, 255, 255); border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.08); border-image: none; width: 100%; height: 56px; text-align: center; color: rgba(0, 0, 0, 0.87); line-height: 56px; font-size: 16px; margin-bottom: 12px; display: inline-block; box-sizing: border-box;
+}
+.pop_relocation div p span {
+	padding-left: 28px; display: inline-block;
+}
+.pop_relocation div p .bg_01 {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_loc.png") no-repeat 0px 50% / 24px auto;
+}
+.pop_relocation div p .bg_02 {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_loc_2.png") no-repeat 0px 50% / 24px auto;
+}
+.pop_relocation div p:last-child {
+	margin-bottom: 0px;
+}
+.pop_map {
+	margin: -368px 0px 0px -481px; border-radius: 4px; left: 50%; top: 50%; width: 962px; height: 736px; right: auto; bottom: auto;
+}
+.pop_map .pc_btn_close {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_close_3.png") no-repeat 0px 0px / 40px auto; border: currentColor; border-image: none; top: -40px; width: 40px; height: 40px; right: -40px; text-indent: -9999px; display: inline-block; position: absolute;
+}
+.pop_map .title {
+	display: none;
+}
+.pop_map .address {
+	background: rgba(249, 249, 249, 0.9); border-radius: 4px 4px 0px 0px; left: 0px; top: 0px; width: 962px; height: 32px; text-align: center; right: 0px; color: rgba(0, 0, 0, 0.56); line-height: 32px; font-size: 16px; position: absolute; z-index: 100;
+}
+.pop_map .inner_map {
+	border: 1px solid rgba(0, 0, 0, 0.1); border-image: none; left: 0px; top: 0px; width: 100%; height: 100%; right: 0px; bottom: 0px; position: absolute; z-index: 10;
+}
+.pop_map .btn_set {
+	left: auto; width: 100%; text-align: center; right: auto; bottom: 40px; position: absolute; z-index: 300;
+}
+.pop_map .btn_set button {
+	border-radius: 4px; border: currentColor; border-image: none; width: 336px; height: 56px; color: rgb(255, 255, 255); line-height: 56px; font-size: 16px; font-weight: normal; display: inline-block;
+}
+.detail {
+	margin: 112px auto 0px; width: 1024px;
+}
+.detail .top {
+	padding: 0px 31px; overflow: hidden;
+}
+.detail .top .left {
+	width: 490px; float: left;
+}
+.detail .top .right {
+	width: 424px; float: right;
+}
+.gallery_m .index {
+	display: none;
+}
+.gallery_m {
+	display: none;
+}
+.gallery_pc .spot {
+	display: block;
+}
+.gallery_pc {
+	display: block; position: relative;
+}
+.gallery_pc .gallery-top {
+	width: 490px; height: 348px; margin-bottom: 13px;
+}
+.gallery_pc .gallery-top img {
+	width: 490px; height: 348px;
+}
+.gallery_pc li img {
+	transition:0.4s; opacity: 0;
+}
+.gallery_pc li .swiper-lazy-loaded {
+	opacity: 1;
+}
+.gallery_pc .gallery-thumbs {
+	background: rgb(255, 255, 255); margin: 0px 0px 0px 16px; width: 460px; height: 86px;
+}
+.gallery_pc .gallery-thumbs li {
+	padding: 2px; border-radius: 4px; border: 1px solid rgb(255, 255, 255); border-image: none; width: 115px; height: 86px; display: inline-block; cursor: pointer;
+}
+.gallery_pc .gallery-thumbs li img {
+	width: 109px; height: 80px;
+}
+.gallery_pc .gallery-thumbs .swiper-slide-active {
+	border: 1px solid rgba(0, 0, 0, 0.38); border-image: none;
+}
+.gallery_pc .swiper-button-next {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_gt_3.png") no-repeat 6px 50% / 8px auto; margin: 0px; left: 4px; top: 361px; width: 15px; height: 86px; transform: rotate(180deg);
+}
+.gallery_pc .swiper-button-prev {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_gt_3.png") no-repeat 6px 50% / 8px auto; margin: 0px; left: 473px; top: 361px; width: 15px; height: 86px;
+}
+.gallery_pc .fix-4 {
+	margin: 0px; width: 500px;
+}
+.gallery_pc .fix-4 .swiper-wrapper {
+	width: 500px !important;
+}
+.gallery_pc .fix-4 .swiper-slide {
+	width: 123px !important;
+}
+.gallery_pc .fix-4 img {
+	width: 115px !important;
+}
+.right .info {
+	padding: 0px;
+}
+.right .info .badge {
+	top: 0px; display: block;
+}
+.right .info .badge span {
+	padding: 0px 3px; height: 18px; color: rgb(255, 255, 255); line-height: 18px; font-size: 14px; float: left; display: inline-block;
+}
+.right .info h2 {
+	margin: 9px 0px 0px; font-size: 28px; display: inline;
+}
+.right .info .score_cnt {
+	margin: 9px 0px 6px; clear: both; font-size: 18px; position: relative;
+}
+.right .info .score_cnt span {
+	background: rgb(255, 167, 38); padding: 0px 4px; border-radius: 4px; top: -3px; height: 18px; color: rgb(255, 255, 255); line-height: 17px; font-size: 14px; margin-right: 7px; display: inline-block; position: relative;
+}
+.right .info .score_cnt b {
+	color: rgba(0, 0, 0, 0.38); font-weight: normal;
+}
+.right .info .score_cnt .call {
+	display: none;
+}
+.right .info .address {
+	margin: 6px 0px 8px; font-size: 18px;
+}
+.right .info .benifit_wrap {
+	margin-right: 0px;
+}
+.right .info .benifit_wrap span {
+	font-size: 16px;
+}
+.event_link {
+	background: none; padding: 0px; margin-top: 16px;
+}
+.event_link section {
+	padding: 12px 44px 12px 12px; border-radius: 4px; display: block; position: relative;
+}
+.event_link section::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_gt.png") no-repeat right 50% / 12px auto; top: 50%; width: 12px; height: 24px; right: 16px; margin-top: -12px; display: inline-block; position: absolute; content: "";
+}
+.event_link section ul li {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_bul_2.png") no-repeat 0px 50% / 12px auto; color: rgb(255, 255, 255); line-height: 26px; overflow: hidden; padding-left: 16px; font-size: 16px; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.event_link .bg_pink::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_gt.png") no-repeat right 50% / 12px auto; top: 50%; width: 12px; height: 24px; right: 16px; margin-top: -12px; display: inline-block; position: absolute; content: "";
+}
+.event_link .bg_pink.on::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_gt.png") no-repeat right 50% / 12px auto; top: 50%; width: 12px; height: 24px; right: 16px; margin-top: -12px; display: inline-block; position: absolute; content: "";
+}
+.event_link section ul li {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_bul_2.png") no-repeat 0px 50% / 12px auto; color: rgb(255, 255, 255); line-height: 24px; overflow: hidden; padding-left: 16px; font-size: 15px; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.bg_pink.on {
+	border-radius: 4px;
+}
+.event_link div {
+	display: none !important;
+}
+.right .comment {
+	background: rgb(250, 250, 250); padding: 26px 24px; margin-top: 16px; display: block; position: relative;
+}
+.right .comment strong {
+	color: rgba(0, 0, 0, 0.87); font-size: 16px; margin-bottom: 15px; display: block;
+}
+.right .comment button {
+	background: none; border: currentColor; border-image: none; top: 24px; right: 24px; color: rgb(0, 121, 107); font-size: 16px; position: absolute;
+}
+.right .comment div {
+	height: auto; color: rgba(0, 0, 0, 0.56); line-height: 26px; overflow: hidden; font-size: 16px; display: block;
+}
+.right .comment .clamp {
+	height: 52px; -ms-text-overflow: ellipsis; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+}
+.tab {
+	margin: 38px auto 0px; padding: 0px 16px; width: 962px;
+}
+.tab button {
+	background: none; border-width: medium medium 2px; border-style: none none solid; border-color: currentColor currentColor rgb(255, 255, 255); padding: 0px; border-image: none; width: auto; height: 72px; color: rgba(0, 0, 0, 0.38); font-size: 18px; margin-right: 24px; float: none;
+}
+.tab button:nth-child(2) {
+	width: auto;
+}
+.tab .on {
+	color: rgb(230, 28, 81); font-weight: bold; border-bottom-color: rgb(242, 17, 76); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.room_info {
+	margin: 0px auto; width: 962px;
+}
+.room_info .gallery_m .index {
+	background: none; text-align: center; display: block;
+}
+.room_info .gallery_m .index p {
+	padding: 0px 25px; height: 40px; line-height: 40px; font-size: 15px; display: inline-block;
+}
+.room_info .room {
+	background: rgb(255, 255, 255); margin: 0px 0px 24px; padding: 24px 24px 24px 424px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.08); border-image: none; overflow: hidden; position: relative; box-sizing: border-box;
+}
+.room_info .room.on {
+	height: 826px;
+}
+.room_info .room.on .cal_bg {
+	transition:0.4s; display: block; opacity: 0;
+}
+.room_info .room.on .pic_wrap {
+	transition:0.4s; display: block; opacity: 0;
+}
+.room_info .room.on .cal_bg.visible {
+	opacity: 1;
+}
+.room_info .room.on .pic_wrap.visible {
+	opacity: 1;
+}
+.room_info {
+	background: rgb(255, 255, 255);
+}
+.room_info .pic_wrap {
+	margin: 0px !important; left: 111px; bottom: 79px; display: none; position: absolute;
+}
+.room_info .gallery_m {
+	width: 738px; height: 417px;
+}
+.room_info .pic_wrap {
+	width: 738px; height: 417px;
+}
+.room_info .gallery_m {
+	display: block;
+}
+.room_info .gallery_m .owl-stage-outer {
+	height: 417px;
+}
+.room_info .btn_date {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_cal_2.png") no-repeat 3px 50% / 32px auto rgba(250, 250, 250, 0.7); margin: 32px 0px; padding: 0px 0px 0px 38px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.08); border-image: none; width: 248px; height: 40px; color: rgba(0, 0, 0, 0.87); line-height: 40px; font-size: 18px; display: inline-block; position: relative;
+}
+.room_info .btn_date strong {
+	display: none;
+}
+.room_info .btn_date::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_down.png") no-repeat 0px 0px / 24px auto; top: 8px; width: 24px; height: 24px; right: 8px; display: inline-block; position: absolute; content: "";
+}
+.room_info .room {
+	background: rgb(255, 255, 255); margin: 0px 0px 24px; overflow: hidden; position: relative;
+}
+.room_info .room .cal_bg {
+	background: rgb(249, 249, 249); left: 23px; width: 914px; height: 528px; bottom: 23px; display: none; position: absolute;
+}
+.room_info .room .cal_bg button {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_close.png") no-repeat 50% 50% / 24px auto; border: currentColor; border-image: none; top: 0px; width: 48px; height: 48px; right: 0px; text-indent: -9999px; display: inline-block; position: absolute;
+}
+.room_info .pic_view {
+	left: 23px; top: 23px; width: 376px; height: 226px; display: inline-block; position: absolute; cursor: pointer;
+}
+.room_info .pic_view img {
+	width: 376px; height: 226px;
+}
+.room_info .pic_view::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_picview.png") no-repeat 0px 0px / 24px auto; width: 24px; height: 24px; right: 16px; bottom: 16px; display: inline-block; position: absolute; z-index: 10; content: "";
+}
+.room_info .pic_view.pic_empty::after {
+	display: none;
+}
+.room_info .room .title {
+	padding: 0px; height: 37px; line-height: 1; font-size: 20px; font-weight: bold; display: block;
+}
+.room_info .room .info {
+	margin: 0px; overflow: hidden; min-height: 188px;
+}
+.room_info .info .half {
+	width: 233px; float: left;
+}
+.room_info .info :last-child.half {
+	width: 233px; margin-left: 46px; float: left;
+}
+.room_info .info .half::after {
+	background: rgba(0, 0, 0, 0.08); top: 63px; width: 1px; height: 187px; right: 280px; display: inline-block; position: absolute; content: "";
+}
+.room_info .info .half .price {
+	padding: 0px; border-radius: 0px; border: currentColor; border-image: none; box-sizing: border-box;
+}
+.room_info .info .half .price strong {
+	height: 20px; line-height: 1.4; font-size: 18px; font-weight: bold; display: block;
+}
+.room_info .info .half .price strong span {
+	padding: 1px 3px; border: 1px solid rgb(255, 43, 92); border-image: none; top: 2px; color: rgb(255, 43, 92); line-height: normal; letter-spacing: -1px; font-size: 13px; margin-left: 0px; vertical-align: top; display: inline-block; position: relative;
+}
+.room_info .info .half .price div {
+	padding: 0px; height: 64px; text-align: right; color: rgb(230, 28, 81); font-size: 20px; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.room_info .info .price div .through {
+	height: 29px; color: rgba(0, 0, 0, 0.56); padding-top: 13px; font-size: 16px; font-weight: normal; text-decoration: line-through; margin-bottom: 3px;
+}
+.room_info .info .price div .through_none {
+	height: 29px; color: rgba(0, 0, 0, 0.56); padding-top: 13px; font-size: 16px; margin-bottom: 3px;
+}
+.room_info .info .price div p span {
+	background: rgb(255, 43, 92); padding: 2px 2px 1px; top: -2px; color: rgb(255, 255, 255); line-height: normal; font-size: 14px; margin-right: 4px; display: inline-block; position: relative;
+}
+.room_info .info .half .price ul {
+	padding: 11px 0px 0px; height: 64px;
+}
+.room_info .info .half .price ul li {
+	text-align: right; font-size: 16px; margin-bottom: 7px; position: relative;
+}
+.room_info .info .half .price ul li span {
+	left: 0px; top: 0px; color: rgba(0, 0, 0, 0.56); position: absolute;
+}
+.room_info .info button {
+	border-radius: 4px; border: currentColor; border-image: none; width: 100%; height: 40px; text-align: center; color: rgb(255, 255, 255); font-size: 16px; font-weight: normal; display: block;
+}
+.room_info .info .none ul {
+	visibility: hidden;
+}
+.room_info .info .none div .through {
+	visibility: hidden;
+}
+.room_info .info .none div p {
+	color: rgba(0, 0, 0, 0.87); font-weight: bold;
+}
+.room_info .info .ended p {
+	color: rgba(0, 0, 0, 0.87); font-weight: bold;
+}
+.room_info .info .fast .price {
+	padding: 0px; border-radius: 0px; border: currentColor; border-image: none; position: relative; box-sizing: border-box;
+}
+.room_info .info .fast .price strong {
+	height: 83px; line-height: 1; font-size: 18px; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.room_info .info .fast .price div {
+	top: 10px; text-align: right; right: 0px; font-size: 18px; position: absolute;
+}
+.room_info .info .fast .price div p b {
+	color: rgb(255, 43, 92); font-size: 20px;
+}
+.room_info .info .fast .through {
+	padding-top: 14px !important; margin-bottom: 6px !important;
+}
+.room_info .info .fast ul {
+	height: 65px; overflow: hidden; position: relative;
+}
+.room_info .info .fast ul::after {
+	background: rgba(0, 0, 0, 0.08); left: 50%; top: 12px; width: 1px; height: 16px; margin-top: 0px; display: inline-block; position: absolute; content: "";
+}
+.room_info .info .fast ul li {
+	padding: 11px 24px 13px; width: 50%; text-align: right; font-size: 16px; float: left; position: relative;
+}
+.room_info .info .fast ul li:last-child {
+	padding-right: 0px;
+}
+.room_info .info .fast ul li:last-child span {
+	left: 24px;
+}
+.room_info .info .fast ul li span {
+	left: 0px; top: 11px; color: rgba(0, 0, 0, 0.56); padding-right: 0px; display: inline-block; position: absolute;
+}
+.room_info .info .room_info_null .price {
+	padding: 0px; border-radius: 0px; border: currentColor; border-image: none; position: relative; box-sizing: border-box;
+}
+.room_info .info .room_info_null .price strong {
+	height: 147px; line-height: 1; font-size: 18px; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.room_info .info .room_info_null .price div {
+	top: 76px; text-align: right; right: 0px; font-size: 18px; position: absolute;
+}
+.room_info .info .room_info_null .price div p b {
+	color: rgb(255, 43, 92); font-size: 20px;
+}
+.room_info .info .room_info_null .through {
+	padding-top: 14px !important; margin-bottom: 6px !important;
+}
+.room_info .info .room_info_null ul {
+	height: 65px; overflow: hidden; position: relative;
+}
+.room_info .info .room_info_null ul::after {
+	background: rgba(0, 0, 0, 0.08); left: 50%; top: 12px; width: 1px; height: 16px; margin-top: 0px; display: inline-block; position: absolute; content: "";
+}
+.room_info .info .room_info_null ul li {
+	padding: 11px 24px 13px; width: 50%; text-align: right; font-size: 16px; float: left; position: relative;
+}
+.room_info .info .room_info_null ul li:last-child {
+	padding-right: 0px;
+}
+.room_info .info .room_info_null ul li:last-child span {
+	left: 24px;
+}
+.room_info .info .room_info_null ul li span {
+	left: 0px; top: 11px; color: rgba(0, 0, 0, 0.56); padding-right: 0px; display: inline-block; position: absolute;
+}
+.room_info .info .hotel .price {
+	padding: 0px; border-radius: 0px; border: currentColor; border-image: none; position: relative; box-sizing: border-box;
+}
+.room_info .info .hotel .price strong {
+	height: 76px; line-height: 1; padding-top: 41px; font-size: 16px; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.room_info .info .hotel .price div {
+	top: 10px; text-align: right; right: 0px; font-size: 18px; position: absolute;
+}
+.room_info .info .hotel .price div p b {
+	font-size: 20px;
+}
+.room_info .info .hotel .price button {
+	margin: 12px 0px; height: 48px; line-height: 48px; font-size: 16px;
+}
+.room_info .info .hotel .through {
+	padding-top: 14px !important; margin-bottom: 6px !important;
+}
+.room .owl-nav div {
+	width: 40px !important; height: 62px !important;
+}
+.room .owl-nav .disabled {
+	opacity: 0.3;
+}
+.room .owl-prev {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_lt_4.png") no-repeat 50% 50% / 20px auto rgb(255, 255, 255) !important; border-radius: 0px 4px 4px 0px; left: 0px !important;
+}
+.room .owl-next {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_gt_4.png") no-repeat 50% 50% / 20px auto rgb(255, 255, 255) !important; border-radius: 4px 0px 0px 4px; right: 0px !important;
+}
+.detail_info {
+	margin: 0px auto; width: 962px; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.detail_info button {
+	margin: 0px; padding: 0px 16px; height: 80px; line-height: 80px; font-size: 18px; border-top-color: rgba(0, 0, 0, 0.08); border-top-width: 1px; border-top-style: solid; display: block; position: relative;
+}
+.detail_info button::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_3.png") no-repeat 0px 0px / 12px auto rgb(255, 255, 255); top: 50%; width: 12px; height: 8px; right: 16px; margin-top: -4px; display: inline-block; position: absolute; content: "";
+}
+.detail_info .on {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.detail_info .on::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_3.png") no-repeat 0px -8px / 12px auto rgb(255, 255, 255);
+}
+.detail_info section {
+	background: rgb(250, 250, 250); margin: 0px 0px 23px; padding: 0px 57px; border-radius: 5px; overflow: hidden;
+}
+.detail_info .boss_intro {
+	display: none;
+}
+.detail_info .default_info {
+	padding: 12px 57px 48px;
+}
+.detail_info .default_info strong {
+	margin: 35px 0px 10px; color: rgba(0, 0, 0, 0.56); font-size: 16px; display: block;
+}
+.detail_info .default_info p {
+	color: rgba(0, 0, 0, 0.56); line-height: 24px; font-size: 15px;
+}
+.detail_info .default_info .map {
+	background: rgb(232, 232, 232); width: 100%; height: 160px; margin-top: 30px;
+}
+.dot_txt {
+	color: rgba(0, 0, 0, 0.56); line-height: 26px; font-size: 16px;
+}
+.dot_txt li {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_bul_3.png") no-repeat 0px 2px / 12px auto; padding-left: 14px; margin-bottom: 7px;
+}
+.col_pink {
+	color: rgb(242, 17, 76);
+}
+.right .info .benefit_wrap span {
+	font-size: 16px;
+}
+.theme.ie_fix img {
+	height: 250px;
+}
+.table_wrap table th {
+	font-size: 16px;
+}
+.table_wrap table td {
+	font-size: 16px;
+}
+.price_top div {
+	top: 35px; height: 30px; right: 15px; position: absolute;
+}
+.table_type_02 th {
+	padding: 11px 4px 10px; letter-spacing: 0px;
+}
+.table_type_02 td span {
+	margin-bottom: 10px;
+}
+.table_type_02 td {
+	padding: 13px 10px; height: 90px; letter-spacing: 0px; min-height: 90px;
+}
+.review {
+	margin: 0px auto; width: 962px;
+}
+.review .score_top {
+	padding: 44px 0px; text-align: center;
+}
+.review .score_top strong {
+	padding: 0px 0px 10px; text-align: center; font-size: 24px; font-weight: normal; display: block;
+}
+.review .score_top p {
+	font-size: 18px; margin-top: 22px;
+}
+.review .score_top p b {
+	font-size: 20px; font-weight: normal;
+}
+.review .score_top p span {
+	width: 32px; color: rgba(0, 0, 0, 0.08); display: inline-block;
+}
+.review .score_wrap {
+	text-align: center; overflow: hidden; display: inline-block;
+}
+.score_star {
+	background: url("//image.goodchoice.kr/images/web_v3/bg_score.png") no-repeat 0px 0px / 180px auto; width: 180px; height: 36px; display: inline-block;
+}
+.score_star.star_50 {
+	background-position: 0px 0px;
+}
+.score_star.star_45 {
+	background-position: 0px -37px;
+}
+.score_star.star_40 {
+	background-position: 0px -74px;
+}
+.score_star.star_35 {
+	background-position: 0px -110px;
+}
+.score_star.star_30 {
+	background-position: 0px -147px;
+}
+.score_star.star_25 {
+	background-position: 0px -183px;
+}
+.score_star.star_20 {
+	background-position: 0px -220px;
+}
+.score_star.star_15 {
+	background-position: 0px -256px;
+}
+.score_star.star_10 {
+	background-position: 0px -293px;
+}
+.score_star.star_05 {
+	background-position: 0px -329px;
+}
+.score_star.star_00 {
+	background-position: 0px -367px;
+}
+.review .score_wrap .num {
+	top: -1px; line-height: 1; padding-left: 12px; font-size: 32px; vertical-align: top; display: inline-block; position: relative;
+}
+.score_wrap_sm .score_star {
+	background: url("//image.goodchoice.kr/images/web_v3/bg_score.png") no-repeat 0px 0px / 100px auto; width: 100px; height: 20px; display: inline-block;
+}
+.score_wrap_sm .score_star.star_50 {
+	background-position: 0px 0px;
+}
+.score_wrap_sm .score_star.star_45 {
+	background-position: 0px -20px;
+}
+.score_wrap_sm .score_star.star_40 {
+	background-position: 0px -40px;
+}
+.score_wrap_sm .score_star.star_35 {
+	background-position: 0px -59px;
+}
+.score_wrap_sm .score_star.star_30 {
+	background-position: 0px -81px;
+}
+.score_wrap_sm .score_star.star_25 {
+	background-position: 0px -101px;
+}
+.score_wrap_sm .score_star.star_20 {
+	background-position: 0px -121px;
+}
+.score_wrap_sm .score_star.star_15 {
+	background-position: 0px -142px;
+}
+.score_wrap_sm .score_star.star_10 {
+	background-position: 0px -162px;
+}
+.score_wrap_sm .score_star.star_05 {
+	background-position: 0px -183px;
+}
+.score_wrap_sm .score_star.star_00 {
+	background-position: 0px -203px;
+}
+.review ul li {
+	padding: 47px 0px 28px; position: relative;
+}
+.review .guest .pic {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_none.png") no-repeat 0px 0px / 56px auto; border-radius: 100%; left: 16px; top: 47px; width: 56px; height: 56px; overflow: hidden; display: inline-block; position: absolute;
+}
+.review .guest .pic img {
+	width: 56px; height: 56px;
+}
+.review .guest strong {
+	padding: 0px 16px 8px 96px; line-height: normal; font-size: 18px; display: block;
+}
+.score_wrap_sm {
+	margin-left: 96px; display: block;
+}
+.score_wrap_sm div {
+	display: inline-block;
+}
+.score_wrap_sm .num {
+	top: -1px; font-size: 18px; margin-left: 4px; vertical-align: top; display: inline-block; position: relative;
+}
+.review .guest .name {
+	padding-top: 18px; font-size: 16px; margin-left: 96px;
+}
+.review .guest .name span {
+	padding: 0px 3px; border-radius: 4px; height: 18px; line-height: 18px; font-size: 14px; margin-right: 9px; display: inline-block;
+}
+.review .guest .name b {
+	font-weight: normal;
+}
+.review .guest .txt {
+	margin: 11px 0px 0px 96px; line-height: 26px; font-size: 16px;
+}
+.review .guest .date {
+	padding: 13px 0px 0px; color: rgba(0, 0, 0, 0.56); font-size: 16px; margin-left: 96px; display: inline-block;
+}
+.review .boss {
+	background: rgb(250, 250, 250); margin: 28px 0px 0px 96px; padding: 45px 40px 28px 96px; border-radius: 4px; position: relative;
+}
+.review .boss strong {
+	font-size: 18px; display: block;
+}
+.review .boss .txt {
+	margin: 15px 0px 13px; color: rgba(0, 0, 0, 0.87); line-height: 26px; font-size: 16px;
+}
+.review .boss .date {
+	color: rgba(0, 0, 0, 0.56); font-size: 16px;
+}
+.review .boss .pic {
+	left: 32px; top: 33px; width: 48px; height: 48px;
+}
+.review .boss .pic img {
+	width: 48px; height: 48px;
+}
+.gallery_re {
+	margin: 10px 0px 6px 96px;
+}
+.gallery_re ul li {
+	padding: 0px; border: currentColor; border-image: none;
+}
+.gallery_re .owl-dots {
+	display: none;
+}
+.gallery_re .owl-nav div {
+	width: 40px !important; height: 62px !important;
+}
+.gallery_re .owl-nav .disabled {
+	opacity: 0.3;
+}
+.gallery_re .owl-prev {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_lt_4.png") no-repeat 50% 50% / 20px auto rgb(255, 255, 255) !important; border-radius: 0px 4px 4px 0px; left: 0px !important; margin-top: -31px !important;
+}
+.gallery_re .owl-next {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_gt_4.png") no-repeat 50% 50% / 20px auto rgb(255, 255, 255) !important; border-radius: 4px 0px 0px 4px; right: 0px !important; margin-top: -31px !important;
+}
+.membership {
+	font-size: 16px;
+}
+.membership h5 {
+	height: 25px; line-height: 25px; padding-left: 29px; font-size: 18px; margin-bottom: 23px; display: block;
+}
+.membership .stamp h5 {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_stamp.png") no-repeat 0px 0px / 25px auto;
+}
+.membership .mileage h5 {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_mileage.png") no-repeat 0px 0px / 25px auto;
+}
+.membership div {
+	padding: 38px 0px 32px; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.membership div:last-child {
+	padding-bottom: 54px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.membership p {
+	margin-bottom: 6px;
+}
+.membership b {
+	margin: 40px 0px 16px; display: block;
+}
+.membership strong + b {
+	margin-top: 23px;
+}
+.membership ul {
+	margin-bottom: 20px;
+}
+.membership ul:last-child {
+	margin-bottom: 0px;
+}
+.membership ul li:last-child {
+	margin-bottom: 0px;
+}
+.membership li {
+	margin-bottom: 7px;
+}
+.membership .alert {
+	background: rgba(0, 0, 0, 0.05); margin: 5px 0px 19px; padding: 11px 24px; line-height: 26px;
+}
+.theme {
+	padding: 10px 57px !important;
+}
+.theme ul > li {
+	border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.theme ul > li:last-child {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.theme ul li .title {
+	background-position: 0px 50% !important; height: 79px; color: rgba(0, 0, 0, 0.56); line-height: 79px; padding-left: 31px; font-size: 18px; background-size: 25px auto !important;
+}
+.theme .owl-dots {
+	display: none;
+}
+.gallery_theme {
+	margin-bottom: 47px;
+}
+.theme .has_gall .title {
+	height: 69px; line-height: 69px; margin-top: 24px;
+}
+.service {
+	padding: 50px 56px 0px !important;
+}
+.service .theme_wrap {
+	padding: 0px 0px 30px;
+}
+.service .theme_wrap li {
+	background-position: 50% 0px !important; margin: 0px 0px 20px; width: 91px; height: 60px; text-align: center; color: rgba(0, 0, 0, 0.56); padding-top: 43px; font-size: 13px; float: left; background-size: 35px auto !important;
+}
+.service div {
+	margin: 0px; padding: 44px 0px 49px; color: rgba(0, 0, 0, 0.56); line-height: 26px; font-size: 16px; border-top-color: rgba(0, 0, 0, 0.08); border-top-width: 1px; border-top-style: solid;
+}
+.service div li {
+	margin-bottom: 30px;
+}
+.service div li:last-child {
+	margin-bottom: 0px;
+}
+.theme ul li .title {
+	margin-left: 0px;
+}
+.theme .swiper-container {
+	padding: 0px; position: relative;
+}
+.gallery_re .swiper-button-next {
+	top: 50%; display: block; position: absolute; z-index: 20;
+}
+.gallery_re .swiper-button-prev {
+	top: 50%; display: block; position: absolute; z-index: 20;
+}
+.gallery_theme .swiper-button-next {
+	top: 50%; display: block; position: absolute; z-index: 20;
+}
+.gallery_theme .swiper-button-prev {
+	top: 50%; display: block; position: absolute; z-index: 20;
+}
+.gallery_re .swiper-button-next {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_gt_4.png") no-repeat 50% 50% / 20px auto rgb(255, 255, 255) !important; border-radius: 4px 0px 0px 4px; width: 40px; height: 62px; right: 0px; margin-top: -31px;
+}
+.gallery_theme .swiper-button-next {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_gt_4.png") no-repeat 50% 50% / 20px auto rgb(255, 255, 255) !important; border-radius: 4px 0px 0px 4px; width: 40px; height: 62px; right: 0px; margin-top: -31px;
+}
+.gallery_re .swiper-button-prev {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_lt_4.png") no-repeat 50% 50% / 20px auto rgb(255, 255, 255) !important; border-radius: 0px 4px 4px 0px; left: 0px; width: 40px; height: 62px; margin-top: -31px;
+}
+.gallery_theme .swiper-button-prev {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_lt_4.png") no-repeat 50% 50% / 20px auto rgb(255, 255, 255) !important; border-radius: 0px 4px 4px 0px; left: 0px; width: 40px; height: 62px; margin-top: -31px;
+}
+.right .info > .build_badge {
+	line-height: 27px; font-size: 20px; vertical-align: top;
+}
+}
+.pop_full {
+	background: rgb(235, 235, 235); left: 0px; top: 0px; right: 0px; bottom: 0px; display: none; position: fixed; z-index: 420;
+}
+.pop_full .iscroll_cp {
+	margin: 0px; left: 0px; top: 44px; width: 100%; bottom: 0px; overflow: hidden; position: absolute; z-index: 1;
+}
+.pop_full .scroller {
+	text-align: center;
+}
+.pop_mem {
+	padding-top: 8px;
+}
+.pop_evt {
+	padding-top: 8px;
+}
+.pop_mem .benefit {
+	margin: 0px 8px 8px; border-radius: 4px; text-align: left; overflow: hidden;
+}
+.pop_evt .benefit {
+	margin: 0px 8px 8px; border-radius: 4px; text-align: left; overflow: hidden;
+}
+.pop_mem :first-child.benefit {
+	margin-top: 8px;
+}
+.pop_evt :first-child.benefit {
+	margin-top: 8px;
+}
+.pop_mem .benefit strong {
+	height: 48px; color: rgb(255, 255, 255); line-height: 48px; padding-left: 16px; font-size: 14px; display: block;
+}
+.pop_evt .benefit strong {
+	height: 48px; color: rgb(255, 255, 255); line-height: 48px; padding-left: 16px; font-size: 14px; display: block;
+}
+.pop_mem .benefit div {
+	background: rgb(255, 255, 255); margin: 0px 2px 2px; padding: 21px 14px 19px; color: rgba(0, 0, 0, 0.56); line-height: 22px; font-size: 14px;
+}
+.pop_evt .benefit div {
+	background: rgb(255, 255, 255); margin: 0px 2px 2px; padding: 21px 14px 19px; color: rgba(0, 0, 0, 0.56); line-height: 22px; font-size: 14px;
+}
+.pop_useinfo .iscroll_cp {
+	background: rgb(255, 255, 255);
+}
+.pop_useinfo section {
+	margin: 0px 16px; text-align: left; color: rgba(0, 0, 0, 0.56); padding-bottom: 18px; font-size: 15px; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.pop_useinfo section strong {
+	margin: 30px 0px 10px; display: block;
+}
+.pop_useinfo section .dot_txt li {
+	line-height: 24px;
+}
+.pop_useinfo section:last-child {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+@media all and (min-width:1024px)
+{
+.pop_full {
+	background: rgb(255, 255, 255); margin: -250px 0px 0px -200px; border-radius: 4px; left: 50%; top: 50%; width: 368px; height: 500px; right: auto; bottom: auto; overflow: hidden; position: fixed;
+}
+.pop_full .iscroll_cp {
+	margin: 0px; left: 0px; top: 64px; width: 100%; bottom: 0px;
+}
+.pop_full .fix_title {
+	background: rgb(255, 255, 255); height: 64px; text-align: left; line-height: 64px; padding-left: 32px; font-size: 18px; font-weight: bold; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid; display: block !important; position: relative;
+}
+.pop_full .fix_title button {
+	top: 10px; right: 17px;
+}
+.pop_mem {
+	padding-top: 0px;
+}
+.pop_evt {
+	padding-top: 0px;
+}
+.pop_mem .benefit {
+	margin: 0px 10px 8px;
+}
+.pop_evt .benefit {
+	margin: 0px 10px 8px;
+}
+.pop_mem :first-child.benefit {
+	margin-top: 8px;
+}
+.pop_evt :first-child.benefit {
+	margin-top: 8px;
+}
+.pop_mem .benefit strong {
+	height: 48px; color: rgb(255, 255, 255); line-height: 48px; padding-left: 16px; font-size: 14px; display: block;
+}
+.pop_evt .benefit strong {
+	height: 48px; color: rgb(255, 255, 255); line-height: 48px; padding-left: 16px; font-size: 14px; display: block;
+}
+.pop_mem .benefit div {
+	background: rgb(255, 255, 255); margin: 0px 2px 2px; padding: 21px 14px 19px; color: rgba(0, 0, 0, 0.56); line-height: 22px; font-size: 14px;
+}
+.pop_evt .benefit div {
+	background: rgb(255, 255, 255); margin: 0px 2px 2px; padding: 21px 14px 19px; color: rgba(0, 0, 0, 0.56); line-height: 22px; font-size: 14px;
+}
+.pop_useinfo {
+	margin: -250px 0px 0px -265px; width: 529px;
+}
+.pop_useinfo .iscroll_cp {
+	background: rgb(255, 255, 255);
+}
+.pop_useinfo section {
+	margin: 0px 32px; text-align: left; color: rgba(0, 0, 0, 0.56); padding-bottom: 18px; font-size: 16px; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.pop_useinfo section strong {
+	margin: 37px 0px 10px; display: block;
+}
+.pop_useinfo section .dot_txt li {
+	line-height: 26px;
+}
+.pop_useinfo section:last-child {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+}
+.detail_info .default_info .map a {
+	display: none !important;
+}
+.layer.pop_full.pop_mem article {
+	background: linear-gradient(to right, rgb(0, 154, 189) 0%, rgb(18, 177, 162) 100%); margin: 8px; border-radius: 4px; text-align: left; overflow: hidden; display: block;
+}
+.layer.pop_full.pop_mem article strong {
+	height: 48px; color: rgb(255, 255, 255); line-height: 48px; padding-left: 16px; font-size: 14px; font-weight: normal; display: block;
+}
+.layer.pop_full.pop_mem article div.stage {
+	background: rgb(255, 255, 255); margin: 0px 2px 2px; padding: 21px 14px 19px; color: rgba(0, 0, 0, 0.56); line-height: 22px; font-size: 14px;
+}
+div.special_popup {
+	display: none;
+}
+.pop_specialday_alert {
+	font-size: 14px;
+}
+.pop_specialday_alert h5 {
+	font-size: 14px;
+}
+.pop_specialday_alert p.special_date {
+	padding: 15px 0px; color: rgb(255, 0, 85); font-size: 14px;
+}
+.pop_specialday_alert p.special_content {
+	color: rgba(0, 0, 0, 0.56); font-size: 14px;
+}
+section.table_wrap.special_price .price_top {
+	margin-bottom: 20px;
+}
+.map_stage p em.mark span {
+	background: none; display: block;
+}
+.map_stage p em.mark i {
+	display: none;
+}
+.owl-item em.mark span i {
+	display: none;
+}
+.owl-item .price em {
+	text-decoration: line-through; display: block;
+}
+.owl-item em.mark span {
+	background: none;
+}
+@media all and (min-width:1024px)
+{
+.pop_specialday_alert {
+	font-size: 16px;
+}
+.pop_specialday_alert h5 {
+	font-size: 16px;
+}
+.pop_specialday_alert p.special_date {
+	font-size: 16px;
+}
+.pop_specialday_alert p.special_content {
+	font-size: 16px;
+}
+.map_stage p em {
+	text-decoration: line-through; display: block;
+}
+.map_stage p em.mark {
+	text-decoration: none;
+}
+}

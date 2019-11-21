@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Payment"
+    android:padding="15dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="30dp"
+        android:text="주차장선택 및 결제"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:id="@+id/white"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="예약가능"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_red_light"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="예약완료"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="통로"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:id="@+id/container"
+        android:orientation="vertical">
+
+    </LinearLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="4">
+        <TextView
+            android:layout_gravity="right"
+            android:text="보유 적립금"/>
+        <TextView
+            android:id="@+id/m_membership"
+            android:layout_gravity="right"
+            android:gravity="bottom|right"
+            android:text="0"
+            android:layout_columnSpan="2"/>
+        <TextView android:text="원"/>
+        <TextView
+            android:layout_gravity="right"
+            android:text="사용 적립금"/>
+        <Button
+            android:layout_gravity="right"
+            android:layout_columnWeight="3"
+            android:id="@+id/useAll"
+            android:text="모두 사용"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#60B6DF"/>
+        <EditText
+            android:id="@+id/use_membership"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|right"
+            android:layout_gravity="right"
+            android:inputType="number"
+            android:text="0"/>
+        <TextView android:text="원"/>
+
+
+        <TextView
+            android:layout_gravity="right"
+            android:text="결제금액"/>
+        <TextView
+            android:layout_gravity="right"
+            android:id="@+id/totalPrice"
+            android:textSize="24dp"
+            android:textColor="#990000"
+            android:layout_columnSpan="2"
+            android:text="xxx,xxx,xxx"/>
+        <TextView android:text="원"/>
+
+    </GridLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/paymentAction"
+        android:backgroundTint="#60B6DF"
+        android:textColor="#FFFFFF"
+        android:text="결제하기"/>
+</LinearLayout>

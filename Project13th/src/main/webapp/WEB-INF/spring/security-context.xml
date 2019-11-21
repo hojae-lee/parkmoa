@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:security="http://www.springframework.org/schema/security"
+   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+      http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-4.2.xsd">
+   
+
+   <security:http>
+      <security:intercept-url pattern="/admin/AdLogin.do" access="permitAll" />
+      <security:intercept-url pattern="/admin/**" access="hasRole('admin')" />
+      <security:intercept-url pattern="/**" access="permitAll"/>
+      <security:form-login
+         login-page="/admin/AdLogin.do"
+         default-target-url="/admin/AdminIndex.do"
+         authentication-failure-forward-url="/admin/AdLogin.do?error"
+         username-parameter="m_id"
+         password-parameter="m_pw"/>
+      <security:logout
+         logout-url="/admin/logout"
+         logout-success-url="/admin/AdLogin.do"/>
+      <security:access-denied-handler
+         error-page="/admin/accessDenied.do"/>
+   </security:http>
+   
+   <security:authentication-manager>
+      <security:authentication-provider>
+         <security:jdbc-user-service 
+            data-source-ref="dataSource"
+            role-prefix="ROLE_"
+            users-by-username-query="
+            select m_id, m_pw, enabled from parkmoamember where m_id=?"
+            authorities-by-username-query="
+            select m_id, authority from parkmoamember where m_id=?" />
+      </security:authentication-provider>
+   </security:authentication-manager>
+
+</beans>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	<!-- DB연결 -->
+	<bean name="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName"
+			value="oracle.jdbc.OracleDriver" />
+		<property name="url"
+			value="jdbc:oracle:thin:@localhost:1521:orcl" />
+		<property name="username" value="kosmo" />
+		<property name="password" value="1234" />
+	</bean>
+
+	<!-- 클라이언트ID와 보안비밀 세팅 -->
+	<bean id="googleConnectionFactory"
+		class="org.springframework.social.google.connect.GoogleConnectionFactory">
+		<constructor-arg
+			value="84983341227-828j7vv78d6h78ca330uc2adbp1uouog.apps.googleusercontent.com" />
+		<constructor-arg value="Gqo5w2iKztYcRIbTRi3Ix_v_" />
+	</bean>
+
+	<!-- 승인된 자바스크립트 원본과 승인된 리디렉션 URI -->
+	<bean id="googleOAuth2Parameters"
+		class="org.springframework.social.oauth2.OAuth2Parameters">
+		<property name="scope"
+			value="https://www.googleapis.com/auth/userinfo.email" />
+		<property name="redirectUri"
+			value="http://localhost:8080/project3rd/parkmoa/member/googlecallback" />
+	</bean>
+</beans>

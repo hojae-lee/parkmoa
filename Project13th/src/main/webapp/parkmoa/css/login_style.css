@@ -1,0 +1,2254 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: icomoon;
+	src: url(/icomoon/fonts/icomoon.eot?xtugpv#iefix) format("embedded-opentype"), url(/icomoon/fonts/icomoon.ttf?xtugpv) format("truetype"), url(/icomoon/fonts/icomoon.woff?xtugpv) format("woff"), url(/icomoon/fonts/icomoon.svg?xtugpv#Jam-icons) format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+* {
+	outline: 0px;
+}
+html {
+	color: rgba(0, 0, 0, 0.87); line-height: 1; font-family: "Apple SD Gothic Neo","맑은 고딕","Malgun Gothic",sans-serif; font-size: 14px; -webkit-text-size-adjust: none;
+}
+body {
+	color: rgba(0, 0, 0, 0.87); line-height: 1; font-family: "Apple SD Gothic Neo","맑은 고딕","Malgun Gothic",sans-serif; font-size: 14px; -webkit-text-size-adjust: none;
+}
+input::-ms-clear {
+	display: none;
+}
+input::-ms-reveal {
+	display: none;
+}
+img {
+	border: 0px currentColor; border-image: none; vertical-align: top; -webkit-touch-callout: none;
+}
+a {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+button {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+div {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+li {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+textarea {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+form {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+label {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+select {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+article {
+	display: block;
+}
+aside {
+	display: block;
+}
+details {
+	display: block;
+}
+figcaption {
+	display: block;
+}
+figure {
+	display: block;
+}
+footer {
+	display: block;
+}
+header {
+	display: block;
+}
+hgroup {
+	display: block;
+}
+menu {
+	display: block;
+}
+nav {
+	display: block;
+}
+section {
+	display: block;
+}
+html {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+body {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+div {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+span {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+object {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+iframe {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+h1 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+h2 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+h3 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+h4 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+h5 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+h6 {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+p {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+blockquote {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+pre {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+abbr {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+address {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+cite {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+code {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+del {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+dfn {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+em {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+img {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+ins {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+kbd {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+q {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+samp {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+small {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+strong {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+sub {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+sup {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+var {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+b {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+i {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+dl {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+dt {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+dd {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+ol {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+ul {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+li {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+fieldset {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+form {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+label {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+legend {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+table {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+caption {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+tbody {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+tfoot {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+thead {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+tr {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+th {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+td {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+article {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+aside {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+canvas {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+details {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+figcaption {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+figure {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+footer {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+header {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+hgroup {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+menu {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+nav {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+section {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+summary {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+time {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+mark {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+audio {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+video {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; box-sizing: border-box;
+}
+ul {
+	list-style: none;
+}
+ol {
+	list-style: none;
+}
+li {
+	list-style: none;
+}
+fieldset {
+	border: 0px currentColor; border-image: none;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+a {
+	text-decoration: none;
+}
+address {
+	font-style: normal; font-weight: normal;
+}
+caption {
+	font-style: normal; font-weight: normal;
+}
+em {
+	font-style: normal; font-weight: normal;
+}
+var {
+	font-style: normal; font-weight: normal;
+}
+textarea {
+	border-radius: 0px; font-family: "Apple SD Gothic Neo","맑은 고딕","맑은고딕","Malgun Gothic",sans-serif; appearance: none; -webkit-appearance: none; -moz-appearance: none;
+}
+button {
+	border-radius: 0px; font-family: "Apple SD Gothic Neo","맑은 고딕","맑은고딕","Malgun Gothic",sans-serif; appearance: none; -webkit-appearance: none; -moz-appearance: none;
+}
+input {
+	border-radius: 0px; font-family: "Apple SD Gothic Neo","맑은 고딕","맑은고딕","Malgun Gothic",sans-serif; appearance: none; -webkit-appearance: none; -moz-appearance: none;
+}
+select {
+	border-radius: 0px; font-family: "Apple SD Gothic Neo","맑은 고딕","맑은고딕","Malgun Gothic",sans-serif; appearance: none; -webkit-appearance: none; -moz-appearance: none;
+}
+button {
+	padding: 0px; cursor: pointer;
+}
+button:focus {
+	padding: 0px;
+}
+button:active {
+	padding: 0px;
+}
+button span {
+	position: relative;
+}
+select::-ms-expand {
+	display: none;
+}
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+label {
+	cursor: pointer;
+}
+#skip_nav {
+	display: none;
+}
+@media all and (min-width:1024px)
+{
+#skip_nav a {
+	background: rgb(255, 255, 255); margin: 0px; padding: 14px 25px; left: 0px; top: -9999px; color: rgb(253, 3, 84); font-size: 15px; display: inline-block; position: absolute; z-index: 300;
+}
+#skip_nav a:focus {
+	top: 0px;
+}
+}
+[class^='icon-'] {
+	text-transform: none; line-height: 1; font-family: "icomoon" !important; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+[class*=' icon-'] {
+	text-transform: none; line-height: 1; font-family: "icomoon" !important; font-style: normal; font-variant: normal; font-weight: normal; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.icon-ic_arrow_down_primary::before {
+	content: "\e900";
+}
+.icon-ic_arrow_up_primary::before {
+	content: "\e901";
+}
+.icon-ic_naverpost-1::before {
+	content: "\e902";
+}
+.icon-ic_login_naver::before {
+	content: "\e903";
+}
+.icon-ic_login_kakaotalk::before {
+	content: "\e904";
+}
+.icon-ic_facebook::before {
+	content: "\e905";
+}
+.icon-ic_downwards_arrow::before {
+	content: "\e906";
+}
+.icon-ic_medium::before {
+	content: "\e907";
+}
+.icon-ic_blog::before {
+	content: "\e908";
+}
+.icon-ic_star::before {
+	content: "\e909";
+}
+.icon-img_black_symbol::before {
+	content: "\e90a";
+}
+.scroller {
+	width: 100%; position: absolute; z-index: 100; -ms-text-size-adjust: none; -ms-user-select: none; transform: translateZ(0px); touch-action: none; -webkit-text-size-adjust: none; -webkit-touch-callout: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-transform: translateZ(0); -moz-transform: translateZ(0); -o-transform: translateZ(0); -webkit-user-select: none; -moz-user-select: none; user-select: none; -moz-text-size-adjust: none; -o-text-size-adjust: none; text-size-adjust: none;
+}
+.owl-stage-outer {
+	touch-action: none;
+}
+.spinner {
+	margin: -10px 0px 0px -10px; border-radius: 100%; border: 3px solid rgb(238, 238, 238); animation:spinner 0.7s linear infinite; border-image: none; left: 50%; top: 50%; width: 30px; height: 30px; display: none; position: fixed; z-index: 420;
+}
+.spinner.show {
+	display: block;
+}
+.spinner span {
+	border-width: 3px; border-style: solid; border-color: rgb(255, 255, 255) rgb(190, 190, 190) rgb(190, 190, 190); border-radius: 100%; border-image: none; left: -3px; top: -3px; width: 30px; height: 30px; position: absolute;
+}
+input[type=checkbox].inp_chk {
+	margin: -1px; padding: 0px; border: 0px currentColor; border-image: none; left: -1000px; width: 1px; height: 1px; overflow: hidden; position: absolute; z-index: -1000; clip: rect(0px, 0px, 0px, 0px);
+}
+input[type=checkbox].inp_chk + label.label_chk {
+	background-position: 0px 0px; padding: 0px 0px 0px 32px; height: 21px; color: rgba(0, 0, 0, 0.56); line-height: 22px; font-size: 16px; vertical-align: top; display: inline-block; cursor: pointer; background-repeat: no-repeat;
+}
+input[type=checkbox]:checked.inp_chk + label.label_chk {
+	background-position: 0px -21px;
+}
+label.label_chk {
+	-ms-user-select: none; background-image: url("//image.goodchoice.kr/images/web_v3/ico_chk.png"); background-size: 21px auto; -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select: none; user-select: none; -khtml-user-select: none;
+}
+input[type=checkbox].inp_chk_02 {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_chk.png") no-repeat 0px 0px / 24px auto; border: currentColor; border-image: none; width: 24px; height: 24px; cursor: pointer;
+}
+input[type=checkbox]:checked.inp_chk_02 {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_chk.png") no-repeat 0px -24px / 24px auto;
+}
+input[type=checkbox].inp_chk_03 {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_chk.png") no-repeat 0px 0px / 20px auto; border: currentColor; border-image: none; width: 20px; height: 20px; cursor: pointer;
+}
+input[type=checkbox]:checked.inp_chk_03 {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_chk.png") no-repeat 0px -20px / 20px auto;
+}
+input[type=radio].inp_radio {
+	margin: -1px; padding: 0px; border: 0px currentColor; border-image: none; left: -1000px; width: 1px; height: 1px; overflow: hidden; position: absolute; z-index: -1000; clip: rect(0px, 0px, 0px, 0px);
+}
+input[type=radio].inp_radio + label.label_radio {
+	background-position: 0px 0px; padding: 0px 0px 0px 32px; height: 21px; color: rgba(0, 0, 0, 0.56); line-height: 22px; font-size: 16px; vertical-align: top; display: inline-block; cursor: pointer; background-repeat: no-repeat;
+}
+input[type=radio]:checked.inp_radio + label.label_radio {
+	background-position: 0px -21px;
+}
+label.label_radio {
+	-ms-user-select: none; background-image: url("//image.goodchoice.kr/images/web_v3/ico_radio.png"); background-size: 21px auto; -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select: none; user-select: none; -khtml-user-select: none;
+}
+.inp_wrap {
+	padding: 0px 40px 0px 10px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.08); border-image: none; height: 44px; position: relative;
+}
+.inp_wrap input {
+	background: none; border: currentColor; border-image: none; width: 100%; height: 20px; color: rgba(0, 0, 0, 0.56); line-height: 1; font-size: 16px; margin-top: 10px;
+}
+.inp_wrap input:-ms-input-placeholder {
+	color: rgba(0, 0, 0, 0.26); font-size: 16px;
+}
+.reset_val {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_reset.png") no-repeat 50% 50% / 20px auto; border: currentColor; border-image: none; top: 50%; width: 20px; height: 20px; right: 14px; text-indent: -9999px; margin-top: -10px; display: inline-block; visibility: hidden; position: absolute;
+}
+.reset_val.show {
+	visibility: visible;
+}
+.inp_ok {
+	border: 1px solid rgba(0, 0, 0, 0.38) !important; border-image: none !important;
+}
+@media all and (min-width:1024px)
+{
+.inp_wrap {
+	padding: 8px 14px 8px 16px; border: 1px solid rgba(0, 0, 0, 0.08); border-image: none;
+}
+.inp_wrap input {
+	background: none; border: currentColor; border-image: none; width: 100%; color: rgba(0, 0, 0, 0.56); font-size: 18px; margin-top: 3px;
+}
+.inp_wrap input:-ms-input-placeholder {
+	color: rgba(0, 0, 0, 0.26); font-size: 18px;
+}
+.srch_bar .inp_ok {
+	border: currentColor !important; border-image: none !important;
+}
+}
+.select_type_1 {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_down.png") no-repeat right 10px top 50% / 25px auto rgb(250, 250, 250); padding: 0px 12px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.08); border-image: none; width: 100%; height: 40px; color: rgba(0, 0, 0, 0.87); font-size: 16px; cursor: pointer;
+}
+.select_type_1 option {
+	color: rgba(0, 0, 0, 0.56);
+}
+.select_type_2 {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_down_4.png") no-repeat right 10px top 50% / 18px auto rgb(250, 250, 250); padding: 0px 12px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.08); border-image: none; width: 100%; height: 40px; color: rgba(0, 0, 0, 0.56); font-size: 16px; cursor: pointer;
+}
+@media all and (min-width:1024px)
+{
+.select_type_1 {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_down.png") no-repeat right 10px top 50% / 25px auto rgb(250, 250, 250); padding: 0px 12px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.08); border-image: none; height: 48px; color: rgba(0, 0, 0, 0.56); font-size: 18px; cursor: pointer;
+}
+}
+input[type=checkbox].inp_room_01 {
+	margin: -1px; padding: 0px; border: 0px currentColor; border-image: none; left: -1000px; width: 1px; height: 1px; overflow: hidden; position: absolute; z-index: -1000; clip: rect(0px, 0px, 0px, 0px);
+}
+input[type=checkbox].inp_room_01 + label.label_room_01 {
+	background-position: 0px 0px; padding: 28px 0px 0px; width: 76px; height: 46px; text-align: center; color: rgba(0, 0, 0, 0.87); line-height: normal; font-size: 13px; vertical-align: top; display: inline-block; position: relative; cursor: pointer; background-repeat: no-repeat;
+}
+input[type=checkbox].inp_room_01 + label.label_room_01::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_room.png") no-repeat 0px 0px / 192px auto; margin: 0px 0px 0px -24px; left: 50%; top: 0px; width: 48px; height: 24px; display: inline-block; position: absolute; content: "";
+}
+input[type=checkbox]:checked.inp_room_01 + label.label_room_01::after {
+	background-position: 0px -24px;
+}
+input[type=checkbox]:checked.inp_room_01 + label {
+	color: rgba(242, 17, 76, 0.87);
+}
+input[type=checkbox].inp_room_02 {
+	margin: -1px; padding: 0px; border: 0px currentColor; border-image: none; left: -1000px; width: 1px; height: 1px; overflow: hidden; position: absolute; z-index: -1000; clip: rect(0px, 0px, 0px, 0px);
+}
+input[type=checkbox].inp_room_02 + label.label_room_02 {
+	background-position: 0px 0px; padding: 28px 0px 0px; width: 76px; height: 46px; text-align: center; color: rgba(0, 0, 0, 0.87); line-height: normal; font-size: 13px; vertical-align: top; display: inline-block; position: relative; cursor: pointer; background-repeat: no-repeat;
+}
+input[type=checkbox].inp_room_02 + label.label_room_02::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_room.png") no-repeat -48px 0px / 192px auto; margin: 0px 0px 0px -24px; left: 50%; top: 0px; width: 48px; height: 24px; display: inline-block; position: absolute; content: "";
+}
+input[type=checkbox]:checked.inp_room_02 + label.label_room_02::after {
+	background-position: -48px -24px;
+}
+input[type=checkbox]:checked.inp_room_02 + label {
+	color: rgba(242, 17, 76, 0.87);
+}
+input[type=checkbox].inp_room_03 {
+	margin: -1px; padding: 0px; border: 0px currentColor; border-image: none; left: -1000px; width: 1px; height: 1px; overflow: hidden; position: absolute; z-index: -1000; clip: rect(0px, 0px, 0px, 0px);
+}
+input[type=checkbox].inp_room_03 + label.label_room_03 {
+	background-position: 0px 0px; padding: 28px 0px 0px; width: 76px; height: 46px; text-align: center; color: rgba(0, 0, 0, 0.87); line-height: normal; font-size: 13px; vertical-align: top; display: inline-block; position: relative; cursor: pointer; background-repeat: no-repeat;
+}
+input[type=checkbox].inp_room_03 + label.label_room_03::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_room.png") no-repeat -96px 0px / 192px auto; margin: 0px 0px 0px -24px; left: 50%; top: 0px; width: 48px; height: 24px; display: inline-block; position: absolute; content: "";
+}
+input[type=checkbox]:checked.inp_room_03 + label.label_room_03::after {
+	background-position: -96px -24px;
+}
+input[type=checkbox]:checked.inp_room_03 + label {
+	color: rgba(242, 17, 76, 0.87);
+}
+input[type=checkbox].inp_room_04 {
+	margin: -1px; padding: 0px; border: 0px currentColor; border-image: none; left: -1000px; width: 1px; height: 1px; overflow: hidden; position: absolute; z-index: -1000; clip: rect(0px, 0px, 0px, 0px);
+}
+input[type=checkbox].inp_room_04 + label.label_room_04 {
+	background-position: 0px 0px; padding: 28px 0px 0px; width: 76px; height: 46px; text-align: center; color: rgba(0, 0, 0, 0.87); line-height: normal; font-size: 13px; vertical-align: top; display: inline-block; position: relative; cursor: pointer; background-repeat: no-repeat;
+}
+input[type=checkbox].inp_room_04 + label.label_room_04::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_room.png") no-repeat -144px 0px / 192px auto; margin: 0px 0px 0px -24px; left: 50%; top: 0px; width: 48px; height: 24px; display: inline-block; position: absolute; content: "";
+}
+input[type=checkbox]:checked.inp_room_04 + label.label_room_04::after {
+	background-position: -144px -24px;
+}
+input[type=checkbox]:checked.inp_room_04 + label {
+	color: rgba(242, 17, 76, 0.87);
+}
+.wrap {
+	background: rgb(255, 255, 255); width: 100%; visibility: hidden; opacity: 0;
+}
+.wrap.show {
+	visibility: visible; opacity: 1;
+}
+footer.show {
+	visibility: visible; opacity: 1;
+}
+#content {
+	overflow: hidden;
+}
+.ellip {
+	overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.mb_0 {
+	margin-bottom: 0px !important;
+}
+.pt_0 {
+	padding-top: 0px !important;
+}
+.ovy_hide {
+	-ms-overflow-y: hidden;
+}
+.col_red {
+	color: rgb(242, 17, 76) !important;
+}
+.col_mint {
+	color: rgb(2, 134, 118) !important;
+}
+.bdb_none {
+	border-bottom-color: currentColor !important; border-bottom-width: medium !important; border-bottom-style: none !important;
+}
+@media all and (max-width:320px)
+{
+.wrap {
+	width: 320px;
+}
+}
+header {
+	position: relative; z-index: 210;
+}
+header section {
+	width: 100%;
+}
+h2 {
+	color: rgba(0, 0, 0, 0.87); font-size: 14px; font-weight: bold; margin-bottom: 13px;
+}
+header section {
+	background: rgb(255, 255, 255); height: 44px;
+}
+header section h1 {
+	background: url("//image.goodchoice.kr/images/web_v3/h1_logo_mo.png") no-repeat 0px 0px / 95px auto; margin: 0px 0px 0px -47.5px; left: 50%; top: 12px; width: 95px; height: 20px; position: absolute;
+}
+header section h1 a {
+	text-indent: -9999px; display: block;
+}
+header section .btn_menu {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_menu.png") no-repeat 50% 50% / 24px auto; border: currentColor; border-image: none; left: 8px; top: 2px; width: 40px; height: 40px; text-indent: -9999px; position: absolute;
+}
+.mobile header section .btn_srch {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_srch.png") no-repeat 50% 50% / 24px auto; border: currentColor; border-image: none; top: 2px; width: 40px; height: 40px; right: 8px !important; text-indent: -9999px; position: absolute;
+}
+.mobile .gnb_pc {
+	display: none !important;
+}
+header {
+	background: rgb(247, 50, 63); position: relative;
+}
+.roll {
+	background: rgb(247, 50, 63); position: relative;
+}
+.fix_title h1.page_head {
+	text-align: center;
+}
+.fix_title h1.page_head a {
+	background: url("//image.goodchoice.kr/images/web_v3/h1_mobile.png") no-repeat 50% 50% / 112px 23px; width: 112px; height: 44px; text-indent: -9999px; display: inline-block;
+}
+.gnb_opacity {
+	background: rgba(0, 0, 0, 0.78); left: 0px; top: 0px; right: 0px; bottom: 0px; display: none; position: fixed; z-index: 290;
+}
+.gnb_opacity .btn_close {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_close_2.png") no-repeat 0px 0px / 24px auto; border: currentColor; border-image: none; top: 10px; width: 24px; height: 24px; right: 16px; text-indent: -9999px; position: absolute;
+}
+.menu_wrap {
+	border: 1px solid rgba(0, 0, 0, 0); transition:0.8s; border-image: none; left: 0px; top: 0px; right: 56px; bottom: 0px; display: none; position: fixed; z-index: 300;
+}
+.menu_wrap .menu {
+	background: rgb(255, 255, 255); left: -1000px; top: 0px; right: 1000px; bottom: 0px; position: fixed;
+}
+.menu_wrap .menu .top {
+	background: linear-gradient(rgb(255, 0, 85) 0%, rgb(230, 34, 67) 100%); width: 100%; height: 190px;
+}
+.menu_wrap .menu .top .guest {
+	text-align: center; color: rgb(255, 255, 255); font-size: 14px;
+}
+.menu_wrap .menu .top .guest .btn_join {
+	height: 134px; color: rgb(255, 255, 255); line-height: 1.5; padding-top: 33px; display: block; box-sizing: border-box;
+}
+.menu_wrap .menu .top .guest .btn_join a {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_gt.png") no-repeat 100% 50% / 12px auto; border: currentColor; border-image: none; color: rgb(255, 255, 255); padding-right: 16px; font-size: 16px; font-weight: bold; margin-top: 5px; display: inline-block;
+}
+.menu_wrap .menu .top .guest .bot {
+	background: rgba(0, 0, 0, 0.16); overflow: hidden; position: relative;
+}
+.menu_wrap .menu .top .member .bot {
+	background: rgba(0, 0, 0, 0.16); overflow: hidden; position: relative;
+}
+.menu_wrap .menu .top .guest .bot::after {
+	background: rgba(255, 255, 255, 0.24); left: 50%; top: 16px; width: 1px; height: 24px; display: inline-block; position: absolute; content: "";
+}
+.menu_wrap .menu .top .member .bot::after {
+	background: rgba(255, 255, 255, 0.24); left: 50%; top: 16px; width: 1px; height: 24px; display: inline-block; position: absolute; content: "";
+}
+.menu_wrap .menu .top .guest .bot a {
+	width: 50%; height: 56px; color: rgb(255, 255, 255); font-size: 14px; float: left; display: table;
+}
+.menu_wrap .menu .top .member .bot a {
+	width: 50%; height: 56px; color: rgb(255, 255, 255); font-size: 14px; float: left; display: table;
+}
+.menu_wrap .menu .top .guest .bot a p {
+	height: 56px; text-align: center; vertical-align: middle; display: table-cell;
+}
+.menu_wrap .menu .top .member .bot a p {
+	height: 56px; text-align: center; vertical-align: middle; display: table-cell;
+}
+.menu_wrap .menu .top .mem {
+	height: 134px; text-align: center; color: rgb(255, 255, 255); padding-top: 35px; display: block; box-sizing: border-box;
+}
+.menu_wrap .menu .top .mem span {
+	border-radius: 100%; width: 48px; height: 48px; overflow: hidden; margin-bottom: 8px; display: inline-block; background-size: cover !important;
+}
+.menu_wrap .menu .top .mem .info {
+	font-size: 16px;
+}
+.menu_wrap .menu .top .bot span {
+	top: 0px; color: rgb(255, 255, 255); padding-top: 3px; font-size: 13px; font-weight: normal; display: inline-block; position: relative;
+}
+.menu_wrap .scroll_nav {
+	left: 0px; top: 190px; right: 0px; bottom: 0px; overflow: hidden; clear: both; position: absolute; z-index: 400;
+}
+.menu_wrap .scroll_nav {
+	background: rgb(232, 232, 232);
+}
+.menu_wrap .scroll_nav .center {
+	padding: 43px 0px 41px; text-align: center; color: rgba(0, 0, 0, 0.56); font-size: 14px;
+}
+.menu_wrap .scroll_nav .center a {
+	padding: 3px 0px 5px; color: rgba(0, 0, 0, 0.6); font-size: 24px; font-weight: bold; border-bottom-color: rgba(0, 0, 0, 0.26); border-bottom-width: 1px; border-bottom-style: dotted; display: inline-block;
+}
+.menu_wrap .scroll_nav .center p:nth-child(3) {
+	line-height: 1.4; padding-top: 9px;
+}
+.menu_wrap .scroll_nav ul {
+	background: rgb(255, 255, 255); margin-bottom: 8px;
+}
+.menu_wrap .scroll_nav ul li {
+	margin: 0px 16px; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.menu_wrap .scroll_nav ul li > a {
+	height: 64px; color: rgba(0, 0, 0, 0.87); line-height: 64px; font-size: 16px; display: block;
+}
+.menu_wrap .scroll_nav ul li > button {
+	background: rgb(255, 255, 255); padding: 0px; border: currentColor; border-image: none; width: 100%; height: 64px; text-align: left; color: rgba(0, 0, 0, 0.87); line-height: 64px; font-size: 16px; display: block;
+}
+.menu_wrap .scroll_nav ul li ul {
+	padding-bottom: 7px; display: none;
+}
+.menu_wrap .scroll_nav ul li ul li {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.menu_wrap .scroll_nav ul li ul a {
+	height: 48px; line-height: 48px; font-size: 16px;
+}
+.menu_wrap .scroll_nav ul li:last-child {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.menu_wrap .scroll_nav ul .has_ul {
+	position: relative;
+}
+.menu_wrap .scroll_nav ul .has_ul::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_2.png") no-repeat 0px 0px / 10px auto; top: 50%; width: 10px; height: 6px; right: 0px; margin-top: -3px; display: inline-block; position: absolute; content: "";
+}
+.menu_wrap .scroll_nav ul .open::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_2.png") no-repeat 0px -6px / 10px auto; top: 50%; width: 10px; height: 6px; right: 0px; margin-top: -3px; display: inline-block; position: absolute; content: "";
+}
+.srch_bar {
+	background: rgb(249, 249, 249); left: 0px; top: 0px; height: 44px; right: 0px; display: none; position: fixed; z-index: 300; touch-action: none;
+}
+.srch_bar .wrap_inp {
+	background: rgb(255, 255, 255); margin: 6px 56px 0px 16px; padding: 0px 15px 0px 35px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.08); border-image: none; height: 32px; overflow: hidden; position: relative;
+}
+.srch_bar .wrap_inp input {
+	background: none; border: currentColor; border-image: none; width: 100%; height: 20px; color: rgba(0, 0, 0, 0.87); line-height: 20px; font-size: 15px; margin-top: 4.5px;
+}
+.srch_bar .wrap_inp input:-ms-input-placeholder {
+	color: rgba(0, 0, 0, 0.38); font-size: 15px;
+}
+.srch_bar .wrap_inp .btn_srch {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_srch_3.png") no-repeat 50% 50% / 24px auto; border: currentColor; border-image: none; left: 8px; top: 3px; width: 24px; height: 24px; text-indent: -9999px; display: inline-block; position: absolute;
+}
+.srch_bar .btn_cancel {
+	background: none; border: currentColor; border-image: none; top: 0px; width: 56px; height: 44px; right: 0px; color: rgba(0, 0, 0, 0.87); line-height: 44px; font-size: 14px; display: inline-block; position: absolute;
+}
+.recommend_srch {
+	background: rgb(255, 255, 255); left: 0px; top: 44px; text-align: center; right: 0px; bottom: 0px; display: none; position: fixed; z-index: 300;
+}
+.recommend_srch strong {
+	margin: 46px 0px 23px; font-size: 20px; display: block;
+}
+.recommend_srch ul li a {
+	height: 36px; color: rgb(0, 121, 107); line-height: 36px; font-size: 16px; display: block;
+}
+.recommend_srch .chain {
+	padding-top: 8px;
+}
+.recommend_srch .chain ul li a {
+	padding: 0px 16px; height: 36px; text-align: left; color: rgba(0, 0, 0, 0.87); line-height: 36px; display: block;
+}
+.recommend_srch .scroll_srch {
+	left: 0px; top: 44px; right: 0px; bottom: 0px; overflow: hidden; clear: both; position: fixed; z-index: 400;
+}
+@media all and (min-width:1024px)
+{
+.reset_val {
+	display: none;
+}
+.srch_bar .wrap_inp .btn_srch {
+	display: none;
+}
+.lock_on {
+	left: auto; top: auto; height: auto; right: auto; overflow: visible; position: relative;
+}
+.lock_on .filter_wrap {
+	padding: 0px; height: auto; bottom: auto; -ms-overflow-x: hidden; -ms-overflow-y: hidden;
+}
+.gnb_opacity {
+	display: none !important;
+}
+.menu_wrap {
+	display: none !important;
+}
+header {
+	transition:0.4s; left: 0px; top: 0px; height: 72px; right: 0px; position: fixed;
+}
+header.scroll {
+	background: rgb(255, 255, 255); box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.1); -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+}
+header.scroll section h1 {
+	background: url("//image.goodchoice.kr/images/web_v3/h1_logo_pc.png") no-repeat 0px 0px / 96px auto;
+}
+header.scroll .gnb_pc li a {
+	color: rgba(0, 0, 0, 0.87);
+}
+header.scroll .gnb_pc li button {
+	color: rgba(0, 0, 0, 0.87);
+}
+header section {
+	margin: 0px auto; width: 1024px;
+}
+h2 {
+	font-size: 24px; margin-bottom: 35px;
+}
+header section {
+	background: none; width: 1024px; height: 64px; position: relative;
+}
+header section h1 {
+	background: url("//image.goodchoice.kr/images/web_v3/h1_logo_pc_w.png") no-repeat 0px 0px / 96px auto; margin: 0px; left: 31px; top: 26px; width: 96px; height: 20px; position: absolute;
+}
+header section .btn_menu {
+	display: none;
+}
+.pc header section .btn_srch {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_srch_2.png") no-repeat 50% 50% / 24px auto; border: currentColor; border-image: none; top: 22px; width: 30px; height: 30px; right: 396px; text-indent: -9999px; position: absolute; z-index: 10;
+}
+.pc .scroll section .btn_srch {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_srch.png") no-repeat 50% 50% / 24px auto; border: currentColor; border-image: none; top: 22px; width: 30px; height: 30px; right: 396px; text-indent: -9999px; position: absolute; z-index: 10;
+}
+header section .btn_srch.on {
+	
+}
+.pc .gnb_pc {
+	top: 27px; right: 31px; display: inline-block; position: absolute;
+}
+.gnb_pc {
+	width: auto; text-align: right;
+}
+.gnb_pc li {
+	margin-left: 30px; vertical-align: top; display: inline-block; position: relative; min-height: 35px; min-width: 53px;
+}
+.gnb_pc li ul {
+	background: rgb(255, 255, 255); padding: 32px; border-radius: 5px; left: 0px; top: 0px; text-align: left; display: none; position: absolute; box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2); -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.gnb_pc li ul li {
+	margin: 0px 0px 14px; display: block; min-height: auto; min-width: auto;
+}
+.gnb_pc li ul li b {
+	line-height: normal; overflow: hidden; padding-bottom: 21px; font-size: 16px; font-weight: bold; margin-bottom: 22px; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.gnb_pc li ul li:last-child {
+	margin-bottom: 0px;
+}
+.gnb_pc li ul li a {
+	margin: 0px; left: auto !important; top: auto !important; width: auto !important; height: auto !important; color: rgba(0, 0, 0, 0.87); overflow: visible !important; font-size: 16px; display: block; position: relative !important;
+}
+.gnb_pc li ul li button {
+	margin: 0px; left: auto !important; top: auto !important; width: auto !important; height: auto !important; color: rgba(0, 0, 0, 0.87); overflow: visible !important; font-size: 16px; display: block; position: relative !important;
+}
+.gnb_pc li ul li button {
+	background: none; padding: 0px; border: currentColor; border-image: none; line-height: 1;
+}
+.gnb_pc li ul li a:hover {
+	color: rgba(0, 0, 0, 0.87); font-weight: normal;
+}
+.gnb_pc li ul li a span {
+	color: rgb(230, 28, 81); padding-left: 6px; font-weight: bold; display: inline-block;
+}
+.gnb_pc .list_03 {
+	left: -65px; top: 30px; width: 184px;
+}
+.gnb_pc .list_04 {
+	left: -90px; top: 30px; width: 213px;
+}
+.gnb_pc li a {
+	color: rgba(255, 255, 255, 0.8); letter-spacing: 0px; font-size: 18px; display: inline-block;
+}
+.gnb_pc li a:hover {
+	color: rgb(255, 255, 255);
+}
+.gnb_pc li button {
+	background: none; padding: 0px; border: currentColor; border-image: none; color: rgba(255, 255, 255, 0.8); line-height: 1; letter-spacing: 0px; font-size: 18px;
+}
+.gnb_pc li button:hover {
+	color: rgba(255, 255, 255, 1);
+}
+.gnb_pc li li button:hover {
+	color: rgba(0, 0, 0, 0.87);
+}
+.gnb_pc .pic a {
+	margin: 0px; border-radius: 100%; left: 0px; top: -5px; width: 30px; height: 30px; overflow: hidden; position: absolute;
+}
+.gnb_pc .pic img {
+	width: 100%; height: 100%;
+}
+.gnb_pc .pic::after {
+	top: 6px; width: 0px; height: 0px; right: 7px; border-right-color: transparent; border-bottom-color: rgb(255, 255, 255); border-right-width: 6px; border-bottom-width: 6px; border-right-style: solid; border-bottom-style: solid; display: inline-block; position: absolute; content: ""; transform: rotate(315deg); -webkit-transform: rotate(315deg); -moz-transform: rotate(315deg); -o-transform: rotate(315deg);
+}
+.scroll .gnb_pc .pic::after {
+	top: 6px; width: 0px; height: 0px; right: 7px; border-right-color: transparent; border-bottom-color: rgba(0, 0, 0, 0.87); border-right-width: 6px; border-bottom-width: 6px; border-right-style: solid; border-bottom-style: solid; display: inline-block; position: absolute; content: ""; transform: rotate(315deg); -webkit-transform: rotate(315deg); -moz-transform: rotate(315deg); -o-transform: rotate(315deg);
+}
+.srch_bar .wrap_inp input {
+	height: 21px;
+}
+.pc .srch_bar {
+	background: none; left: 50%; top: 24px; width: 725px; height: 21px; right: auto; margin-left: -277px; position: absolute;
+}
+.pc .srch_bar .wrap_inp {
+	background: none; margin: 0px; padding: 0px; border-radius: 0px; border: currentColor; border-image: none; height: auto;
+}
+.pc .srch_bar .wrap_inp input {
+	background: none; margin: 0px; color: rgb(255, 255, 255); font-size: 18px;
+}
+.pc .srch_bar .wrap_inp input:-ms-input-placeholder {
+	color: rgba(255, 255, 255, 0.7); font-size: 18px;
+}
+.pc .srch_bar .btn_cancel {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_close_2.png") no-repeat 50% 50% / 24px auto; top: -8px; width: 35px; height: 35px; right: -41px; text-indent: -9999px;
+}
+.pc .scroll .srch_bar .wrap_inp input {
+	color: rgb(0, 0, 0);
+}
+.pc .scroll .srch_bar .wrap_inp input:-ms-input-placeholder {
+	color: rgba(0, 0, 0, 0.38); font-size: 18px;
+}
+.pc .scroll .srch_bar .btn_cancel {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_close.png") no-repeat 50% 50% / 24px auto; top: -8px; width: 35px; height: 35px; right: -41px; text-indent: -9999px;
+}
+.pc .recommend_srch {
+	background: none; left: 0px; top: 72px; right: 0px; bottom: 0px; display: none; position: fixed; z-index: 300;
+}
+.pc .recommend_srch .scroll_srch {
+	background: rgb(255, 255, 255); padding: 24px 20px; border-radius: 0px 0px 4px 4px; left: 50%; width: 787px; height: 352px; text-align: left; margin-left: -305px; position: relative;
+}
+.pc .recommend_srch .scroll_srch li {
+	margin-bottom: 11px;
+}
+.pc .recommend_srch .scroll_srch li:last-child {
+	margin-bottom: 0px;
+}
+.pc .recommend_srch .scroll_srch li a {
+	padding: 0px; height: auto; line-height: normal; font-size: 14px;
+}
+.pc .recommend_srch .scroll_srch strong {
+	margin: 0px 0px 11px; font-size: 14px;
+}
+.pc .srch_mask {
+	background: rgba(0, 0, 0, 0.6); transition:0.4s; left: 0px; top: 72px; right: 0px; bottom: 0px; position: fixed; z-index: 200; opacity: 0;
+}
+.pc .srch_mask.on {
+	opacity: 1;
+}
+.recommend_srch .scroll_srch {
+	top: 0px;
+}
+.recommend_srch .chain {
+	padding-top: 0px;
+}
+.recommend_srch .chain ul li {
+	
+}
+.recommend_srch .chain ul li a {
+	height: auto;
+}
+.sub_wrap {
+	margin: 0px auto; width: 1024px !important; padding-bottom: 50px;
+}
+.srch_bar .wrap_inp button {
+	display: none;
+}
+}
+.sub_top {
+	background: rgb(238, 238, 238); margin: 4px 16px 0px; border-radius: 4px;
+}
+.sub_top h2 {
+	display: none;
+}
+.sub_top .area {
+	height: 40px; font-size: 14px; position: relative;
+}
+.sub_top .area::after {
+	background: rgba(0, 0, 0, 0.26); left: 50%; top: 50%; width: 1px; height: 14px; margin-top: -7px; display: inline-block; position: absolute; content: "";
+}
+.sub_top .area .btn_area {
+	left: 0px; top: 0px; width: 50%; height: 40px; color: rgba(0, 0, 0, 0.87); overflow: hidden; padding-right: 20px; padding-left: 12px; display: inline-block; white-space: nowrap; position: absolute; -ms-text-overflow: ellipsis; box-sizing: border-box;
+}
+.sub_top .area .align_vertical {
+	height: 40px; line-height: 40px;
+}
+.sub_top .area .btn_area span {
+	margin: 7px 0px 2px; color: rgba(0, 0, 0, 0.56); font-size: 10px; display: block;
+}
+.sub_top .area .btn_reload {
+	display: none;
+}
+.sub_top .area .btn_around {
+	left: 0px; top: 0px; width: 50%; height: 40px; text-align: center; color: rgba(0, 0, 0, 0.87); padding-left: 0px; display: inline-block; position: absolute; cursor: pointer; box-sizing: border-box;
+}
+.sub_top .area .btn_around span {
+	margin: 7px 0px 2px; color: rgba(0, 0, 0, 0.56); font-size: 10px; display: block;
+}
+.sub_top .area .btn_around div {
+	width: 65%; text-align: left; display: inline-block; position: relative;
+}
+.sub_top .area .btn_around div p {
+	width: 100%; overflow: hidden; margin-right: 8px; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.sub_top .area .btn_around div::before {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_around.png") no-repeat 0px 0px / 24px auto; left: -26px; top: 50%; width: 24px; height: 24px; margin-top: -9px; display: inline-block; position: absolute; content: "";
+}
+.sub_top .area .btn_around div::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_down.png") no-repeat 0px 0px / 18px auto; top: 50%; width: 18px; height: 18px; right: -20px; margin-top: -4px; display: inline-block; position: absolute; content: "";
+}
+.sub_top .area .btn_date {
+	top: 0px; width: 50%; height: 40px; text-align: center; right: 0px; color: rgba(0, 0, 0, 0.87); line-height: 40px; display: inline-block; position: absolute;
+}
+.sub_top .area .btn_date span {
+	padding: 0px 20px 0px 26px; height: 40px; overflow: hidden; display: inline-block; position: relative; cursor: pointer;
+}
+.sub_top .area .btn_date span::before {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_cal.png") no-repeat 0px 0px / 24px auto; left: 0px; top: 50%; width: 24px; height: 24px; margin-top: -12px; display: inline-block; position: absolute; content: "";
+}
+.sub_top .area .btn_date span::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_down.png") no-repeat 0px 0px / 18px auto; top: 50%; width: 18px; height: 18px; right: 0px; margin-top: -9px; display: inline-block; position: absolute; content: "";
+}
+.sub_top .area .date_view b {
+	font-weight: normal;
+}
+@media all and (min-width:1024px)
+{
+.sub_top {
+	background: none; position: relative;
+}
+.sub_top.bg_kong_1::after {
+	background: url("//image.goodchoice.kr/images/web_v3/bg_kong_1.png") no-repeat 0px 0px / auto 111px; width: 179px; height: 111px; right: 10px; bottom: 0px; display: inline-block; position: absolute; content: "";
+}
+.sub_top.bg_kong_2::after {
+	background: url("//image.goodchoice.kr/images/web_v3/bg_kong_2.png") no-repeat 0px 0px / auto 111px; width: 179px; height: 111px; right: 10px; bottom: 0px; display: inline-block; position: absolute; content: "";
+}
+.sub_top.bg_kong_3::after {
+	background: url("//image.goodchoice.kr/images/web_v3/bg_kong_3.png") no-repeat 0px 0px / auto 111px; width: 179px; height: 111px; right: 10px; bottom: 0px; display: inline-block; position: absolute; content: "";
+}
+.bg_area_03 .bg_kong_1::after {
+	display: none;
+}
+.early_top .bg_kong_1::after {
+	display: none;
+}
+.early_top .bg_kong_2::after {
+	display: none;
+}
+.early_top .bg_kong_3::after {
+	display: none;
+}
+.sub_top_wrap {
+	background: rgb(247, 50, 63); height: 211px;
+}
+.sub_top {
+	margin: 0px auto; border-radius: 0px; width: 1024px; height: 211px; padding-top: 72px;
+}
+.sub_top h2 {
+	margin: 21px 0px 0px 31px; color: rgb(255, 255, 255); letter-spacing: -1px; font-size: 38px; font-weight: normal; display: block;
+}
+.sub_top .area {
+	top: 21px; height: auto; position: relative;
+}
+.sub_top .area::after {
+	display: none;
+}
+.sub_top .area .btn_area {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_down_2.png") no-repeat right 10px top 8px / 18px auto rgba(0, 0, 0, 0.04) !important; margin: 0px 0px 0px 19px; padding: 0px 36px 0px 12px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.04); border-image: none; left: 0px; top: 0px; width: auto; height: 32px; color: rgb(255, 255, 255); line-height: 32px; font-size: 18px; font-weight: bold; display: inline-block; position: absolute;
+}
+.sub_top .area .btn_area span {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_gt.png") no-repeat 100% 50% / 12px auto; margin: 0px 8px 0px 0px; color: rgb(255, 255, 255); line-height: 32px; padding-right: 20px; font-size: 18px; display: inline;
+}
+.sub_top .area .btn_area.on {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_down_2.png") no-repeat right 10px top -12px / 18px auto rgba(0, 0, 0, 0.08); border: 1px solid rgba(0, 0, 0, 0.08); border-image: none;
+}
+.sub_top .area .btn_around {
+	background: none; margin: 0px 0px 0px 31px; padding: 0px; border-radius: 0px; border: currentColor; border-image: none; left: 0px; top: 1px; width: auto; height: 32px; text-align: center; color: rgb(255, 255, 255); line-height: 32px; font-size: 18px; font-weight: bold; display: inline-block; position: relative;
+}
+.sub_top .area .btn_around div {
+	width: 100%; text-align: left; display: inline-block; position: relative;
+}
+.sub_top .area .btn_around div span {
+	display: none;
+}
+.sub_top .area .btn_around div::before {
+	display: none;
+}
+.sub_top .area .btn_around div::after {
+	display: none;
+}
+.sub_top .area .btn_reload {
+	background: rgba(0, 0, 0, 0.04); margin: 0px; padding: 0px 6px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.04); border-image: none; width: auto; height: 32px; color: rgb(255, 255, 255); line-height: 32px; font-size: 14px; vertical-align: top; display: inline-block;
+}
+.sub_top .area .btn_reload:hover {
+	background: rgba(0, 0, 0, 0.08); border: 1px solid rgba(0, 0, 0, 0.08); border-image: none;
+}
+.sub_top .area .btn_date {
+	display: none;
+}
+.sub_top .area .btn_date span {
+	padding: 0px 0px 0px 16px; height: 40px; display: inline-block; position: relative;
+}
+.sub_top .area .btn_date span::before {
+	display: none;
+}
+.sub_top .area .btn_date span::after {
+	display: none;
+}
+}
+.sub_wrap {
+	min-height: 390px;
+}
+.sub_wrap nav {
+	display: none;
+}
+.sub_wrap nav ul li {
+	margin-bottom: 26px;
+}
+.sub_wrap nav ul li a {
+	color: rgba(0, 0, 0, 0.56); font-size: 18px; display: block;
+}
+.sub_wrap nav ul li a.active {
+	color: rgb(230, 28, 81); font-size: 18px; font-weight: bold;
+}
+.sub_wrap .sub_title {
+	background: rgb(255, 255, 255); height: 44px; text-align: center; line-height: 44px; font-size: 18px; position: relative;
+}
+.sub_wrap .sub_title button {
+	background: none; padding: 0px; border: currentColor; border-image: none; top: 0px; height: 44px; right: 16px; font-size: 14px; font-weight: bold; position: absolute;
+}
+@media all and (min-width:1024px)
+{
+.sub_wrap nav {
+	width: 238px; padding-left: 31px; float: left; display: block;
+}
+.sub_wrap .align_rt {
+	width: 724px; margin-right: 31px; float: right;
+}
+.sub_wrap .sub_title {
+	display: none;
+}
+}
+footer {
+	background: rgb(245, 245, 245); padding: 23px 16px 16px; color: rgba(0, 0, 0, 0.38); line-height: 16px; overflow: hidden; clear: both; font-size: 10px; position: relative;
+}
+footer a {
+	color: rgba(0, 0, 0, 0.38);
+}
+footer .link li {
+	line-height: normal; margin-bottom: 13px; float: left;
+}
+footer .link li a {
+	display: inline-block;
+}
+footer .link li button {
+	background: none; padding: 0px; border: currentColor; border-image: none; color: rgba(0, 0, 0, 0.38); line-height: 1; font-size: 10px;
+}
+footer .link li span {
+	width: 24px; text-align: center; display: inline-block;
+}
+footer .link li:nth-of-type(3) a {
+	color: rgba(0, 0, 0, 0.87);
+}
+footer .link li:nth-child(4) span {
+	display: none;
+}
+footer .link li:nth-child(7) span {
+	display: none;
+}
+footer .link li:nth-child(8) span {
+	display: none;
+}
+footer .link li:nth-child(5) {
+	clear: both;
+}
+footer .link li:nth-child(8) {
+	clear: both;
+}
+footer .link li:last-child {
+	margin-bottom: 0px;
+}
+footer p {
+	padding: 27px 0px; clear: both;
+}
+footer p b {
+	display: block;
+}
+footer address span {
+	padding-bottom: 6px; display: block;
+}
+footer .ico {
+	padding: 20px 0px 5px; overflow: hidden; margin-top: 20px; border-top-color: rgba(0, 0, 0, 0.04); border-top-width: 1px; border-top-style: solid;
+}
+footer .ico a {
+	color: rgba(0, 0, 0, 0.48); font-size: 22px; margin-right: 10px; float: left; display: inline-block;
+}
+footer .ico span {
+	width: 0px; text-indent: -9999px; overflow: hidden; display: inline-block;
+}
+.btn_go_top {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_top.png") no-repeat 0px 0px / 40px auto; border: currentColor; border-image: none; width: 40px; height: 40px; right: 15px; bottom: 15px; text-indent: -9999px; display: none; position: fixed; z-index: 20;
+}
+@media all and (min-width:1024px)
+{
+footer {
+	background: rgb(245, 245, 245); padding: 63px 31px 40px; color: rgba(0, 0, 0, 0.38); line-height: 20px; overflow: hidden; clear: both; font-size: 13px; margin-top: 120px; border-top-color: rgba(0, 0, 0, 0.08); border-top-width: 1px; border-top-style: solid; position: relative;
+}
+footer .align {
+	margin: 0px auto; width: 1024px;
+}
+footer a {
+	color: rgba(0, 0, 0, 0.38);
+}
+footer .link {
+	overflow: hidden;
+}
+footer .link li {
+	line-height: normal; margin-bottom: 0px; float: left;
+}
+footer .link li a {
+	display: inline-block;
+}
+footer .link li button {
+	font-size: 13px;
+}
+footer .link li span {
+	top: -2px; width: 24px; text-align: center; font-size: 11px; display: inline-block; position: relative;
+}
+footer .link li:nth-child(4) span {
+	display: inline-block;
+}
+footer .link li:nth-child(7) span {
+	display: inline-block;
+}
+footer .link li:nth-child(8) span {
+	display: inline-block;
+}
+footer .link li:nth-child(5) {
+	clear: none;
+}
+footer .link li:nth-child(8) {
+	clear: none;
+}
+footer .link li:last-child {
+	margin-bottom: 0px;
+}
+footer p {
+	padding: 37px 0px 24px; clear: both;
+}
+footer p b {
+	margin-right: 10px; display: inline-block;
+}
+footer address {
+	line-height: 22px;
+}
+footer address span {
+	padding-bottom: 7px; display: block;
+}
+footer .ico {
+	margin: 26px 0px 0px;
+}
+footer .ico a {
+	font-size: 30px; margin-right: 25px;
+}
+}
+.bg_dimm {
+	background: rgba(0, 0, 0, 0.78); left: 0px; top: 0px; right: 0px; bottom: 0px; display: none; position: fixed; z-index: 410; touch-action: none;
+}
+.bg_dimm_prevent {
+	background: rgba(0, 0, 0, 0.78); left: 0px; top: 0px; right: 0px; bottom: 0px; display: none; position: fixed; z-index: 410;
+}
+.and .pop_login.focus {
+	top: -143px;
+}
+.layer_w {
+	background: rgb(255, 255, 255); left: 0px; top: 0px; right: 0px; bottom: 0px; color: rgba(0, 0, 0, 0.87); line-height: 22px; font-size: 14px; display: none; position: fixed; z-index: 400; touch-action: none;
+}
+.layer_w .fix_title {
+	background: rgb(255, 255, 255); margin-bottom: 16px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; position: relative;
+}
+.layer_w .fix_title .logo {
+	background: url("//image.goodchoice.kr/images/web_v3/h1_mobile.png") no-repeat 0px 50% / 80px auto; width: 80px; height: 44px; text-indent: -9999px; display: inline-block;
+}
+.layer_w .fix_title strong {
+	line-height: 44px; font-size: 18px; font-weight: normal; display: block;
+}
+.layer_w .fix_title button {
+	margin-right: -18px;
+}
+.layer_w section {
+	margin: 0px 24px; width: auto;
+}
+.layer_fix .btn_start {
+	border-radius: 4px; height: 40px; text-align: center; line-height: 40px; font-size: 14px; margin-bottom: 8px; display: block; position: relative;
+}
+.layer_fix .btn_start span {
+	display: inline-block;
+}
+.layer_fix .btn_start span i {
+	top: 3px; padding-right: 5px; font-size: 20px; display: inline-block; position: relative;
+}
+.layer_fix .btn_kakao {
+	background: rgb(252, 229, 30); color: rgb(59, 29, 20);
+}
+.layer_fix .btn_fb {
+	background: rgb(59, 87, 158); color: rgb(255, 255, 255);
+}
+.layer_fix .btn_naver {
+	background: rgb(40, 209, 17); color: rgb(255, 255, 255);
+}
+.layer_fix.fix_disable {
+	overflow: auto; position: relative; touch-action: auto;
+}
+.space_or {
+	height: 40px; margin-bottom: 8px; position: relative;
+}
+.space_or::after {
+	background: rgba(0, 0, 0, 0.08); left: 0px; top: 50%; width: 100%; height: 1px; position: absolute; content: "";
+}
+.space_or span {
+	background: rgb(255, 255, 255); margin: 0px 0px 0px -25px; left: 50%; top: 0px; width: 50px; height: 40px; text-align: center; color: rgba(0, 0, 0, 0.38); line-height: 40px; font-size: 14px; display: inline-block; position: absolute; z-index: 10;
+}
+.layer_w .btn_link {
+	border-radius: 4px; border: currentColor; border-image: none; width: 100%; height: 48px; text-align: center; color: rgb(255, 255, 255); line-height: 48px; font-size: 14px; margin-top: 16px; display: block;
+}
+.pop_login .link_half {
+	height: 40px; overflow: hidden; margin-top: 9px; position: relative;
+}
+.pop_login .link_half::after {
+	background: rgba(0, 0, 0, 0.08); left: 50%; top: 13px; width: 1px; height: 11px; display: inline-block; position: absolute; content: "";
+}
+.pop_login .link_half div {
+	width: 50%; height: 40px; text-align: center; float: left; display: inline-block;
+}
+.pop_login .link_half div button {
+	background: none; height: 40px; color: rgba(0, 0, 0, 0.87); line-height: 40px; font-size: 14px; vertical-align: top;
+}
+.pop_login .link_half div a {
+	background: none; height: 40px; color: rgba(0, 0, 0, 0.87); line-height: 40px; font-size: 14px; vertical-align: top;
+}
+.pop_login button {
+	border: currentColor; border-image: none;
+}
+.pop_login .btn_start {
+	width: 100%;
+}
+.pop_login .guest_link {
+	color: rgb(0, 0, 0); text-decoration: underline;
+}
+.txt_agree {
+	margin: 20px 0px 32px; text-align: center; color: rgba(0, 0, 0, 0.56); line-height: 1.6; font-size: 16px;
+}
+.txt_agree a {
+	color: rgba(0, 0, 0, 0.87); text-decoration: underline;
+}
+.pop_mem_reserve .txt_top {
+	margin: 12px 0px 18px; text-align: center; color: rgba(0, 0, 0, 0.56);
+}
+.pop_mem_reserve .link {
+	text-align: center; margin-top: 9px;
+}
+.pop_mem_reserve .link button {
+	background: none; padding: 0px; border: currentColor; border-image: none; height: 27px; color: rgba(0, 0, 0, 0.87); line-height: 27px; font-size: 14px; display: inline-block;
+}
+.pop_downlink .top_txt {
+	margin: 0px 0px 25px; text-align: center; color: rgba(0, 0, 0, 0.56);
+}
+.pop_downlink .fix_title {
+	margin-bottom: 0px;
+}
+.and .layer_unfix {
+	position: relative !important; -ms-overflow-x: hidden; -ms-overflow-y: auto;
+}
+.and .layer_unfix.focus {
+	top: 0px !important; position: relative;
+}
+.layer_fix {
+	background: rgb(255, 255, 255); left: 0px; top: 0px; width: 100%; height: 100%; right: 0px; bottom: 0px; color: rgba(0, 0, 0, 0.87); line-height: 22px; overflow: hidden; font-size: 14px; display: block; position: fixed; z-index: 400; min-width: 320px; touch-action: none;
+}
+.layer_fix .fix_title {
+	background: rgb(255, 255, 255); margin-bottom: 16px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; position: relative;
+}
+.layer_fix .fix_title .logo {
+	background: url("//image.goodchoice.kr/images/web_v3/ic_bi_yeogi_250px.png") no-repeat 0px 50% / 80px auto; width: 80px; height: 44px; display: inline-block;
+}
+.layer_fix .fix_title .logo a {
+	text-indent: -9999px; display: block;
+}
+.layer_fix .fix_title strong {
+	line-height: 44px; font-size: 18px; font-weight: normal; display: block;
+}
+.layer_fix .fix_title button {
+	margin-right: -18px;
+}
+.layer_fix .sub_title {
+	text-align: center; font-size: 16px; margin-bottom: 10px; display: block;
+}
+.layer_fix section {
+	margin: 0px 24px; width: auto;
+}
+.layer_fix .btn_start {
+	border-radius: 4px; height: 40px; text-align: center; line-height: 40px; font-size: 14px; margin-bottom: 8px; display: block; position: relative;
+}
+.layer_fix .btn_link {
+	border-radius: 6px; border: currentColor; border-image: none; width: 100%; height: 56px; text-align: center; color: rgb(255, 255, 255); line-height: 56px; font-size: 16px; margin-top: 16px; display: block;
+}
+.layer_fix .layer_fix_footer {
+	color: rgba(0, 0, 0, 0.38); margin-top: 70px;
+}
+.layer_fix .layer_fix_footer p {
+	text-align: center; color: rgba(0, 0, 0, 0.38);
+}
+.layer_fix .layer_fix_footer p.copyright {
+	font-size: 13px;
+}
+.layer_fix .layer_fix_footer p a {
+	margin: 0px 3px; color: rgba(0, 0, 0, 0.38); font-size: 14px;
+}
+.layer_fix .agree {
+	margin: 0px;
+}
+@media all and (min-width:480px)
+{
+.and .pop_login.focus {
+	top: -200px; position: absolute;
+}
+}
+@media all and (min-width:760px)
+{
+.and .pop_login.focus {
+	top: 0px; position: fixed;
+}
+}
+@media all and (min-width:1024px)
+{
+.layer_w {
+	color: rgba(0, 0, 0, 0.87); line-height: 26px; font-size: 15px;
+}
+.layer_w .fix_title {
+	display: block !important;
+}
+.layer_w section {
+	margin: 150px auto 0px; width: 336px;
+}
+.layer_w .fix_title .logo {
+	background: url("//image.goodchoice.kr/images/web_v3/h1_mobile.png") no-repeat 50% 50% / 112px 23px; width: 112px; height: 44px; text-indent: -9999px;
+}
+.layer_w .fix_title strong {
+	font-size: 24px; font-weight: bold;
+}
+.layer_w .fix_title button {
+	margin-right: -14px;
+}
+.layer_w .btn_start {
+	height: 56px; line-height: 56px; font-size: 16px;
+}
+.layer_fix .btn_start i {
+	width: 32px; height: 56px; line-height: 54px; font-size: 26px; vertical-align: top; display: inline-block;
+}
+.layer_fix .sub_title {
+	margin: 30px 0px 10px; font-size: 18px; display: block;
+}
+.space_or {
+	height: 56px; margin-bottom: 8px;
+}
+.space_or::after {
+	background: rgba(0, 0, 0, 0.08); left: 0px; top: 50%; width: 100%; height: 1px; position: absolute; content: "";
+}
+.space_or span {
+	margin: 0px 0px 0px -25px; width: 60px; height: 56px; line-height: 56px; font-size: 16px;
+}
+.layer_w .btn_link {
+	height: 56px; line-height: 56px; font-size: 16px;
+}
+.pop_login .link_half {
+	height: 56px; overflow: hidden; margin-top: 9px; position: relative;
+}
+.pop_login .link_half::after {
+	background: rgba(0, 0, 0, 0.08); left: 50%; top: 21px; width: 1px; height: 16px; display: inline-block; position: absolute; content: "";
+}
+.pop_login .link_half div {
+	height: 56px;
+}
+.pop_login .link_half div button {
+	height: 56px; line-height: 56px; font-size: 16px;
+}
+.pop_login .link_half div a {
+	height: 56px; line-height: 56px; font-size: 16px;
+}
+.pop_join .txt_agree {
+	margin: 20px 0px 2px; text-align: center;
+}
+.pop_join .txt_agree a {
+	color: rgba(0, 0, 0, 0.87); text-decoration: underline;
+}
+.pop_pwset .txt_top {
+	margin: 6px 0px 25px; text-align: center; line-height: 26px; letter-spacing: -1px; font-size: 15px;
+}
+.pop_mem_reserve .link {
+	text-align: center; margin-top: 23px;
+}
+.pop_mem_reserve .link button {
+	background: none; border-width: medium medium 1px; border-style: none none solid; border-color: currentColor currentColor rgba(0, 0, 0, 0.87); padding: 0px; border-image: none; height: 23px; color: rgba(0, 0, 0, 0.87); line-height: 23px; letter-spacing: -1px; font-size: 15px; display: inline-block;
+}
+.pop_mem_reserve .link span {
+	display: inline-block;
+}
+.layer_fix {
+	color: rgba(0, 0, 0, 0.87); line-height: 26px; font-size: 15px;
+}
+.layer_fix .fix_title {
+	margin-bottom: 16px; display: block !important;
+}
+.layer_fix section {
+	margin: 100px auto 0px; width: 336px;
+}
+.layer_fix .fix_title .logo {
+	background: url("//image.goodchoice.kr/images/web_v3/ic_bi_yeogi_250px.png") no-repeat 50% 50% / 112px 23px; width: 112px; height: 44px; text-indent: -9999px;
+}
+.layer_fix .fix_title strong {
+	font-size: 24px; font-weight: bold;
+}
+.layer_fix .fix_title button {
+	margin-right: -14px;
+}
+.layer_fix .btn_start {
+	height: 56px; line-height: 56px; font-size: 16px;
+}
+.layer_fix .btn_start span i {
+	top: 1px; padding-right: 7px; font-size: 26px;
+}
+.layer_fix .btn_link {
+	height: 56px; line-height: 56px; font-size: 16px;
+}
+}
+.inp_type_1 {
+	padding: 0px 10px 0px 38px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.26); border-image: none; height: 40px; margin-bottom: 8px; position: relative; box-sizing: border-box;
+}
+.inp_type_1 input {
+	padding: 0px; border: currentColor; border-image: none; top: 9px; width: 100%; height: 20px; font-size: 16px; vertical-align: top; position: relative;
+}
+.inp_type_1 input:-ms-input-placeholder {
+	color: rgba(0, 0, 0, 0.38); font-size: 16px;
+}
+.inp_type_1 span {
+	display: none;
+}
+.inp_type_2 {
+	padding: 0px 16px; border-radius: 6px; border: 1px solid rgba(0, 0, 0, 0.08); border-image: none; height: 48px; margin-bottom: 38px; position: relative; box-sizing: border-box;
+}
+.inp_type_2 input {
+	padding: 0px; border: currentColor; border-image: none; top: 13px; width: 100%; height: 20px; font-size: 18px; vertical-align: top; position: relative;
+}
+.inp_type_2 input:-ms-input-placeholder {
+	color: rgba(0, 0, 0, 0.24); font-size: 18px;
+}
+.inp_type_2 span {
+	display: none;
+}
+.default_label_txt.icon-ic_downwards_arrow {
+	left: 16px;
+}
+.inp_type_2 .icon-ic_downwards_arrow::before {
+	left: 0px; top: 0px; font-size: 14px; position: absolute;
+}
+.inp_focus {
+	border: 1px solid rgba(0, 0, 0, 0.38); border-image: none; color: rgba(0, 0, 0, 0.87);
+}
+.inp_focus input:-ms-input-placeholder {
+	font-size: 16px;
+}
+.ico_email::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_inp_mail.png") no-repeat 0px 0px / 18px auto; left: 11px; top: 12px; width: 18px; height: 14px; display: inline-block; position: absolute; content: "";
+}
+.ico_email.inp_focus::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_inp_mail.png") no-repeat 0px -14px / 18px auto; left: 11px; top: 12px; width: 18px; height: 14px; display: inline-block; position: absolute; content: "";
+}
+.ico_email.inp_error::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_inp_mail.png") no-repeat 0px -28px / 18px auto; left: 11px; top: 12px; width: 18px; height: 14px; display: inline-block; position: absolute; content: "";
+}
+.ico_pw::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_inp_pw.png") no-repeat 50% 0px / 14px auto; left: 11px; top: 11px; width: 18px; height: 15px; display: inline-block; position: absolute; content: "";
+}
+.ico_pw.inp_focus::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_inp_pw.png") no-repeat 50% -15px / 14px auto; left: 11px; top: 11px; width: 18px; height: 15px; display: inline-block; position: absolute; content: "";
+}
+.ico_pw.inp_error::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_inp_pw.png") no-repeat 50% -30px / 14px auto; left: 11px; top: 11px; width: 18px; height: 15px; display: inline-block; position: absolute; content: "";
+}
+.ico_phone::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_inp_phone.png") no-repeat 0px 0px / 14px auto; left: 14px; top: 8px; width: 14px; height: 22px; display: inline-block; position: absolute; content: "";
+}
+.ico_phone.inp_focus::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_inp_phone.png") no-repeat 0px -22px / 14px auto; left: 14px; top: 8px; width: 14px; height: 22px; display: inline-block; position: absolute; content: "";
+}
+.ico_phone.inp_error::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_inp_phone.png") no-repeat 0px -44px / 14px auto; left: 14px; top: 8px; width: 14px; height: 22px; display: inline-block; position: absolute; content: "";
+}
+.ico_reserve_num::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_inp_num.png") no-repeat 0px 0px / 16px auto; left: 13px; top: 10px; width: 18px; height: 19px; display: inline-block; position: absolute; content: "";
+}
+.ico_reserve_num.inp_focus::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_inp_num.png") no-repeat 0px -19px / 16px auto; left: 13px; top: 10px; width: 18px; height: 19px; display: inline-block; position: absolute; content: "";
+}
+.ico_reserve_num.inp_error::after {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_inp_num.png") no-repeat 0px -28px / 16px auto; left: 13px; top: 10px; width: 18px; height: 19px; display: inline-block; position: absolute; content: "";
+}
+label.error {
+	display: none !important;
+}
+.inp_error {
+	border: 1px solid rgb(230, 28, 81) !important; border-image: none !important; margin-bottom: 30px;
+}
+.inp_error span {
+	left: 0px; top: 44px; color: rgb(230, 28, 81); line-height: 1; font-size: 13px; display: block !important; position: absolute;
+}
+.inp_error label {
+	left: 0px; top: 44px; color: rgb(230, 28, 81); line-height: 1; font-size: 13px; display: block !important; position: absolute;
+}
+@media all and (min-width:1024px)
+{
+.inp_type_1 {
+	padding: 0px 16px 0px 46px; height: 48px;
+}
+.inp_type_1 input {
+	top: 11px; width: 100%; height: 24px; font-size: 18px; position: relative;
+}
+.inp_type_1 input:-ms-input-placeholder {
+	color: rgba(0, 0, 0, 0.38); font-size: 18px;
+}
+.inp_focus input:-ms-input-placeholder {
+	font-size: 18px;
+}
+.ico_email::after {
+	left: 15px; top: 15px;
+}
+.ico_email.inp_focus::after {
+	left: 15px; top: 15px;
+}
+.ico_email.inp_error::after {
+	left: 15px; top: 15px;
+}
+.ico_pw::after {
+	left: 16px; top: 15px;
+}
+.ico_pw.inp_focus::after {
+	left: 16px; top: 15px;
+}
+.ico_pw.inp_error::after {
+	left: 16px; top: 15px;
+}
+.ico_phone::after {
+	left: 18px; top: 12px;
+}
+.ico_phone.inp_focus::after {
+	left: 18px; top: 12px;
+}
+.ico_phone.inp_error::after {
+	left: 18px; top: 12px;
+}
+.ico_reserve_num::after {
+	left: 17px; top: 13px;
+}
+.ico_reserve_num.inp_focus::after {
+	left: 17px; top: 13px;
+}
+.ico_reserve_num.inp_error::after {
+	left: 17px; top: 13px;
+}
+.inp_error {
+	margin-bottom: 37px;
+}
+.inp_error span {
+	left: 0px; top: 54px; font-size: 15px;
+}
+.inp_error label {
+	left: 0px; top: 54px; font-size: 15px;
+}
+}
+.fix_title {
+	background: rgb(255, 255, 255); left: 0px; top: 0px; width: 100%; height: 44px; text-align: center; right: 0px; line-height: 44px; font-size: 18px; position: fixed; z-index: 300;
+}
+.fix_title button {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_close.png") no-repeat 50% 50% / 24px auto; border: currentColor; border-image: none; top: 0px; width: 44px; height: 44px; right: 0px; text-indent: -9999px; display: inline-block; position: absolute;
+}
+.fix_title .close {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_close.png") no-repeat 50% 50% / 24px auto; border: currentColor; border-image: none; top: 0px; width: 44px; height: 44px; right: 0px; text-indent: -9999px; display: inline-block; position: absolute;
+}
+.layer {
+	display: none;
+}
+.alert_msg {
+	background: rgba(50, 50, 50, 0.5); left: 0px; top: 0px; right: 0px; bottom: 0px; display: none; position: fixed; z-index: 2000;
+}
+.alert_msg .msg {
+	background: rgb(255, 255, 255); border-radius: 4px; left: 50%; top: 50%; width: 280px; margin-left: -140px; position: absolute;
+}
+.alert_msg .msg .text {
+	padding: 21px 24px; line-height: 25px; font-size: 16px;
+}
+.alert_msg .msg .btn_center {
+	text-align: center;
+}
+.alert_msg .msg .btn_center a {
+	background: none; padding: 15px 19px; border: currentColor; border-image: none; color: rgb(0, 121, 107); font-size: 14px; font-weight: bold; display: inline-block;
+}
+.alert_msg .msg .btn_center button {
+	background: none; padding: 15px 19px; border: currentColor; border-image: none; color: rgb(0, 121, 107); font-size: 14px; font-weight: bold; display: inline-block;
+}
+.event-el {
+	background: rgba(0, 0, 0, 0.001); left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute; z-index: 1;
+}
+@media all and (min-width:1024px)
+{
+.fix_title {
+	display: none;
+}
+.alert_msg .msg {
+	border-radius: 4px; width: 368px; margin-left: -184px;
+}
+.alert_msg .msg .text {
+	padding: 31px 32px 21px; font-size: 18px;
+}
+.alert_msg .msg .btn_center a {
+	background: none; padding: 0px; border-radius: 4px; border: 1px solid rgb(242, 17, 76); border-image: none; width: 304px; height: 56px; color: rgb(230, 28, 81); line-height: 56px; font-size: 16px; font-weight: bold; margin-bottom: 24px; display: inline-block;
+}
+.alert_msg .msg .btn_center button {
+	background: none; padding: 0px; border-radius: 4px; border: 1px solid rgb(242, 17, 76); border-image: none; width: 304px; height: 56px; color: rgb(230, 28, 81); line-height: 56px; font-size: 16px; font-weight: bold; margin-bottom: 24px; display: inline-block;
+}
+}
+.pop_twobtn {
+	background: rgb(255, 255, 255); margin: 0px 0px 0px -140px; border-radius: 4px; left: 50% !important; top: 50% !important; width: 280px; bottom: inherit !important; position: fixed !important; z-index: 430 !important;
+}
+.pop_twobtn .text {
+	padding: 20px 24px; line-height: 26px; font-size: 14px;
+}
+.pop_twobtn .btn_wrap {
+	text-align: right; padding-right: 10px; border-top-color: rgba(0, 0, 0, 0.08); border-top-width: 1px; border-top-style: solid;
+}
+.pop_twobtn .btn_wrap button {
+	background: none; padding: 0px 10px; border: currentColor; border-image: none; height: 48px; color: rgba(0, 0, 0, 0.56); font-size: 14px; font-weight: bold;
+}
+@media all and (min-width:1024px)
+{
+.pop_twobtn {
+	margin: 0px 0px 0px -180px; left: 50%; top: 50%; width: 360px; position: fixed;
+}
+.pop_twobtn .text {
+	padding: 30px 38px; font-size: 16px;
+}
+.pop_twobtn .btn_wrap {
+	padding-right: 15px;
+}
+.pop_twobtn .btn_wrap button {
+	padding: 0px 15px; height: 48px; font-size: 15px;
+}
+}
+.pop_fix {
+	background: rgb(255, 255, 255); left: 0px; top: 0px; right: 0px; bottom: 0px; position: fixed; z-index: 430;
+}
+.pop_fix .fix_cont {
+	margin: 0px; left: 0px; top: 44px; width: 100%; bottom: 0px; overflow: hidden; position: absolute; z-index: 1;
+}
+@media all and (min-width:1024px)
+{
+.pop_fix {
+	margin: -296px 0px 0px -265px !important; border-radius: 4px; left: 50%; top: 50%; width: 529px !important; height: 592px; right: auto; bottom: auto; overflow: hidden; position: fixed;
+}
+.pop_fix .fix_title {
+	background: rgb(255, 255, 255); padding: 0px 0px 0px 32px; left: 0px; top: 0px; height: 64px; text-align: left; line-height: 64px; font-size: 18px; font-weight: bold; display: block; position: absolute;
+}
+.pop_fix .fix_title button {
+	top: 10px; right: 25px;
+}
+.pop_fix .fix_cont {
+	margin: 0px; left: 0px; top: 64px; width: 100%; bottom: 0px; overflow: hidden; position: absolute; z-index: 1;
+}
+}
+.dot_txt {
+	color: rgba(0, 0, 0, 0.56); line-height: 24px; font-size: 15px;
+}
+.dot_txt li {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_bul_3.png") no-repeat -1px 0px / 12px auto; padding-left: 14px;
+}
+@media all and (min-width:1024px)
+{
+.dot_txt {
+	color: rgba(0, 0, 0, 0.56); line-height: 26px; font-size: 16px;
+}
+.dot_txt li {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_bul_3.png") no-repeat 0px 2px / 12px auto; padding-left: 14px; margin-bottom: 7px;
+}
+}
+.gra_red {
+	background: linear-gradient(to right, rgba(243, 61, 105, 1) 0%, rgba(248, 98, 95, 1) 100%);
+}
+.gra_pink {
+	background: linear-gradient(to right, rgb(230, 91, 100) 0%, rgb(232, 79, 125) 100%);
+}
+.gra_mint {
+	background: linear-gradient(to right, rgb(128, 203, 196) 0%, rgb(77, 182, 172) 100%);
+}
+.gra_mint_2 {
+	background: linear-gradient(to right, rgb(0, 154, 189) 0%, rgb(18, 177, 162) 100%);
+}
+.gra_left_right_red {
+	background: #5fb6df;
+}
+.box_shadow {
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2); -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.bg_pink {
+	background: rgb(237, 120, 141);
+}
+.bg_mint {
+	background: rgb(0, 154, 189);
+}
+.btn_red {
+	background: rgb(255, 255, 255); border-radius: 4px; border: 1px solid rgb(242, 17, 76); border-image: none; text-align: center; color: rgb(230, 28, 81); font-size: 16px; font-weight: normal; vertical-align: top; display: inline-block; box-sizing: border-box;
+}
+.btn_red_fill {
+	background: linear-gradient(rgb(255, 0, 85) 0%, rgb(230, 34, 67) 100%); border-radius: 4px; border: currentColor; border-image: none; text-align: center; color: rgb(255, 255, 255); font-size: 16px; vertical-align: top; display: inline-block; box-sizing: border-box;
+}
+.paging {
+	padding: 24px 0px 48px; text-align: center; margin-top: 20px; border-top-color: rgba(0, 0, 0, 0.04); border-top-width: 1px; border-top-style: solid; display: block;
+}
+.paging .on {
+	border-radius: 4px; border: 1px solid rgba(0, 0, 0, 0.27); border-image: none; color: rgba(0, 0, 0, 0.87); font-weight: bold;
+}
+.paging button {
+	background: none; border-radius: 3px; border: currentColor; border-image: none; width: 32px; height: 32px; text-align: center; line-height: 1.5; font-size: 13px; box-sizing: inherit; box-shadow: none; align-items: center;
+}
+.paging .prev {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_lt_4.png") no-repeat 50% 50% / 10px auto; text-indent: -9999px; margin-right: 5px;
+}
+.paging .next {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_arr_gt_4.png") no-repeat 50% 50% / 10px auto; text-indent: -9999px; margin-left: 5px;
+}
+.paging .ellip {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_ellip.png") no-repeat 50% 50%; cursor: default;
+}
+@media all and (min-width:1024px)
+{
+.paging {
+	padding: 32px 0px 0px;
+}
+.paging button {
+	line-height: 0.5;
+}
+}
+.list_none {
+	background: rgb(235, 235, 235); height: 373px; text-align: center; padding-top: 103px; font-size: 16px; display: none;
+}
+.list_none b {
+	color: rgba(0, 0, 0, 0.56); line-height: 22px; padding-top: 16px; font-size: 14px; font-weight: normal; display: block;
+}
+.list_none p a {
+	background: none; width: 165px; height: 48px; line-height: 48px; margin-top: 44px;
+}
+.list_none span {
+	display: none;
+}
+@media all and (min-width:1024px)
+{
+.list_none {
+	background: rgb(255, 255, 255); padding-top: 125px; font-size: 20px; font-weight: bold;
+}
+.list_none b {
+	line-height: 24px; font-size: 18px;
+}
+.list_none span {
+	color: rgba(0, 0, 0, 0.56); font-size: 18px; font-weight: normal; margin-top: 18px; display: block;
+}
+.list_none p a {
+	width: 200px; height: 48px; line-height: 48px; margin-top: 44px;
+}
+}
+button.btn_link.gra_red {
+	border: 0px currentColor; border-image: none; width: 100%;
+}
+.mobile_appdown {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_appdown.png") no-repeat 46px 50% / 32px 32px rgba(0, 0, 0, 0.08); padding: 10px 0px 0px 84px; height: 56px; line-height: normal; font-size: 14px; border-bottom-color: rgba(0, 0, 0, 0.08); border-bottom-width: 1px; border-bottom-style: solid; display: none; position: relative;
+}
+.mobile_appdown button {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_close.png") no-repeat 50% 50% / 24px 24px; border: currentColor; border-image: none; left: 16px; top: 0px; width: 24px; height: 56px; text-indent: -9999px; margin-right: 2px; vertical-align: top; display: inline-block; position: absolute;
+}
+.mobile_appdown a {
+	top: 0px; height: 56px; right: 16px; color: rgb(242, 17, 76); line-height: 56px; font-size: 14px; font-weight: bold; display: none; position: absolute;
+}
+.js-app-text {
+	display: none;
+}
+.and .mobile_appdown {
+	display: block;
+}
+.ios .mobile_appdown {
+	display: block;
+}
+.and .mobile_appdown .down_and {
+	display: block;
+}
+.ios .mobile_appdown .down_ios {
+	display: block;
+}
+@media all and (min-width:1024px)
+{
+.mobile_appdown {
+	display: none !important;
+}
+}
+.business_list {
+	background: none; border: currentColor; border-image: none; color: rgb(230, 42, 74); font-size: 12px;
+}
+.business_list:hover {
+	background: none; border: currentColor; border-image: none; color: rgb(230, 42, 74); font-size: 12px;
+}
+.business_pop {
+	background: rgba(0, 0, 0, 0.7); left: 0px; top: 0px; right: 0px; bottom: 0px; display: none; position: fixed; z-index: 9999;
+}
+.business_pop .list {
+	background: rgb(255, 255, 255); margin: -250px 0px 0px -140px; border-radius: 2pt; left: 50%; top: 50%; width: 280px; height: 500px; position: absolute;
+}
+.business_pop h4 {
+	padding: 0px 24px; height: 58px; color: rgba(0, 0, 0, 0.87); line-height: 58px; font-size: 16px;
+}
+.business_pop .list .btn_close {
+	background: url("//image.goodchoice.kr/images/30/ico_x.png") no-repeat center / 24px auto; border: currentColor; border-image: none; top: 0px; width: 50px; height: 58px; right: 0px; text-indent: -9999px; position: absolute; z-index: 1;
+}
+.business_pop ul {
+	background: rgb(244, 244, 244); margin: 0px; padding: 24px; height: 368px; text-align: center; overflow: hidden; box-sizing: border-box;
+}
+.business_pop ul li {
+	padding: 0px 8px 0px 0px; width: 50%; height: 29px; text-align: left; line-height: 29px; text-indent: 0px; overflow: hidden; font-size: 12px; float: left; display: inline-block; white-space: nowrap; -ms-text-overflow: ellipsis; box-sizing: border-box;
+}
+.business_pop ul li:nth-child(2n) {
+	padding-left: 8px;
+}
+.business_pop .paging {
+	height: 48px; text-align: center; padding-top: 9px; box-sizing: border-box;
+}
+.business_pop .paging a {
+	width: 30px; height: 30px; text-align: center; line-height: 30px; font-size: 12px; display: inline-block;
+}
+.business_pop .paging a.active {
+	color: rgb(230, 42, 74); font-weight: bold;
+}
+.business_pop .paging .prev {
+	top: -2px; width: 30px; height: 30px; text-indent: -9999px; position: relative;
+}
+.business_pop .paging .next {
+	top: -2px; width: 30px; height: 30px; text-indent: -9999px; position: relative;
+}
+.business_pop .paging .prev {
+	background: url("//image.goodchoice.kr/images/30/ico_arr_rt.png") no-repeat center / 12px auto; margin-right: 5px; transform: rotate(180deg);
+}
+.business_pop .paging .next {
+	background: url("//image.goodchoice.kr/images/30/ico_arr_rt.png") no-repeat center / 12px auto; margin-left: 5px;
+}
+@media all and (min-width:1024px)
+{
+.business_pop .list {
+	background: rgb(255, 255, 255); margin: -250px 0px 0px -225px; left: 50%; width: 450px; height: 500px;
+}
+}
+.safety_txt {
+	color: rgba(0, 0, 0, 0.56); padding-bottom: 8px; font-size: 12px; display: block;
+}
+.safety_txt_2 {
+	background: rgb(245, 245, 245); padding: 7px 7px 5px; border-radius: 4px; text-align: left; color: rgb(109, 109, 109); line-height: 1.5; overflow: hidden; font-size: 12px; margin-top: 10px; display: block;
+}
+@media all and (min-width:1024px)
+{
+.safety_txt {
+	padding-bottom: 14px; font-size: 14px;
+}
+.safety_txt_2 {
+	background: url("//image.goodchoice.kr/images/web_v3/ico_info.png") no-repeat 0px 3px / 15px auto rgb(255, 255, 255); padding: 0px 0px 0px 20px; border-radius: 0px; color: rgba(0, 0, 0, 0.56); font-size: 14px; margin-top: 5px;
+}
+}
+.error_page {
+	padding: 70px 0px; text-align: center;
+}
+.error_page strong {
+	padding-bottom: 20px; font-size: 32px; display: block;
+}
+.error_page p {
+	line-height: 1.5; padding-bottom: 30px; font-size: 14px;
+}
+.error_page a {
+	border-radius: 4px; width: 200px; height: 48px; color: rgb(255, 255, 255); line-height: 48px; font-size: 14px; display: inline-block;
+}
+@media all and (min-width:1024px)
+{
+.error_page {
+	padding: 150px 0px 50px; margin-top: 72px;
+}
+.error_page strong {
+	padding-bottom: 40px; font-size: 46px;
+}
+.error_page p {
+	padding-bottom: 70px; font-size: 16px;
+}
+}
+.spinner_text {
+	background: rgba(0, 0, 0, 0.78); left: 0px; top: 0px; right: 0px; bottom: 0px; position: fixed; z-index: 99999;
+}
+.spinner_text > div {
+	margin: -100px 0px 0px -150px; left: 50%; top: 50%; width: 300px; height: 200px; text-align: center; color: rgb(255, 255, 255); line-height: 1.5; padding-top: 110px; font-size: 14px; position: absolute; box-sizing: border-box;
+}
+.spinner_space {
+	height: 400px;
+}
+.spinner_w {
+	margin: -40px 0px 0px -15px; border-radius: 100%; border: 3px solid rgb(255, 255, 255); animation:spinner 0.7s linear infinite; border-image: none; left: 50%; top: 50%; width: 30px; height: 30px; position: absolute; z-index: 420;
+}
+.spinner_w span {
+	border-width: 3px; border-style: solid; border-color: rgb(255, 255, 255) rgb(190, 190, 190) rgb(190, 190, 190); border-radius: 100%; border-image: none; left: -3px; top: -3px; width: 30px; height: 30px; position: absolute;
+}
+@media all and (min-width:1024px)
+{
+.spinner_space {
+	height: 500px;
+}
+}
+.pop_login_errors li {
+	color: rgb(230, 28, 81);
+}
+.pop_login_errors {
+	padding: 0px 0px 20px 20px;
+}
+.terms_agree {
+	margin-top: 20px;
+}
+.terms_agree p {
+	margin-bottom: 20px; position: relative;
+}
+.terms_agree p label {
+	display: inline-block; position: relative;
+}
+.terms_agree .all_check {
+	font-weight: bold;
+}
+.terms_agree input {
+	margin: 0px 10px 0px 0px; vertical-align: top;
+}
+.terms_agree p a {
+	color: rgba(0, 0, 0, 0.87); text-decoration: underline; display: inline-block;
+}
+.terms_agree p span {
+	color: rgb(242, 17, 76);
+}
+@media all and (min-width:1024px)
+{
+.terms_agree p {
+	margin-bottom: 25px;
+}
+.terms_agree input {
+	top: -3px;
+}
+}
+.phone_confirm {
+	margin-top: 16px;
+}
+.phone_confirm strong {
+	color: rgba(0, 0, 0, 0.87); font-size: 16px; font-weight: normal; margin-bottom: 8px; display: block;
+}
+.phone_confirm section {
+	margin: 0px 0px 25px; padding-right: 110px; position: relative;
+}
+.phone_confirm > div:nth-of-type(2) {
+	display: none;
+}
+.phone_confirm section .btn_confirm {
+	background: rgb(204, 204, 204); border-radius: 4px; border: currentColor; border-image: none; top: 0px; width: 100px; height: 44px; right: 0px; color: rgb(255, 255, 255); font-size: 14px; font-weight: normal; position: absolute;
+}
+.phone_confirm section .btn_confirm.active {
+	background: rgb(255, 0, 85);
+}
+.phone_confirm section span {
+	top: 0px; height: 48px; right: 10px; color: rgb(255, 0, 85); line-height: 48px; display: inline-block; position: absolute;
+}
+.checked .btn_checked {
+	right: 40px;
+}
+.btn_checked {
+	top: 12px; width: 18px; height: 18px; right: 7px; text-indent: -9999px; display: none; position: absolute; background-color: rgb(0, 162, 173); -webkit-mask-image: url(https://image.goodchoice.kr/images/30/svg/ic_check.svg); mask-image: url(https://image.goodchoice.kr/images/30/svg/ic_check.svg); -webkit-mask-size: 18px 18px; mask-size: 18px 18px;
+}
+.btn_checked.active {
+	display: inline-block;
+}
+.numbersend .reset_val {
+	right: 32px;
+}
+.numbersend section:nth-of-type(1) .reset_val {
+	right: 54px;
+}
+.toast_pop {
+	animation:toast_pop 2s ease-in-out forwards; left: 0px; top: 285px; width: 100%; text-align: center; position: fixed; z-index: 400; opacity: 0; -webkit-animation-name: toast_pop;
+}
+.toast_pop div {
+	background: rgba(0, 0, 0, 0.6); margin: 0px 24px; padding: 18px 24px; border-radius: 56px; color: rgb(255, 255, 255); line-height: 1.5; font-size: 17px; display: inline-block; box-sizing: content-box;
+}
+@media all and (min-width:1024px)
+{
+.toast_pop {
+	top: 447px;
+}
+}
+.layer_fix section.dormancy {
+	margin: 0px auto; text-align: center; position: relative; max-width: 336px;
+}
+.dormancy .fix_title {
+	margin-bottom: 40px;
+}
+.dormancy .spot_img {
+	background: url("//image.goodchoice.kr/images/web_v3/ic_Inactive_account_img.png") no-repeat 50% 0px / 178px; height: 154px; text-indent: -9999px; margin-bottom: 30px;
+}
+.dormancy .spot_txt {
+	margin: 0px auto; text-align: left; color: rgba(0, 0, 0, 0.48); line-height: 24px; font-size: 16px; display: inline-block; max-width: 336px;
+}
+.dormancy .spot_txt p {
+	background: url("//image.goodchoice.kr/images/web_v3/ic_Inactive_account.png") no-repeat 0px 0px / 245px; height: 78px; text-indent: -9999px; margin-bottom: 16px; max-width: 299px;
+}
+.dormancy .btn_half {
+	height: 56px; margin-top: 54px; position: relative;
+}
+.dormancy .btn_half a {
+	top: 0px; width: 48.5%; height: 56px; line-height: 56px; font-size: 16px; display: inline-block; position: absolute;
+}
+.dormancy .btn_half a:nth-of-type(1) {
+	background: rgb(235, 235, 235); left: 0px; color: rgba(0, 0, 0, 0.72);
+}
+.dormancy .btn_half a:nth-of-type(2) {
+	background: rgb(0, 162, 173); right: 0px; color: rgb(255, 255, 255);
+}
+@media all and (max-width:320px)
+{
+.dormancy {
+	padding: 0px 16px;
+}
+.dormancy .fix_title {
+	margin-bottom: 20px;
+}
+.dormancy .spot_img {
+	height: 110px; margin-bottom: 20px; background-size: 126px;
+}
+.dormancy .spot_txt p {
+	height: 70px; background-size: 200px;
+}
+.dormancy .btn_half {
+	margin-top: 20px;
+}
+.layer_fix section.dormancy {
+	width: 320px;
+}
+}
+@media all and (min-width:1024px)
+{
+.layer_fix section.dormancy {
+	margin: 100px auto 0px;
+}
+.dormancy .spot_img {
+	background: url("//image.goodchoice.kr/images/web_v3/ic_Inactive_account_img.png") no-repeat 50% 0px / 200px; height: 174px; text-indent: -9999px; margin-bottom: 30px;
+}
+.dormancy .spot_txt p {
+	background: url("//image.goodchoice.kr/images/web_v3/ic_Inactive_account.png") no-repeat 50% 0px / 299px; height: 98px; text-indent: -9999px; margin-bottom: 16px; max-width: 299px;
+}
+}
+.join b {
+	color: rgba(0, 0, 0, 0.56); font-size: 16px; font-weight: bold; margin-bottom: 9px; display: block;
+}
+.join > div {
+	margin-bottom: 38px;
+}
+.join .btn-add {
+	margin-right: 100px;
+}
+.join .btn-add .btn_etc {
+	background: rgb(235, 235, 235); border-radius: 6px; top: 0px; width: 93px; height: 48px; right: -100px; color: rgba(0, 0, 0, 0.56); font-size: 14px; font-weight: bold; position: absolute;
+}
+.join .inp_error label {
+	left: 16px; top: 54px; font-size: 15px;
+}
+.join .txt_agree {
+	padding-top: 46px;
+}
+.default_label_txt {
+	left: 0px; top: 54px; color: rgba(0, 0, 0, 0.32) !important; padding-left: 16px; font-size: 15px; position: absolute;
+}
+.join .gra_left_right_red {
+	margin-bottom: 50px;
+}
+.layerpop.show {
+	display: block;
+}
+.layerpop {
+	background: rgba(0, 0, 0, 0.7); left: 0px; top: 0px; right: 0px; bottom: 0px; display: none; position: fixed; z-index: 2000; touch-action: none;
+}
+.layerpop.type_default .content {
+	background: rgb(255, 255, 255); border-radius: 2pt; left: 50%; top: 50%; width: 320px; overflow: hidden; margin-left: -160px; position: absolute;
+}
+.layerpop.type_default .txt {
+	padding: 50px 20px; text-align: center; line-height: 24px; letter-spacing: -1px; font-size: 16px;
+}
+.layerpop.type_default .btn_one {
+	width: 100%; height: 48px; color: rgb(0, 121, 107); line-height: 48px; font-size: 14px; font-weight: bold; border-top-color: rgba(0, 0, 0, 0.08); border-top-width: 1px; border-top-style: solid; display: block; box-sizing: border-box;
+}
+.popup-mobile {
+	background: rgba(0, 0, 0, 0.4); left: 0px; top: 0px; width: 100%; height: 100%; right: 0px; bottom: 0px; display: none; position: fixed; z-index: 1000;
+}
+.popup-mobile div {
+	margin: -200px 0px 0px -150px; left: 50%; top: 50%; width: 300px; position: absolute;
+}
+.popup-mobile div img {
+	width: 100%;
+}
+.popup-mobile div button {
+	background: none; border: currentColor; border-image: none; top: 0px; width: 60px; height: 60px; right: 0px; text-indent: -9999px; position: absolute;
+}
+.popup-mobile div a {
+	left: 65px; width: 169px; height: 40px; bottom: 22px; text-indent: -9999px; position: absolute;
+}
+.h4_rules_memo{border:1px solid #D2D2D2; height:150px; margin-bottom:50px; overflow-x:hidden; overflow-y:scroll; padding:25px; color:#666;}
+contents_box{float:left; width:960px; padding-bottom:30px; margin-left:168px;}
+right_contents{float:right; width:760px; text-align:left;}
+top_title{height:50px; border-bottom:1px solid #d4cec5; position:relative; margin-bottom:30px;}
+.con_title{margin-top:4px;}
+.location{text-align:right; position:absolute; top:15px; right:0px;}
+.con_box{padding:0px 15px;}
+.hero-banner {
+	position: relative;
+	height: 400px;
+	background: url("../images/banner/themepark.jpg") left center no-repeat;
+	background-size: cover;
+	z-index: 1
+} 

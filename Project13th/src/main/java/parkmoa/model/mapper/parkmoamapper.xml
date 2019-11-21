@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="parkmoa.model.ParkmoaImpl">
+
+	<select id="totalmembercount" resultType="int">
+		select count(*) from parkmoamember where 1=1
+	</select>
+	<select id="membercount" resultType="int">
+		select count(*) from parkmoamember where authority='member' and enabled=1
+	</select>
+	<select id="companycount" resultType="int">
+		select count(*) from parkmoamember where authority = 'company' and enabled=1
+	</select>
+	<select id="slavecount" resultType="int">
+		select count(*) from parkmoamember where enabled = 0
+	</select>
+	<select id="faqcount" resultType="int">
+		select count(*) from
+		parkmoaboard where b_flag = 'faq' and b_alert = 0
+	</select>
+	<select id="themeregistcount" resultType="int">
+		select count(*) from themepark where tp_confirm = 0
+	</select>
+
+
+	<select id="getTotalCount" resultType="int">
+		select count(*) from parkmoaboard where B_FLAG = #{param1}
+		<choose>
+			<when test="param2=='b_title' and param3 != null">
+				and b_title like '%'||#{param3}||'%'
+			</when>
+
+			<when test="param2=='b_content' and param3 != null">
+				and b_content like '%'||#{param3}||'%'
+			</when>
+		</choose>
+	</select>
+
+	<select id="listPage" resultType="parkmoa.model.ParkmoaBoardDTO">
+		select * from (
+		select tb.*, rownum rNum from(
+		select * from
+		parkmoaboard where B_FLAG = #{param1}
+
+		<choose>
+			<when test="param4=='b_title' and param5 != null">
+				and b_title like '%'||#{param5}||'%'
+			</when>
+
+			<when test="param4=='b_content' and param5 != null">
+				and b_content like '%'||#{param5}||'%'
+			</when>
+		</choose>
+		order by b_bgroup desc, b_bstep asc
+		) tb
+		)
+		where rNum between #{param2}
+		and #{param3}
+	</select>
+
+	<select id="getTotalCount2" resultType="int">
+		select count(*) from ThemePark where tp_confirm=0
+		<if test="value != null">
+			and tp_category like '%'||#{value}||'%'
+		</if>
+	</select>
+
+	<select id="listPage2" resultType="parkmoa.model.ThemeParkDTO">
+		select * from (
+		select tb.*,
+		rownum rNum from(
+		select * from ThemePark where tp_confirm=0
+		<if test="param3 != null">
+			and tp_category like '%'||#{param3}||'%'
+		</if>
+		order by tp_idx desc
+		) tb
+		)
+		where rNum between #{param1} and #{param2}
+	</select>
+
+	<select id="getTotalCount4" resultType="int">
+		select count(*) from ThemePark where tp_category = #{param1} and
+		tp_confirm=1
+		<choose>
+			<when test="param2=='tp_name' and param3 != null">
+				and tp_name like '%'||#{param3}||'%'
+			</when>
+
+			<when test="param2=='m_id' and param3 != null">
+				and m_id like '%'||#{param3}||'%'
+			</when>
+		</choose>
+	</select>
+
+	<select id="listPage4" resultType="parkmoa.model.ThemeParkDTO">
+		select * from (
+		select tb.*, rownum rNum from(
+		select * from
+		ThemePark where tp_confirm=1 and tp_category = #{param1}
+
+		<choose>
+			<when test="param4=='tp_name' and param5 != null">
+				and tp_name like '%'||#{param5}||'%'
+			</when>
+
+			<when test="param4=='m_id' and param5 != null">
+				and m_id like '%'||#{param5}||'%'
+			</when>
+		</choose>
+		order by tp_idx desc
+		) tb
+		)
+		where rNum between #{param2}
+		and #{param3}
+	</select>
+
+	<select id="Tp_selectView"
+		resultType="parkmoa.model.ThemeParkDTO">
+		select * from ThemePark where tp_idx = #{param1}
+	</select>
+
+	<update id="insertWrite">
+		update ThemePark set tp_confirm=1 where tp_idx=#{param1}
+	</update>
+
+	<delete id="deleteConfrim" parameterType="int">
+		delete from themepark
+		where tp_idx = #{param1}
+	</delete>
+
+	<delete id="boarddelete" parameterType="int">
+		delete from parkmoaboard
+		where b_idx = #{param1}
+	</delete>
+
+	<delete id="boardreplydelete" parameterType="int">
+		delete from parkmoaboard
+		where b_bgroup = #{param1}
+	</delete>
+
+	<select id="getTotalCount1" resultType="int">
+		select count(*) from PAYMENT where 1=1
+		<choose>
+			<when test="param1=='m_id' and param2 != null">
+				and m_id like '%'||#{param2}||'%'
+			</when>
+		</choose>
+	</select>
+
+	<select id="paymentlistPage"
+		resultType="parkmoa.model.PaymentDTO">
+		select distinct m_id, m_mobile, m_email from payment where 1=1
+		<choose>
+			<when test="param3=='m_id' and param4 != null">
+				and m_id like '%'||#{param4}||'%'
+			</when>
+		</choose>
+	</select>
+	
+	<select id="paymentViewPage"
+		resultType="parkmoa.model.PaymentDTO">
+		select * from payment where m_id=#{value} order by pay_regidate desc
+	</select>
+
+	<select id="boardSelect"
+		resultType="parkmoa.model.ParkmoaBoardDTO">
+		select * from parkmoaboard where b_idx=#{param1}
+	</select>
+
+	<select id="getTotalCount3" resultType="int">
+		SELECT COUNT(*) from
+		ParkmoaMember WHERE
+		<choose>
+			<when test="param1=='disabled'">
+				enabled=0
+			</when>
+			<otherwise>
+				<choose>
+					<when test="param1=='member'">
+						(authority=#{param1} or authority='kakao' or authority='naver')
+					</when>
+					<otherwise>
+						authority=#{param1}
+					</otherwise>
+				</choose>
+				<choose>
+					<when test="param2=='m_id' and param3 != null">
+						and m_id like '%'||#{param3}||'%'
+					</when>
+
+					<when test="param2=='m_name' and param3 != null">
+						and m_name like '%'||#{param3}||'%'
+					</when>
+				</choose>
+				and enabled=1
+			</otherwise>
+		</choose>
+	</select>
+
+	<select id="listPage3"
+		resultType="parkmoa.model.ParkmoaMemberDTO">
+		SELECT * FROM (
+		SELECT Tb.*, rownum rNum FROM(
+		SELECT * FROM
+		ParkmoaMember where
+
+		<choose>
+			<when test="param1=='disabled'">
+				enabled=0 ORDER BY m_regidate DESC
+				)Tb
+				)
+				WHERE rNum BETWEEN #{param2} AND #{param3}
+			</when>
+			<otherwise>
+				<choose>
+					<when test="param1=='member'">
+						(authority=#{param1} or authority='kakao' or authority='naver')
+					</when>
+					<otherwise>
+						authority=#{param1}
+					</otherwise>
+				</choose>
+				<choose>
+					<when test="param4=='m_id' and param5 != null">
+						and m_id like '%'||#{param5}||'%'
+					</when>
+
+					<when test="param4=='m_name' and param5 != null">
+						and m_name like '%'||#{param5}||'%'
+					</when>
+				</choose>
+				and enabled=1 ORDER BY m_regidate DESC
+				)Tb
+				)
+				WHERE rNum BETWEEN #{param2} AND #{param3}
+			</otherwise>
+		</choose>
+
+	</select>
+
+	<update id="deleteUser">
+		update parkmoamember set enabled=0 WHERE
+		m_id=#{param1}
+	</update>
+
+	<select id="MemberView"
+		resultType="parkmoa.model.ParkmoaMemberDTO">
+		SELECT * FROM ParkmoaMember WHERE m_id=#{param1}
+	</select>
+
+	<update id="ListEdit">
+		UPDATE ParkmoaMember
+		SET m_name=#{m_name},
+		m_pw=#{m_pw}, m_mobile=#{m_mobile},
+		m_email=#{m_email}
+		WHERE
+		m_id=#{m_id}
+	</update>
+
+	<update id="replyprevupdate">
+		update parkmoaboard set
+		b_bstep=b_bstep+1 where
+		b_bgroup=#{b_bgroup} and b_bstep>=#{b_bstep}
+	</update>
+
+	<insert id="boardreply">
+		insert into parkmoaboard (
+		B_IDX, M_ID, B_TITLE,
+		B_CONTENT, B_BGROUP, B_BSTEP,
+		B_BINDENT, B_FLAG, b_alert)
+		values
+		(parkmoa_seq.nextval, #{m_id}, #{b_title}, #{b_content},
+		#{b_bgroup},
+		#{b_bstep}+1, #{b_bindent}+1,#{b_flag},1)
+	</insert>
+
+	<update id="alertupdate">
+		UPDATE PARKMOABOARD SET B_ALERT = '1' where b_idx =
+		#{b_idx}
+	</update>
+
+	<insert id="listwrite">
+		insert into parkmoaboard
+		(B_IDX, M_ID, B_TITLE,
+		B_CONTENT,b_realfilename,
+		B_ATTACHEDFILE,B_FLAG,B_bGROUP)
+		values
+		(parkmoa_seq.nextval,#{param1},#{param2},#{param3},#{param4},#{param5},#{param6},parkmoa_seq.nextval)
+	</insert>
+
+	<insert id="listwrite1"
+		parameterType="parkmoa.model.ParkmoaBoardDTO">
+		insert into parkmoaboard
+		(B_IDX, M_ID, B_TITLE,
+		B_CONTENT,B_FLAG,B_bGROUP)
+		values
+		(parkmoa_seq.nextval,#{m_id},#{b_title},#{b_content},#{b_flag},parkmoa_seq.nextval)
+	</insert>
+
+	<update id="boardEdit">
+		update parkmoaboard set m_id=#{param1},
+		b_title=#{param2}, b_content=#{param3}, b_realfilename=#{param4},
+		b_attachedfile=#{param5}
+		where b_idx=#{param6}
+	</update>
+
+	<update id="boardEdit1"
+		parameterType="parkmoa.model.ParkmoaBoardDTO">
+		update parkmoaboard set m_id=#{m_id},
+		b_title=#{b_title}, b_content=#{b_content}
+		where b_idx=#{b_idx}
+	</update>
+
+	<insert id="adminthemeRegist">
+		insert into ThemePark
+		(tp_idx,m_id,tp_name,tp_phone,tp_realfilename,tp_attach,tp_addr1,tp_content,tp_category,tp_parkregi)
+		values
+		(parkmoa_seq.nextval,#{param1},#{param2},#{param3},#{param4},#{param5},#{param6},#{param7},#{param8},#{param9})
+	</insert>
+
+	<update id="enabledUser">
+		update parkmoamember set enabled=1 WHERE
+		m_id=#{param1}
+	</update>
+
+	<select id="themeSelect" resultType="parkmoa.model.ThemeParkDTO">
+		select * from ThemePark where tp_idx = #{param1}
+	</select>
+
+	<delete id="themeDelete">
+		delete from ThemePark
+		where tp_idx = #{param1}
+	</delete>
+
+	<select id="getTotalCount5" resultType="int">
+		select count(*) from Tickets where 1=1
+		<choose>
+			<when test="param1=='t_name' and param2 != null">
+				and t_name like '%'||#{param2}||'%'
+			</when>
+
+			<when test="param1=='t_price' and param2 != null">
+				and t_price like '%'||#{param2}||'%'
+			</when>
+		</choose>
+	</select>
+
+	<select id="ticketlistPage"
+		resultType="parkmoa.model.TicketsDTO">
+		select * from (
+		select tb.*, rownum rNum from(
+		select * from
+		Tickets where 1=1
+
+		<choose>
+			<when test="param3=='t_name' and param4 != null">
+				and t_name like '%'||#{param4}||'%'
+			</when>
+
+			<when test="param3=='t_price' and param4 != null">
+				and t_price like '%'||#{param4}||'%'
+			</when>
+		</choose>
+		order by t_idx desc
+		) tb
+		)
+		where rNum between #{param1}
+		and #{param2}
+	</select>
+
+	<select id="ticketsview" resultType="parkmoa.model.TicketsDTO">
+		select * from Tickets where t_idx = #{value}
+	</select>
+
+	<select id="tp_categoryselect" resultType="String">
+		select tp_category from themepark where tp_idx = #{value}
+	</select>
+
+	<delete id="ticketsDelete">
+		delete from Tickets
+		where t_idx = #{value}
+	</delete>
+	
+	<update id="ticketedit">
+		update Tickets set t_name=#{t_name}, t_price = #{t_price} where t_idx=#{t_idx}
+	</update>
+	
+	<select id="ticketlists" resultType="parkmoa.model.TicketsDTO">
+		select * from Tickets where tp_idx = #{value}
+	</select>
+	
+	<delete id="reviewdelete">
+		delete from parkmoaboard where b_bgroup = #{value} 
+	</delete>
+
+
+</mapper>

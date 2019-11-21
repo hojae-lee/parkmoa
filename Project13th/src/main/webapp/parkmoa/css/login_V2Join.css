@@ -1,0 +1,1536 @@
+body {
+	width: 100%; height: 100%;
+}
+html {
+	width: 100%; height: 100%;
+}
+body {
+	margin: 0px; padding: 0px;
+}
+button {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+fieldset {
+	margin: 0px; padding: 0px;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+h6 {
+	margin: 0px; padding: 0px;
+}
+input {
+	margin: 0px; padding: 0px;
+}
+legend {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+ol {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+select {
+	margin: 0px; padding: 0px;
+}
+table {
+	margin: 0px; padding: 0px;
+}
+td {
+	margin: 0px; padding: 0px;
+}
+textarea {
+	margin: 0px; padding: 0px;
+}
+th {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+body {
+	font-family: Dotum,"����",Helvetica,sans-serif; font-size: 12px; -webkit-text-size-adjust: none;
+}
+button {
+	font-family: Dotum,"����",Helvetica,sans-serif; font-size: 12px; -webkit-text-size-adjust: none;
+}
+input {
+	font-family: Dotum,"����",Helvetica,sans-serif; font-size: 12px; -webkit-text-size-adjust: none;
+}
+select {
+	font-family: Dotum,"����",Helvetica,sans-serif; font-size: 12px; -webkit-text-size-adjust: none;
+}
+table {
+	font-family: Dotum,"����",Helvetica,sans-serif; font-size: 12px; -webkit-text-size-adjust: none;
+}
+textarea {
+	font-family: Dotum,"����",Helvetica,sans-serif; font-size: 12px; -webkit-text-size-adjust: none;
+}
+button {
+	border-radius: 0px; border: 0px currentColor; border-image: none; -webkit-appearance: none; -moz-appearance: none; appearance: none;
+}
+input {
+	border-radius: 0px; border: 0px currentColor; border-image: none; -webkit-appearance: none; -moz-appearance: none; appearance: none;
+}
+select {
+	border-radius: 0px; border: 0px currentColor; border-image: none; -webkit-appearance: none; -moz-appearance: none; appearance: none;
+}
+textarea {
+	border-radius: 0px; border: 0px currentColor; border-image: none; -webkit-appearance: none; -moz-appearance: none; appearance: none;
+}
+button {
+	cursor: pointer; background-color: transparent;
+}
+fieldset {
+	border: 0px currentColor; border-image: none;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+ol {
+	list-style: none;
+}
+ul {
+	list-style: none;
+}
+address {
+	font-style: normal;
+}
+em {
+	font-style: normal;
+}
+i {
+	font-style: normal;
+}
+a {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: underline;
+}
+a:focus {
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: underline;
+}
+.blind {
+	margin: -1px; width: 1px; height: 1px; overflow: hidden; position: absolute; clip: rect(0px, 0px, 0px, 0px);
+}
+body {
+	background: rgb(255, 255, 255); position: relative;
+}
+html[lang=en] body {
+	font-family: Arial;
+}
+html[lang=en] button {
+	font-family: Arial;
+}
+html[lang=en] input {
+	font-family: Arial;
+}
+html[lang=en] select {
+	font-family: Arial;
+}
+html[lang=en] table {
+	font-family: Arial;
+}
+html[lang=en] textarea {
+	font-family: Arial;
+}
+html[lang=zh-Hans] body {
+	font-family: Arial;
+}
+html[lang=zh-Hans] button {
+	font-family: Arial;
+}
+html[lang=zh-Hans] input {
+	font-family: Arial;
+}
+html[lang=zh-Hans] select {
+	font-family: Arial;
+}
+html[lang=zh-Hans] table {
+	font-family: Arial;
+}
+html[lang=zh-Hans] textarea {
+	font-family: Arial;
+}
+html[lang=zh-Hant] body {
+	font-family: Arial;
+}
+html[lang=zh-Hant] button {
+	font-family: Arial;
+}
+html[lang=zh-Hant] input {
+	font-family: Arial;
+}
+html[lang=zh-Hant] select {
+	font-family: Arial;
+}
+html[lang=zh-Hant] table {
+	font-family: Arial;
+}
+html[lang=zh-Hant] textarea {
+	font-family: Arial;
+}
+#u_skip {
+	position: relative; z-index: 2147483647;
+}
+#u_skip a {
+	background: url("https://static.nid.naver.com/images/web/user/sp_u_skip.png") repeat-x 0px -11px; outline: 0px; border: 1px solid rgb(78, 197, 61); border-image: none; left: 0px; top: -30px; width: 128px; text-align: center; position: absolute;
+}
+#u_skip a:active {
+	top: 0px; text-decoration: none; cursor: pointer;
+}
+#u_skip a:focus {
+	top: 0px; text-decoration: none; cursor: pointer;
+}
+#u_skip span {
+	background: url("https://static.nid.naver.com/images/web/user/sp_u_skip.png") no-repeat 100% 11px; padding: 2px 6px 0px 0px; color: rgb(255, 255, 255); line-height: 26px; letter-spacing: -1px; font-size: 11px; display: inline-block;
+}
+div[tabindex='-1'] {
+	outline: 0px;
+}
+#footer {
+	margin: 0px auto; padding: 30px 0px 15px; text-align: center; clear: both;
+}
+#footer * {
+	list-style: none; margin: 0px; padding: 0px; color: rgb(51, 51, 51); line-height: normal; font-size: 12px; font-style: normal;
+}
+#footer a {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+#footer a:visited {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+#footer a:hover {
+	text-decoration: underline;
+}
+#footer ul {
+	margin: 0px 0px 9px;
+}
+#footer ul li {
+	background: url("https://static.nid.naver.com/images/join/pc/bu_bar_2x.gif") no-repeat left 50% / 1px 10px; padding: 0px 3px 0px 7px; font-size: 12px; display: inline; white-space: nowrap; position: relative; -webkit-background-size: 1px 10px;
+}
+#footer ul li:first-child {
+	background: 0px 0px;
+}
+#footer ul li a:hover {
+	color: rgb(67, 138, 1);
+}
+#footer ul li a:hover strong {
+	color: rgb(67, 138, 1);
+}
+#footer ul li.first {
+	background: 0px 0px; padding: 0px 3px 0px 0px;
+}
+#footer .info {
+	margin: 0px 0px 11px; color: rgb(126, 126, 126); line-height: 15px; font-size: 11px;
+}
+#footer .info2 {
+	margin: -3px 0px 13px; line-height: 18px; font-size: 11px;
+}
+#footer .info2 span {
+	background: url("https://static.nid.naver.com/images/join/pc/bu_bar_2x.gif") no-repeat left 50% / 1px 10px; padding-left: 7px; font-size: 11px; margin-left: 2px; display: inline-block; -webkit-background-size: 1px 10px;
+}
+#footer address {
+	font: 9px/14px Verdana; font-size-adjust: none; font-stretch: normal;
+}
+#footer address a {
+	font: 700 9px/normal Verdana; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+#footer address a:hover {
+	color: rgb(45, 180, 0);
+}
+#footer address span {
+	font: 9px/14px Verdana; padding-left: 2px; font-size-adjust: none; font-stretch: normal;
+}
+#footer address em {
+	font: 9px/normal verdana; padding-left: 4px; font-size-adjust: none; font-stretch: normal;
+}
+#footer address .logo {
+	background: url("https://static.nid.naver.com/images/join/pc/ci_naver.gif") no-repeat 0px 0px / 63px 11px; width: 63px; height: 11px; display: inline-block; position: relative; -webkit-background-size: 63px 11px;
+}
+:root #footer address .logo {
+	top: 2px; margin-left: 1px;
+}
+#footer address .u_cri {
+	margin: 0px; padding-left: 1px; font-size: 12px; display: none;
+}
+#footer address .bar {
+	display: none;
+}
+html[lang=en] #footer .footer_none {
+	display: none;
+}
+html[lang=zh-Hans] #footer .footer_none {
+	display: none;
+}
+html[lang=zh-Hant] #footer .footer_none {
+	display: none;
+}
+.btn_area {
+	margin: 30px 0px 9px;
+}
+.btn_area.double {
+	margin: 29px -5px 0px; overflow: hidden;
+}
+.btn_area.double > span {
+	width: 50%; float: left; display: block;
+}
+.btn_area.double span::before {
+	clear: both; display: block; content: "";
+}
+.btn_area > span .btn_type {
+	margin: 0px 5px; width: auto;
+}
+.btn_type {
+	padding: 21px 0px 17px; width: 100%; text-align: center; font-size: 20px; font-weight: 700; display: block; cursor: pointer; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.btn_type:active {
+	text-decoration: none;
+}
+.btn_type:focus {
+	text-decoration: none;
+}
+.btn_type:hover {
+	text-decoration: none;
+}
+.btn_type + .btn_type {
+	margin-top: 10px;
+}
+.btn_default {
+	color: rgb(255, 255, 255); background-color: rgb(142, 142, 142);
+}
+.btn_primary {
+	color: rgb(255, 255, 255); background-color: rgb(8, 166, 0);
+}
+html[lang=en] .btn_type {
+	font-family: Arial,Helvetica,sans-serif; font-weight: 400;
+}
+html[lang=zh-Hans] .btn_type {
+	font-family: Arial,Helvetica,sans-serif; font-weight: 400;
+}
+html[lang=zh-Hant] .btn_type {
+	font-family: Arial,Helvetica,sans-serif; font-weight: 400;
+}
+html[lang=en] .btn_primary span {
+	top: -2px; vertical-align: top; display: inline-block; position: relative;
+}
+.btn_verify {
+	font-size: 15px; display: block; cursor: pointer;
+}
+input:-ms-input-placeholder.int {
+	color: rgb(142, 142, 142);
+}
+select::-ms-expand {
+	opacity: 0;
+}
+.sp {
+	background: url("https://static.nid.naver.com/images/ui/join/pc_sp_join_20170904.png") no-repeat;
+}
+@media not all
+{
+.sp {
+	background: url("https://static.nid.naver.com/images/ui/join/t_sp_join_20170904.png") no-repeat 0% 0% / 460px auto; -webkit-background-size: 460px auto;
+}
+}
+.green {
+	color: rgb(8, 166, 0) !important;
+}
+#wrap {
+	width: 100%;
+}
+#container {
+	margin: 0px auto; min-width: 460px; max-width: 768px;
+}
+#footer {
+	margin: 0px auto; min-width: 460px; max-width: 768px;
+}
+#header {
+	margin: 0px auto; min-width: 460px; max-width: 768px;
+}
+#header {
+	padding: 62px 0px 59px; overflow: hidden; position: relative; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.join_membership#header {
+	padding-bottom: 20px;
+}
+#header .h_logo {
+	background: url("https://static.nid.naver.com/images/ui/login/pc_sp_login_170424.png") no-repeat -1px -1px / 460px auto; margin: 0px auto; width: 240px; height: 44px; overflow: hidden; display: block; -webkit-background-size: 460px auto;
+}
+#header .h_logo::before {
+	font-size: 0px; content: "\00a0";
+}
+#header .lang {
+	top: 14px; right: 0px; position: absolute;
+}
+#header .lang .sel {
+	padding: 5px 8px 5px 7px; border-radius: 0px; border: 1px solid rgb(204, 204, 204); border-image: none; height: 30px; color: rgb(51, 51, 51); font-size: 12px; font-weight: 400; cursor: pointer; min-width: 98px;
+}
+html[lang=ko] #header .lang .sel {
+	padding: 6px 8px 5px 7px;
+}
+#content {
+	margin: 0px auto; width: 460px;
+}
+#container h2.blind {
+	width: 150px; height: 20px; display: block;
+}
+.sel {
+	border-radius: 0px; border: currentColor; border-image: none; width: 100%; height: 29px; color: rgb(0, 0, 0); line-height: 18px; font-size: 15px; -webkit-appearance: none;
+}
+:root .sel {
+	background: url("https://static.nid.naver.com/images/join/pc/sel_arr_2x.gif") no-repeat 100% 50% / 20px 8px rgb(255, 255, 255); -webkit-background-size: 20px 8px;
+}
+html[lang=en] .sel {
+	
+}
+html[lang=zh-hans] .sel {
+	padding-top: 5px;
+}
+.error {
+	margin: 8px 0px -1px; color: red; line-height: 14px; font-size: 12px; display: block;
+}
+.error_next_box {
+	margin: 9px 0px -2px; color: red; line-height: 14px; font-size: 12px; display: block;
+}
+.terms_p2 {
+	padding: 0px 0px 27px; color: rgb(142, 142, 142); line-height: 15px; font-size: 12px; margin-top: -11px;
+}
+.terms_bx_list {
+	margin-top: 4px;
+}
+.terms_bx {
+	padding-top: 30px; display: block;
+}
+.terms_box {
+	background: rgb(255, 255, 255); padding: 12px; border: 1px solid rgb(218, 218, 218); border-image: none; height: 88px; overflow: auto; margin-top: 8px; position: relative; -ms-scrollbar-base-color: rgb(217, 217, 217); -ms-scrollbar-face-color: rgb(217, 217, 217); -ms-scrollbar-3dlight-color: rgb(217, 217, 217); -ms-scrollbar-shadow-color: rgb(217, 217, 217); -ms-scrollbar-highlight-color: rgb(217, 217, 217); -ms-scrollbar-darkshadow-color: rgb(217, 217, 217); -ms-scrollbar-arrow-color: rgb(142, 142, 142); -ms-scrollbar-track-color: rgb(242, 242, 242); box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -webkit-overflow-scrolling: touch;
+}
+.terms_box .article {
+	color: rgb(102, 102, 102); line-height: 16px; font-size: 12px;
+}
+.section {
+	color: rgb(102, 102, 102); line-height: 16px; font-size: 12px;
+}
+html[lang=en] .section {
+	font-family: Arial;
+}
+html[lang=zh-Hans] .section {
+	font-family: Arial;
+}
+html[lang=zh-Hant] .section {
+	font-family: Arial;
+}
+.section h3 {
+	line-height: 16px; font-size: 12px; font-weight: 700; margin-top: 10px;
+}
+.section h4 {
+	line-height: 16px; font-size: 12px; font-weight: 700; margin-top: 10px;
+}
+.section h5 {
+	line-height: 16px; font-size: 12px; font-weight: 700; margin-top: 10px;
+}
+.section h3:first-child {
+	margin-top: 0px;
+}
+.section h4:first-child {
+	margin-top: 0px;
+}
+.section h5:first-child {
+	margin-top: 0px;
+}
+.section dl {
+	margin-top: 10px;
+}
+.section ul {
+	margin-top: 10px;
+}
+.input_chk {
+	display: block; position: relative; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.input_chk input {
+	outline: 0px; left: 1px; top: 50%; width: 18px; height: 18px; margin-top: -10px; position: absolute;
+}
+.input_chk label {
+	width: 100%; color: rgb(51, 51, 51); line-height: 21px; padding-left: 29px; font-size: 14px; font-weight: 700; display: block; position: relative; cursor: pointer; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.input_chk input:focus ~ label {
+	outline: dotted thin;
+}
+html[lang=en] .input_chk label {
+	font-family: Arial;
+}
+html[lang=zh-Hans] .input_chk label {
+	font-family: Arial;
+}
+html[lang=zh-Hant] .input_chk label {
+	font-family: Arial;
+}
+:root .input_chk label::before {
+	background: url("https://static.nid.naver.com/images/ui/myinfo/pc_chcek_off_s_20.png") no-repeat 0px 0px / 20px 20px rgb(245, 246, 247); left: 1px; top: 50%; width: 20px; height: 20px; margin-top: -10px; display: block; position: absolute; content: ""; -webkit-background-size: 20px 20px;
+}
+:root .terms_chk_all .input_chk label::before {
+	background: url("https://static.nid.naver.com/images/ui/myinfo/pc_check_off_24.png") no-repeat 0px 0px / 24px 24px rgb(245, 246, 247); left: 1px; top: 50%; width: 24px; height: 24px; margin-top: -14px; position: absolute; content: ""; -webkit-background-size: 24px 24px;
+}
+:root .input_chk input:checked + label::before {
+	background: url("https://static.nid.naver.com/images/ui/myinfo/pc_chcek_on_s_20.png") no-repeat 0px 0px / 20px 20px rgb(245, 246, 247); content: ""; -webkit-background-size: 20px 20px;
+}
+:root .terms_chk_all .input_chk input:checked + label::before {
+	background: url("https://static.nid.naver.com/images/ui/myinfo/pc_check_on_l_24.png") no-repeat 0px 0px / 24px 24px rgb(245, 246, 247); content: ""; -webkit-background-size: 24px 24px;
+}
+.input_chk label .terms_choice {
+	color: rgb(8, 166, 0); font-size: 12px; font-weight: 400;
+}
+.input_chk label .terms_no {
+	color: rgb(142, 142, 142);
+}
+.input_chk label .terms_tit_link {
+	color: rgb(51, 51, 51); text-decoration: underline;
+}
+.input_chk .collect_personal {
+	padding-right: 98px; margin-bottom: 13px;
+}
+.easy_guide {
+	background: rgb(255, 255, 255); padding: 6px 8px; border: 1px solid rgb(8, 166, 0); border-image: none; top: 50%; text-align: center; right: 0px; margin-top: -15px; display: block; position: absolute; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.easy_guide:active {
+	text-decoration: none;
+}
+.easy_guide:focus {
+	text-decoration: none;
+}
+.easy_guide:hover {
+	text-decoration: none;
+}
+.easy_guide .txt {
+	color: rgb(8, 166, 0); font-size: 12px;
+}
+.pop_easy#wrap {
+	background-color: rgb(255, 255, 255);
+}
+.pop_easy#wrap .top_easy {
+	margin: 0px; padding: 0px; max-width: 100%; background-color: rgb(3, 199, 90);
+}
+.pop_easy#wrap .top_easy_title {
+	margin: 0px auto; padding: 6px 0px 11px; max-width: 460px;
+}
+.pop_easy#wrap .top_easy .ico_naver {
+	background: url("https://static.nid.naver.com/images/ui/join/pc_naver_logo_white.png") no-repeat 0px 0px / 56px 11px; width: 56px; height: 11px; display: inline-block; -webkit-background-size: 56px 11px;
+}
+.pop_easy#wrap .top_easy .title {
+	color: rgb(255, 255, 255); font-size: 16px;
+}
+.pop_easy#wrap .collect_personal_area {
+	padding-bottom: 20px;
+}
+.easy_area {
+	color: rgb(142, 142, 142); line-height: 20px; padding-top: 12px; font-size: 14px;
+}
+.read_desc {
+	color: rgb(142, 142, 142); line-height: 20px; padding-top: 12px; font-size: 14px;
+}
+.easy_area {
+	padding-top: 34px;
+}
+.easy_area .tit {
+	color: rgb(0, 0, 0); padding-bottom: 8px; font-size: 18px; font-weight: 700;
+}
+.easy_area .sub_tit {
+	color: rgb(0, 0, 0); padding-bottom: 8px; font-size: 16px; font-weight: 700; margin-top: 18px;
+}
+.easy_area .sub_tit2 {
+	padding: 0px 0px 2px 5px; color: rgb(51, 51, 51); font-size: 14px; margin-top: 7px; position: relative;
+}
+.easy_area .sub_tit3 {
+	padding: 0px 0px 2px 5px; color: rgb(51, 51, 51); font-size: 14px; margin-top: 7px; position: relative;
+}
+.easy_area .sub_tit3 {
+	margin-top: 17px;
+}
+.easy_area .sub_tit4 {
+	padding: 8px 0px 8px 6px; color: rgb(51, 51, 51); line-height: 19px; font-size: 14px; position: relative;
+}
+.easy_area .sub_tit2::before {
+	border-radius: 3px; left: 0px; top: 8px; width: 2.5px; height: 2.5px; position: absolute; content: ""; background-color: rgb(51, 51, 51); -webkit-border-radius: 3px;
+}
+.easy_area .sub_tit4::before {
+	border-radius: 3px; left: 0px; top: 8px; width: 2.5px; height: 2.5px; position: absolute; content: ""; background-color: rgb(51, 51, 51); -webkit-border-radius: 3px;
+}
+.easy_area .sub_tit4::before {
+	top: 15px;
+}
+.easy_area .desc {
+	color: rgb(142, 142, 142); line-height: 20px; font-size: 14px; display: block;
+}
+.easy_area .desc2 {
+	color: rgb(142, 142, 142); line-height: 20px; font-size: 14px; display: block;
+}
+.easy_area .desc3 {
+	color: rgb(142, 142, 142); line-height: 20px; font-size: 14px; display: block;
+}
+.easy_area .desc4 {
+	color: rgb(142, 142, 142); line-height: 20px; font-size: 14px; display: block;
+}
+.easy_area .desc5 {
+	color: rgb(142, 142, 142); line-height: 20px; font-size: 14px; display: block;
+}
+.easy_area .desc + .desc2 {
+	padding-top: 9px;
+}
+.easy_area .desc2 {
+	padding-left: 6px; position: relative;
+}
+.easy_area .desc3 {
+	padding-left: 6px; position: relative;
+}
+.easy_area .desc5 {
+	padding-left: 6px; position: relative;
+}
+.easy_area .desc2::before {
+	left: 0px; top: 18px; width: 2px; height: 2px; display: block; position: absolute; content: ""; background-color: rgb(142, 142, 142);
+}
+.easy_area .desc5::before {
+	left: 0px; top: 18px; width: 2px; height: 2px; display: block; position: absolute; content: ""; background-color: rgb(142, 142, 142);
+}
+.easy_area .desc4 + .desc4 {
+	padding-top: 6px;
+}
+.easy_area .desc5::before {
+	top: 8px;
+}
+.easy_area .cc_tit {
+	color: rgb(142, 142, 142); padding-bottom: 10px; font-size: 14px; margin-top: 8px; display: block;
+}
+.easy_area .cc_box {
+	padding: 8px 12px; border: 1px solid rgb(229, 229, 229); border-image: none; display: block; background-color: rgb(245, 246, 247);
+}
+.easy_area .cc_box + .desc {
+	margin-top: 13px;
+}
+.easy_area .cc_box_tit {
+	color: rgb(102, 102, 102); padding-left: 6px; position: relative;
+}
+.easy_area .cc_box_tit::before {
+	left: 0px; top: 8px; width: 2.5px; height: 2.5px; display: block; position: absolute; content: ""; background-color: rgb(102, 102, 102);
+}
+.easy_btn_area {
+	padding: 0px 0px 30px; text-align: center; display: block;
+}
+.easy_btn {
+	margin: 0px auto; padding: 14px 0px 15px; width: 100%; display: block; background-color: rgb(3, 199, 90);
+}
+.easy_btn .txt {
+	color: rgb(255, 255, 255); font-size: 16px;
+}
+a.language_level {
+	margin: 17px 0px 5px; color: rgb(0, 117, 200); line-height: 15px; font-size: 14px; border-bottom-color: rgb(0, 117, 200); border-bottom-width: 0.5px; border-bottom-style: solid; display: inline-block;
+}
+.language_level_desc {
+	color: rgb(142, 142, 142); line-height: 20px; padding-top: 34px; font-size: 14px;
+}
+.section table {
+	margin: 0px; border: 0px currentColor; border-image: none; text-align: center; color: rgb(51, 51, 51); border-collapse: collapse;
+}
+.section table td {
+	padding: 5px 0px; border: 1px solid rgb(229, 229, 229); border-image: none;
+}
+.section table th {
+	padding: 5px 0px; border: 1px solid rgb(229, 229, 229); border-image: none;
+}
+.section ol {
+	margin-bottom: 10px;
+}
+ul.terms_list {
+	list-style: circle;
+}
+ul.terms_list li {
+	padding-left: 10px; list-style-type: circle;
+}
+.terms_chk_all .input_chk label {
+	line-height: 21px; padding-left: 34px;
+}
+.article {
+	color: rgb(102, 102, 102); line-height: 16px; font-size: 12px;
+}
+.policy_summary {
+	color: rgb(102, 102, 102); line-height: 16px; font-size: 12px;
+}
+.article {
+	margin-top: 15px;
+}
+.article .article__title {
+	padding-bottom: 8px;
+}
+.article__text + .article__text {
+	margin-top: 8px;
+}
+.article__text a {
+	color: rgb(8, 166, 0);
+}
+.article__text em {
+	color: rgb(0, 0, 0);
+}
+.article__text__list {
+	padding-left: 20px; position: relative;
+}
+.article__text__list::before {
+	background: rgb(142, 142, 142); left: 8px; top: 7px; width: 2px; height: 2px; display: block; position: absolute; content: "";
+}
+.article__text__list + .article__text__list {
+	margin-top: 5px;
+}
+.text_underline {
+	text-decoration: underline;
+}
+:first-child.article {
+	margin-top: 0px;
+}
+.article .article__title {
+	line-height: 16px; font-size: 12px; font-weight: 700;
+}
+.clause .clause__title {
+	line-height: 16px; font-size: 12px; font-weight: 700;
+}
+.paragraph .paragraph__title {
+	line-height: 16px; font-size: 12px; font-weight: 700;
+}
+.clause .clause__title {
+	margin-top: 10px;
+}
+.terms_necessary {
+	color: rgb(8, 166, 0); font-size: 12px; font-weight: 400; display: inline-block;
+}
+.terms_choice {
+	color: rgb(142, 142, 142);
+}
+.group_join {
+	margin: 19px 0px 8px; text-align: center; color: rgb(102, 102, 102);
+}
+a.btn_group_join {
+	color: rgb(51, 51, 51); text-decoration: underline;
+}
+a.btn_group_join:hover {
+	color: rgb(51, 51, 51); text-decoration: underline;
+}
+a.btn_group_join:visited {
+	color: rgb(51, 51, 51); text-decoration: underline;
+}
+html[lang=en] .group_join {
+	margin-top: 18px;
+}
+.m_br {
+	display: none;
+}
+.pc_br {
+	display: block;
+}
+.ipin_box {
+	width: 100%; overflow: hidden;
+}
+.row_group {
+	width: 100%; overflow: hidden;
+}
+.lbl {
+	left: 14px; top: 50%; color: rgb(142, 142, 142); line-height: 18px; font-size: 15px; margin-top: -9px; display: block; position: absolute; z-index: 9;
+}
+.int {
+	background: rgb(255, 255, 255); border: currentColor; border-image: none; width: 100%; height: 29px; line-height: 29px; font-size: 15px; display: block; position: relative; z-index: 10; box-sizing: border-box; -webkit-box-sizing: border-box; apperance: none; -webkit-apperance: none;
+}
+.cell {
+	background: url("https://static.nid.naver.com/images/ui/join/pc_ico_join3_20170905.png") no-repeat -94px -575px / 97px 900px; width: 5px; padding-right: 10px; display: table-cell; -webkit-background-size: 97px 900px;
+}
+.row_group + .row_group {
+	margin-top: 20px;
+}
+.ps_box + .ps_box {
+	margin-top: 10px;
+}
+.join_minor + .join_mobile {
+	margin-top: 20px;
+}
+.join_title {
+	margin: 19px 0px 8px; font-size: 14px; font-weight: 700;
+}
+.ps_box {
+	background: rgb(255, 255, 255); padding: 10px 14px; border: 1px solid rgb(218, 218, 218); border-image: none; width: 100%; height: 51px; vertical-align: top; display: block; position: relative; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.ps_box_disable {
+	background: rgb(255, 255, 255); padding: 10px 14px; border: 1px solid rgb(218, 218, 218); border-image: none; width: 100%; height: 51px; vertical-align: top; display: block; position: relative; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.ps_box .lbl {
+	padding: 0px 14px; left: 0px; width: 100%; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.ps_box.int_id {
+	padding-right: 110px;
+}
+.ps_box.int_pass_step1 {
+	padding: 10px 93px 10px 14px;
+}
+.ps_box.int_pass_step2 {
+	padding: 10px 85px 10px 14px;
+}
+.ps_box.int_pass_step3 {
+	padding: 10px 85px 10px 14px;
+}
+.ps_box.int_pass_step4 {
+	padding: 10px 85px 10px 14px;
+}
+.ps_box.int_pass::after {
+	top: 50%; width: 18px; height: 20px; right: 16px; margin-top: -10px; display: inline-block; position: absolute; cursor: pointer; content: "";
+}
+.ps_box.int_pass_check2::after {
+	top: 50%; width: 18px; height: 20px; right: 16px; margin-top: -10px; display: inline-block; position: absolute; cursor: pointer; content: "";
+}
+.ps_box.int_pass_check::after {
+	top: 50%; width: 18px; height: 20px; right: 16px; margin-top: -10px; display: inline-block; position: absolute; cursor: pointer; content: "";
+}
+.ps_box.int_pass_step1::after {
+	top: 50%; width: 18px; height: 20px; right: 16px; margin-top: -10px; display: inline-block; position: absolute; cursor: pointer; content: "";
+}
+.ps_box.int_pass_step2::after {
+	top: 50%; width: 18px; height: 20px; right: 16px; margin-top: -10px; display: inline-block; position: absolute; cursor: pointer; content: "";
+}
+.ps_box.int_pass_step3::after {
+	top: 50%; width: 18px; height: 20px; right: 16px; margin-top: -10px; display: inline-block; position: absolute; cursor: pointer; content: "";
+}
+.ps_box.int_pass_step4::after {
+	top: 50%; width: 18px; height: 20px; right: 16px; margin-top: -10px; display: inline-block; position: absolute; cursor: pointer; content: "";
+}
+.ps_box.int_pass::after {
+	background: url("https://static.nid.naver.com/images/ui/join/pc_icon_pass_180417.png") no-repeat 0px 0px rgb(255, 255, 255);
+}
+.ps_box.int_pass_step1::after {
+	background: url("https://static.nid.naver.com/images/ui/join/pc_icon_not_use_180417.png") no-repeat 0px 0px rgb(255, 255, 255);
+}
+.ps_box.int_pass_step2::after {
+	background: url("https://static.nid.naver.com/images/ui/join/pc_icon_danger_180417.png") no-repeat 0px 0px rgb(255, 255, 255);
+}
+.ps_box.int_pass_step3::after {
+	background: url("https://static.nid.naver.com/images/ui/join/pc_icon_normal_180417.png") no-repeat 0px 0px rgb(255, 255, 255);
+}
+.ps_box.int_pass_step4::after {
+	background: url("https://static.nid.naver.com/images/ui/join/pc_icon_safe_180417.png") no-repeat 0px 0px rgb(255, 255, 255);
+}
+.ps_box.int_pass_check::after {
+	background: url("https://static.nid.naver.com/images/ui/join/pc_icon_check_disable_180417.png") no-repeat 0px 0px rgb(255, 255, 255); width: 20px; height: 20px; right: 13px;
+}
+.ps_box.int_pass_check2::after {
+	background: url("https://static.nid.naver.com/images/ui/join/pc_icon_check_enable_180417.png") no-repeat 0px 0px rgb(255, 255, 255); width: 20px; height: 20px; right: 13px;
+}
+.step_url {
+	top: 16px; right: 13px; color: rgb(142, 142, 142); line-height: 18px; font-size: 15px; position: absolute;
+}
+.step_txt {
+	top: 1px; right: 38px; font-size: 12px; display: inline-block; position: absolute;
+}
+.txt_red {
+	color: red;
+}
+.txt_orange {
+	color: rgb(233, 116, 7);
+}
+.txt_yellow {
+	color: rgb(196, 138, 27);
+}
+.txt_green {
+	color: rgb(8, 166, 0);
+}
+.ps_box.accord {
+	border: 1px solid rgb(8, 166, 0); border-image: none;
+}
+.ps_box.focus {
+	border: 1px solid rgb(8, 166, 0); border-image: none;
+}
+.ps_box.discord {
+	border: 1px solid red; border-image: none;
+}
+html[lang=en] .ps_box.accord {
+	padding-right: 90px;
+}
+html[lang=en] .ps_box.discord {
+	padding-right: 90px;
+}
+.ps_box.int_pass {
+	padding-right: 40px;
+}
+.ps_box.int_pass_check {
+	padding-right: 40px;
+}
+.ps_box.int_pass_check2 {
+	padding-right: 40px;
+}
+.join_row .green {
+	color: rgb(8, 166, 0);
+}
+.join_email .terms_choice {
+	font-size: 12px; font-weight: 400;
+}
+.box_right_space {
+	padding-right: 14px; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.join_birthday {
+	padding: 0px;
+}
+.join_birthday .ps_box {
+	padding: 11px 14px;
+}
+.bir_title {
+	background: rgb(247, 247, 247); padding: 3px 12px 0px 14px; width: 28px; text-align: center; color: rgb(142, 142, 142); font-size: 13px; vertical-align: middle; border-right-color: rgb(239, 239, 239); border-right-width: 1px; border-right-style: solid; display: table-cell; table-layout: fixed;
+}
+html[lang=en] .bir_title {
+	width: 77px; padding-right: 7px; padding-left: 8px;
+}
+html[lang=zh-hant] .bir_title {
+	width: 33px;
+}
+html[lang=zh-hans] .bir_title {
+	width: 33px;
+}
+.bir_wrap {
+	width: 100%; display: table;
+}
+.name_wrap {
+	width: 100%; display: table;
+}
+.bir_dd {
+	width: 147px; vertical-align: middle; display: table-cell; table-layout: fixed;
+}
+.bir_mm {
+	width: 147px; vertical-align: middle; display: table-cell; table-layout: fixed;
+}
+.bir_yy {
+	width: 147px; vertical-align: middle; display: table-cell; table-layout: fixed;
+}
+.bir_mm + .bir_dd {
+	padding-left: 10px;
+}
+.bir_yy + .bir_mm {
+	padding-left: 10px;
+}
+.btn_c {
+	background: rgb(255, 255, 255); border: 1px solid rgb(220, 220, 220); border-image: none; width: 84px; height: 31px; text-align: center; color: rgb(51, 51, 51); line-height: 33px; font-size: 12px; text-decoration: none; display: inline-block;
+}
+html[lang=en] .btn_c {
+	font-size: 15px;
+}
+html[lang=zh-Hans] .btn_c {
+	font-size: 15px;
+}
+html[lang=zh-Hant] .btn_c {
+	font-size: 15px;
+}
+.btn_ipin {
+	width: 114px;
+}
+.country_code {
+	overflow: hidden; position: relative;
+}
+.country_code .sel_value {
+	background: url("https://static.nid.naver.com/images/join/pc/sel_arr_2x.gif") no-repeat 100% 50% / 20px 8px rgb(255, 255, 255); padding: 6px 0px; height: 17px; color: rgb(0, 0, 0); line-height: 18px; font-size: 15px; margin-left: 4px; display: block; -webkit-background-size: 20px 8px;
+}
+.country_code.disabled .sel_value {
+	background: 0px 0px;
+}
+.country_code .sel_value + select {
+	left: 0px; top: 0px; position: absolute; z-index: 20; opacity: 0;
+}
+.country_code .country_sel {
+	
+}
+.join_mobile {
+	overflow: hidden; position: relative;
+}
+.gender_nationality .gender_code {
+	width: 100%; padding-right: 7px; display: block; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.join_mobile .country_code {
+	width: 100%; padding-right: 7px; display: block; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.join_sex .gender_code {
+	width: 100%; padding-right: 7px; display: block; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.join_mobile .country_code .country_sel {
+	width: auto;
+}
+:root .join_mobile .country_code .country_sel {
+	width: 100%;
+}
+.join_mobile .int_mobile_area {
+	padding: 0px 125px 0px 0px; margin-top: 10px; position: relative;
+}
+.int_mobile_area + .ps_box {
+	margin-top: 10px;
+}
+.int_mobile_area + .ps_box_disable {
+	margin-top: 10px;
+}
+.ps_box_disable + .ps_box {
+	margin-top: 10px;
+}
+.join_mobile .ps_box_disable {
+	background: rgb(247, 247, 247); outline: 0px;
+}
+.join_mobile .ps_box_disable input {
+	background: rgb(247, 247, 247); outline: 0px;
+}
+.join_mobile .int_mobile {
+	padding: 10px 15px 10px 14px; width: 100%; vertical-align: top; display: inline-block;
+}
+.join_mobile .int_mobile_area .btn_verify {
+	padding: 18px 0px 16px; top: 0px; width: 115px; height: 51px; text-align: center; right: 0px; text-decoration: none; position: absolute; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.join_mobile a.btn_c {
+	width: 99px; right: 15px;
+}
+.join_mobile_certify a.btn_c {
+	width: 99px; right: 15px;
+}
+.btn_certify_submit {
+	top: 8px; right: 8px; position: absolute;
+}
+.btn_mobile_submit {
+	top: 8px; right: 8px; position: absolute;
+}
+.join_mobile_certify {
+	position: relative;
+}
+.int_mobile_certify {
+	margin-right: 112px;
+}
+.ps_box.accord {
+	padding-right: 70px;
+}
+.ps_box.discord {
+	padding-right: 70px;
+}
+.input_code {
+	background: 0px 0px; top: 1px; right: 10px; font-size: 12px; position: absolute; z-index: 10;
+}
+.accord .input_code {
+	color: rgb(8, 166, 0);
+}
+.discord .input_code {
+	color: red;
+}
+.accord .input_code::after {
+	background: url("https://static.nid.naver.com/images/ui/myinfo/pc_input_text_ok.png") no-repeat 0px 0px / 17px 13px; width: 17px; height: 13px; margin-top: -3px; margin-left: 4px; vertical-align: middle; display: inline-block; content: ""; -webkit-background-size: 17px 13px;
+}
+.discord .input_code::after {
+	background: url("https://static.nid.naver.com/images/ui/myinfo/pc_input_text_fail.png") no-repeat 0px 0px / 15px 15px; width: 15px; height: 15px; margin-top: -3px; margin-left: 4px; vertical-align: middle; display: inline-block; content: ""; -webkit-background-size: 15px 15px;
+}
+.ps_box.accord input:-ms-input-placeholder {
+	color: rgb(51, 51, 51);
+}
+.ps_box.discord input:-ms-input-placeholder {
+	color: rgb(51, 51, 51);
+}
+.join_sex {
+	overflow: hidden;
+}
+.row_title {
+	height: 33px; color: rgb(142, 142, 142); line-height: 33px; font-size: 15px; font-weight: 700; margin-left: 2px; display: inline-block;
+}
+.tab_m {
+	border: 1px solid rgb(213, 214, 215); border-image: none; width: 100%; height: 51px; display: block; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.tab_m::before {
+	clear: both; display: block; content: "";
+}
+.tab_m li {
+	width: 50%; vertical-align: middle; border-right-color: rgb(213, 214, 215); border-right-width: 1px; border-right-style: solid; float: left; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.tab_m li + li {
+	background: rgb(234, 235, 236); border: currentColor; border-image: none;
+}
+.tab_m li a {
+	background: rgb(234, 235, 236); width: 100%; height: 49px; text-align: center; color: rgb(119, 119, 119); line-height: 49px; font-size: 15px; text-decoration: none; display: block;
+}
+.tab_m li a:hover {
+	color: rgb(119, 119, 119); text-decoration: none;
+}
+.tab_m li a:visited {
+	color: rgb(119, 119, 119); text-decoration: none;
+}
+.tab_m li a.on {
+	background: rgb(139, 139, 140); margin: -1px; border: 1px solid rgb(126, 126, 127); border-image: none; color: rgb(255, 255, 255);
+}
+.tab .terms_chk_all {
+	margin-top: 20px;
+}
+:root .tab .terms_chk_all .ipin_label::before {
+	top: 14px;
+}
+.tab .ipin_label {
+	font-size: 12px; font-weight: 400;
+}
+.tab .terms_chk_all + .ipin_box {
+	margin: 20px 0px 21px; text-align: center;
+}
+.ipin_certify_txt {
+	color: rgb(51, 51, 51); line-height: 19px; font-size: 14px;
+}
+.ipin_certify_btn {
+	background: rgb(8, 166, 0); padding: 18px 0px 17px; width: 128px; color: rgb(255, 255, 255); font-size: 15px; cursor: pointer; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.ipin_certify_txt + .ipin_certify_btn {
+	margin-top: 6px;
+}
+.row_group + .join_minor {
+	margin-top: 40px;
+}
+.join_minor .join_com {
+	padding-top: 8px; padding-bottom: 8px;
+}
+.join_minor .sex_local {
+	padding-top: 8px; padding-bottom: 8px;
+}
+.join_minor .join_local {
+	width: 110px; float: left;
+}
+.join_minor .join_local + .cell {
+	background-position: -94px -573px; height: 33px; padding-right: 13px; float: left;
+}
+.join_minor .join_sex {
+	padding: 0px 3px 0px 0px;
+}
+.join_minor .int_mobile_certify {
+	margin-left: 2px;
+}
+.join_minor.tab .chk {
+	margin-top: -20px;
+}
+.join_minor.tab .terms_chk_all .input_chk label {
+	line-height: 15px;
+}
+.join_guardian {
+	width: 100%; display: table;
+}
+.gender_nationality {
+	width: 225px; display: table-cell; table-layout: fixed;
+}
+.gender_nationality + .gender_nationality {
+	padding-left: 10px;
+}
+.join_minor + .join_minor {
+	margin-top: 30px;
+}
+.join_minor.tab {
+	margin-top: 40px;
+}
+.agree_check_wrap {
+	padding: 20px 0px 6px; position: relative;
+}
+.agree_check_wrap label {
+	height: 22px; font-size: 12px; font-weight: 400;
+}
+.agree_check_wrap .chk_all + label {
+	height: 24px; line-height: 24px;
+}
+.chk_all_txt {
+	text-decoration: underline;
+}
+.small_check_box {
+	margin: 8px 0px 0px; display: inline-block;
+}
+.small_check_box::before {
+	clear: both; display: block; content: "";
+}
+.small_check_box .input_chk {
+	width: 50%; padding-top: 8px; float: left;
+}
+.small_check_box .input_chk .chk {
+	margin-top: -6px;
+}
+.small_check_box + .terms_chk_all {
+	padding: 16px 0px 0px;
+}
+.agree_check_wrap .btn_view {
+	top: 0px; right: 19px; color: rgb(142, 142, 142); line-height: 20px; font-size: 12px; text-decoration: underline; margin-left: 10px; position: absolute; z-index: 11;
+}
+:root .agree_check_wrap .terms_chk_all .input_chk label::before {
+	margin-top: -12px;
+}
+.small_check_box .input_chk label {
+	text-decoration: underline;
+}
+.small_check_box .input_chk label a {
+	color: rgb(51, 51, 51);
+}
+.ie7 .lbl {
+	z-index: 11;
+}
+.ie8 .lbl {
+	z-index: 11;
+}
+.ie9 .lbl {
+	z-index: 11;
+}
+.ie7 .lbl.focus {
+	z-index: 9;
+}
+.ie8 .lbl.focus {
+	z-index: 9;
+}
+.ie9 .lbl.focus {
+	z-index: 9;
+}
+html[lang=zh-Hans] .btn_group a {
+	background: url("https://static.nid.naver.com/images/join/pc/btn_join2_2x_g.gif") no-repeat 50% -1px / 75px auto rgb(31, 188, 2);
+}
+html[lang=zh-Hans] .btn_join input {
+	background: url("https://static.nid.naver.com/images/join/pc/btn_join2_2x_g.gif") no-repeat 50% -1px / 75px auto rgb(31, 188, 2);
+}
+html[lang=zh-Hant] .btn_group a {
+	background: url("https://static.nid.naver.com/images/join/pc/btn_join2_2x_b.gif") no-repeat 50% -1px / 75px auto rgb(31, 188, 2);
+}
+html[lang=zh-Hant] .btn_join input {
+	background: url("https://static.nid.naver.com/images/join/pc/btn_join2_2x_b.gif") no-repeat 50% -1px / 75px auto rgb(31, 188, 2);
+}
+html[lang=zh-Hans] .btn_group a.btn_agree {
+	background-position: 50% -126px;
+}
+html[lang=zh-Hant] .btn_group a.btn_agree {
+	background-position: 50% -126px;
+}
+html[lang=zh-Hans] .btn_group a.btn_cancel {
+	background-position: 50% -190px; border: 1px solid rgb(230, 231, 231); border-image: none; background-color: rgb(255, 255, 255);
+}
+html[lang=zh-Hant] .btn_group a.btn_cancel {
+	background-position: 50% -190px; border: 1px solid rgb(230, 231, 231); border-image: none; background-color: rgb(255, 255, 255);
+}
+html[lang=zh-Hans] .btn_join input.int_home {
+	background-position: 50% -63px;
+}
+html[lang=zh-Hant] .btn_join input.int_home {
+	background-position: 50% -63px;
+}
+.join_success .title {
+	margin: 14px auto 10px; text-align: center; font-size: 42px; font-weight: 400;
+}
+.join_success .join_success_txt {
+	text-align: center; color: rgb(51, 51, 51); line-height: 20px; font-size: 14px;
+}
+.join_success .join_success_txt em {
+	color: rgb(8, 166, 0);
+}
+.join_success_txt + .btn_area {
+	margin-top: 76px;
+}
+html[lang=en] .join_success_txt + .btn_area {
+	margin-top: 78px;
+}
+.join_success .btn_type {
+	margin: 0px auto; width: 320px;
+}
+.sp_global {
+	color: transparent; line-height: 999px; overflow: hidden; vertical-align: top; display: inline-block; background-image: url("https://static.nid.naver.com/images/join/idp/sp_global_join_ver4.png"); background-repeat: no-repeat; background-color: transparent;
+}
+.sp_global::after {
+	color: transparent; line-height: 999px; overflow: hidden; vertical-align: top; display: inline-block; background-image: url("https://static.nid.naver.com/images/join/idp/sp_global_join_ver4.png"); background-repeat: no-repeat; background-color: transparent;
+}
+.sp_global::before {
+	color: transparent; line-height: 999px; overflow: hidden; vertical-align: top; display: inline-block; background-image: url("https://static.nid.naver.com/images/join/idp/sp_global_join_ver4.png"); background-repeat: no-repeat; background-color: transparent;
+}
+.complete_wrap {
+	margin: 0px auto; overflow: hidden; max-width: 460px;
+}
+.complete_title {
+	text-align: center; color: rgb(0, 0, 0); line-height: 47px; font-size: 50px; margin-top: 42px;
+}
+.complete_message {
+	text-align: center; color: rgb(102, 102, 102); line-height: 19px; font-size: 14px; margin-top: 23px; -ms-word-wrap: break-word;
+}
+.answer_text_green {
+	color: rgb(45, 180, 0);
+}
+.complete_message + .btn_global {
+	margin-top: 62px;
+}
+.btn_global {
+	width: 100%; height: 59px; text-align: center; color: rgb(255, 255, 255); line-height: 61px; padding-top: 2px; font-size: 20px; font-weight: 700; display: block; cursor: pointer; background-color: rgb(31, 188, 2);
+}
+html[lang=en] .btn_global {
+	height: 61px; padding-top: 0px; font-weight: 400;
+}
+html[lang=zh-Hans] .btn_global {
+	height: 61px; padding-top: 0px; font-weight: 400;
+}
+html[lang=zh-Hant] .btn_global {
+	height: 61px; padding-top: 0px; font-weight: 400;
+}
+.btn_global:active {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.btn_global:hover {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.btn_global:link {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.wa_blind {
+	margin: -1px; width: 1px; height: 1px; overflow: hidden; font-size: 0px; position: absolute; clip: rect(0px, 0px, 0px, 0px);
+}
+@media all and (max-width:1024px)
+{
+#footer .u_cr {
+	display: none;
+}
+#footer address .all_r {
+	display: none;
+}
+#footer address .copy {
+	display: none;
+}
+#footer address .logo {
+	display: none;
+}
+#footer address .bar {
+	color: rgb(126, 126, 126); font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: 400; display: inline-block;
+}
+#footer address .u_cra {
+	color: rgb(126, 126, 126); font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: 400; display: inline-block;
+}
+#footer address .u_cri {
+	color: rgb(126, 126, 126); font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: 400; display: inline-block;
+}
+#footer a {
+	color: rgb(126, 126, 126);
+}
+#footer a:visited {
+	color: rgb(126, 126, 126);
+}
+#footer .u_cri.u_cri_line {
+	background: url("https://static.nid.naver.com/images/ui/login/m_sp_login_170531.png") no-repeat 0px -245px / 460px auto; padding-left: 7px; -webkit-background-size: 460px auto;
+}
+.btn_type {
+	font-weight: 400;
+}
+html[lang=en] .btn_type {
+	font-size: 21px;
+}
+html[lang=zh-Hans] .btn_type {
+	font-size: 21px;
+}
+html[lang=zh-Hant] .btn_type {
+	font-size: 21px;
+}
+#container {
+	width: auto; max-width: 768px;
+}
+#content {
+	margin: 0px auto; width: 460px;
+}
+:root .input_chk label::before {
+	background: url("https://static.nid.naver.com/images/ui/myinfo/m_chcek_off_s_20.png") no-repeat 0px 0px / 20px 20px rgb(245, 246, 247); width: 20px; height: 20px; -webkit-background-size: 20px 20px;
+}
+:root .terms_chk_all .input_chk label::before {
+	background: url("https://static.nid.naver.com/images/ui/myinfo/m_check_off_24.png") no-repeat 0px 0px / 24px 24px rgb(245, 246, 247); -webkit-background-size: 24px 24px;
+}
+:root .input_chk input:checked + label::before {
+	background: url("https://static.nid.naver.com/images/ui/myinfo/m_chcek_on_s_20.png") no-repeat 0px 0px / 20px 20px rgb(245, 246, 247); -webkit-background-size: 20px 20px;
+}
+:root .terms_chk_all .input_chk input:checked + label::before {
+	background: url("https://static.nid.naver.com/images/ui/myinfo/m_check_on_l_24.png") no-repeat 0px 0px / 24px 24px rgb(245, 246, 247); -webkit-background-size: 24px 24px;
+}
+.group_join {
+	margin-bottom: -2px;
+}
+.ps_box.int_pass::after {
+	background: url("https://static.nid.naver.com/images/ui/join/m_icon_pass.png") no-repeat 0px 0px / 18px 20px rgb(255, 255, 255); -webkit-background-size: 18px 20px;
+}
+.ps_box.int_pass_step1::after {
+	background: url("https://static.nid.naver.com/images/ui/join/m_icon_not_use.png") no-repeat 0px 0px / 18px 20px rgb(255, 255, 255); -webkit-background-size: 18px 20px;
+}
+.ps_box.int_pass_step2::after {
+	background: url("https://static.nid.naver.com/images/ui/join/m_icon_danger.png") no-repeat 0px 0px / 18px 20px rgb(255, 255, 255); -webkit-background-size: 18px 20px;
+}
+.ps_box.int_pass_step3::after {
+	background: url("https://static.nid.naver.com/images/ui/join/m_icon_normal.png") no-repeat 0px 0px / 17px 20px rgb(255, 255, 255); -webkit-background-size: 18px 20px;
+}
+.ps_box.int_pass_step4::after {
+	background: url("https://static.nid.naver.com/images/ui/join/m_icon_safe.png") no-repeat 0px 0px / 18px 20px rgb(255, 255, 255); -webkit-background-size: 17px 20px;
+}
+.ps_box.int_pass_check::after {
+	background: url("https://static.nid.naver.com/images/ui/join/m_icon_check_disable.png") no-repeat 0px 0px / 20px 20px rgb(255, 255, 255); -webkit-background-size: 20px 20px;
+}
+.ps_box.int_pass_check2::after {
+	background: url("https://static.nid.naver.com/images/ui/join/m_icon_check_enable.png") no-repeat 0px 0px / 20px 20px rgb(255, 255, 255); -webkit-background-size: 20px 20px;
+}
+html[lang=ko] .join_mobile .int_mobile_area .btn_verify {
+	padding: 17px 0px;
+}
+.accord .input_code::after {
+	background: url("https://static.nid.naver.com/images/ui/myinfo/m_input_text_ok.png") no-repeat 0px 0px / 17px 13px; -webkit-background-size: 17px 13px;
+}
+.discord .input_code::after {
+	background: url("https://static.nid.naver.com/images/ui/myinfo/m_input_text_fail.png") no-repeat 0px 0px / 15px 15px; -webkit-background-size: 15px 15px;
+}
+.btn_join input {
+	background: url("https://static.nid.naver.com/images/join/pc/btn_join2_2x.gif") no-repeat 50% 0px / 108px auto rgb(31, 188, 2); -webkit-appearance: none; -webkit-background-size: 108px auto;
+}
+.easy_guide {
+	margin-top: -14.5px;
+}
+.easy_guide .txt {
+	letter-spacing: -0.3px;
+}
+.pop_easy#wrap .top_easy .ico_naver {
+	background: url("https://static.nid.naver.com/images/ui/join/m_naver_logo_white.png") no-repeat 0px 0px / 58px 11px; width: 58px; height: 11px; display: inline-block; -webkit-background-size: 58px 11px;
+}
+.easy_btn_area {
+	padding: 0px 15px; left: 0px; text-align: center; right: 0px; bottom: 15px; display: block; position: fixed;
+}
+.pop_easy#wrap .collect_personal_area {
+	padding-bottom: 107px;
+}
+.sp_global {
+	background-image: url("https://static.nid.naver.com/images/join/idp/sp_global_join_2x_ver4.png"); background-size: 346px auto; -webkit-background-size: 346px auto;
+}
+.sp_global::after {
+	background-image: url("https://static.nid.naver.com/images/join/idp/sp_global_join_2x_ver4.png"); background-size: 346px auto; -webkit-background-size: 346px auto;
+}
+.sp_global::before {
+	background-image: url("https://static.nid.naver.com/images/join/idp/sp_global_join_2x_ver4.png"); background-size: 346px auto; -webkit-background-size: 346px auto;
+}
+}
+@media all and (max-width:768px)
+{
+#header {
+	margin: 0px 10px;
+}
+}
+@media all and (max-width:767px)
+{
+.btn_group_join {
+	padding-top: 3px; display: block;
+}
+#container {
+	margin: 0px 10px; min-width: auto; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+#footer {
+	margin: 0px 10px; min-width: auto; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+#header {
+	margin: 0px 10px; min-width: auto; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+#header {
+	padding: 46px 0px 37px;
+}
+#header .h_logo {
+	background: url("https://static.nid.naver.com/images//ui/join/m_naver_logo.png") no-repeat 0px 0px / 137px auto; width: 137px; height: 25px; color: transparent; -webkit-background-size: 137px auto;
+}
+#header .lang {
+	top: 8px;
+}
+#header .lang .sel {
+	height: 24px; min-width: 82px; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+#header .lang .sel {
+	padding: 2px 5px 3px;
+}
+html[lang=ko] #header .lang .sel {
+	padding: 3px 5px;
+}
+#content {
+	width: auto; max-width: 460px;
+}
+.pc_br {
+	display: none;
+}
+.join_success .title {
+	margin-top: 40px;
+}
+.join_success .btn_type {
+	margin: 0px auto; width: 240px;
+}
+.pop_easy#wrap .collect_personal_area {
+	padding: 0px 15px 107px;
+}
+.pop_easy#wrap .top_easy_title {
+	padding: 6px 15px 11px;
+}
+.pop_easy#wrap {
+	min-width: 100%;
+}
+.pop_easy #container {
+	min-width: 100%;
+}
+.pop_easy #header {
+	min-width: 100%;
+}
+.easy_btn_area {
+	padding: 0px 15px;
+}
+.sp_global {
+	background-image: url("https://static.nid.naver.com/images/join/idp/sp_global_joinM_ver3.png"); background-size: 178px auto; -webkit-background-size: 178px auto;
+}
+.sp_global::after {
+	background-image: url("https://static.nid.naver.com/images/join/idp/sp_global_joinM_ver3.png"); background-size: 178px auto; -webkit-background-size: 178px auto;
+}
+.sp_global::before {
+	background-image: url("https://static.nid.naver.com/images/join/idp/sp_global_joinM_ver3.png"); background-size: 178px auto; -webkit-background-size: 178px auto;
+}
+}
+@media all and (max-width:375px)
+{
+.terms_chk_all .chk_all_txt .m_br {
+	display: block;
+}
+.terms_chk_all .chk_all_txt br {
+	display: none;
+}
+.terms_chk_all input {
+	margin-top: -9px;
+}
+.join_birthday .ps_box {
+	padding: 11px;
+}
+html[lang=en] .join_birthday .ps_box {
+	padding: 11px 8px;
+}
+html[lang=en] .int {
+	padding-right: 0px;
+}
+}
+@media all and (min-width:375px)
+{
+.easy_btn {
+	display: block; max-width: 460px;
+}
+}
+@media all and (max-width:320px)
+{
+.input_chk .collect_personal {
+	margin-bottom: -3px;
+}
+}

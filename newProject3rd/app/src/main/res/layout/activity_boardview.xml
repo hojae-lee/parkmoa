@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center">
+    <ScrollView
+        android:layout_width="312dp"
+        android:layout_height="match_parent"
+        android:background="#6A03A9F4">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+            <!--게시판내용-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/itemImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:text="테마파크 사진"
+                    android:src="@drawable/everland"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/itemTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="테마파크이름"
+                    android:textSize="30dp"
+                    android:fontFamily="@font/hoonwhitecatr"/>
+                <TextView
+                    android:id="@+id/itemAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="테마파크 주소" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="방문자수:"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/itemVisitcount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="방문자수" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="소개"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/itemContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="테마파크소개" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

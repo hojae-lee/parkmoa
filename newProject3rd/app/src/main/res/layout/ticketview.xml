@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:columnCount="6"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/itemName"
+            android:layout_width="109dp"
+            android:text="이용권 이름"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/itemPrice"
+            android:layout_width="100dp"
+            android:gravity="right"
+            android:text="이용권 가격"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="20dp"
+            android:gravity="center"
+            android:text="원"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_decrease"
+            android:layout_width="40dp"
+            android:text="-"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/t_count"
+            android:layout_width="40dp"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_increase"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:text="+"
+            android:textSize="20dp" />
+    </GridLayout>
+</LinearLayout>

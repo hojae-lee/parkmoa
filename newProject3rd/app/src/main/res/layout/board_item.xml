@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#efefef"
+        >
+        <!--게시판내용-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/itemImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:text="테마파크 사진"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/itemTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="테마파크이름"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:fontFamily="@font/hoonwhitecatr"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/itemAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="테마파크 주소" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="방문자수:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/itemVisitcount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="방문자수" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:stretchColumns="1"
+            android:descendantFocusability="blocksDescendants"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#5fb6df"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#5fb6df"
+                android:gravity="right">
+
+
+                <Button
+                    android:id="@+id/btn_login"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+
+                    android:background="#00ff0000"
+                    android:text="@string/btn_login" />
+
+                <Button
+                    android:id="@+id/btn_logout"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:background="#00ff0000"
+                    android:onClick="onBtnLogoutClicked"
+                    android:text="@string/btn_logout" />
+
+            </LinearLayout>
+
+            <ViewFlipper
+                android:id="@+id/vf"
+                android:layout_width="match_parent"
+                android:layout_height="198dp"
+                android:layout_marginBottom="20px"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/parkback2" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/everland1" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/waterpark01" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/forestback5" />
+
+            </ViewFlipper>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3EF1EDF1"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/searchBtn"
+                        android:layout_width="60dp"
+                        android:layout_height="62dp"
+                        android:adjustViewBounds="true"
+                        android:background="#000f0000"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/search4"
+
+                        android:text="검색" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="검색" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="66dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/mapBtn"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="#000f0000"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/map4"
+                        android:text="지도" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="지도" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/myPageBtn"
+                        android:layout_width="64dp"
+                        android:layout_height="60dp"
+                        android:adjustViewBounds="true"
+                        android:background="#000f0000"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/mypage4"
+                        android:text="마이페이지" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="마이페이지" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15dp"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:id="@+id/parkmoaImg1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/parkback2" />
+            <TextView
+                android:id="@+id/parkmoaTitle1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="놀이동산"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/parkmoaImg2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/waterpark01" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:id="@+id/parkmoaTitle2"
+                android:text="워터파크"/>
+
+            <ImageView
+                android:id="@+id/parkmoaImg3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/forestback5" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:id="@+id/parkmoaTitle3"
+                android:text="수목원"/>
+
+            <ImageView
+                android:id="@+id/parkmoaImg4"
+                android:layout_width="match_parent"
+                android:layout_height="112dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/zoo" />
+
+            <TextView
+                android:id="@+id/parkmoaTitle4"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="동물원/아쿠아리움"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
